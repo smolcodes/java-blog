@@ -1,0 +1,10 @@
+    <header id="header" class="uk-section">
+    <div class="uk-content">
+    <h1 class="title uk-heading-large">
+      {{ pageHeaderTitle }}
+    </h1>
+    {% if pageHeaderSummary %}
+      {{ pageHeaderSummary | safe }}
+    {% endif %}
+    </div>
+</header>

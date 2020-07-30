@@ -1,0 +1,10 @@
+{% extends "layouts/base.html" %} 
+
+{% set pageHeaderTitle = title %} 
+
+{% block content %}
+    {% include "partials/page-header.html" %} 
+      <div  class="uk-section">
+    {{ content | safe }}
+    </div>
+{% endblock %}

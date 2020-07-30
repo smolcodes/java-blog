@@ -1,0 +1,40 @@
+{
+  "name": "smolcodes",
+  "version": "2.0.0",
+  "description": "personal sight of rachel b web designer",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capybar/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/capybar/blog/issues"
+  },
+  "homepage": "https://github.com/capybar/blog/#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-cache-assets": "^2.0.2",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "concurrently": "^5.2.0",
+    "fs": "0.0.1-security",
+    "get-google-fonts": "^1.2.2",
+    "gorko": "^0.2.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "html-minifier": "^4.0.0",
+    "moment": "^2.27.0",
+    "sass": "^1.26.8"
+  }
+}
