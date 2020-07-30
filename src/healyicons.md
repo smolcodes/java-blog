@@ -9,7 +9,7 @@ eleventyNavigation:
 Free sets of cat icons for you to use. Put this css file between the `<head>` tag:
 
  ```
-  <link href=" ">
+  <link href="https://raw.githubusercontent.com/smolcodes/java-blog/master/src/css/healyicon.css">
  ```
  
 To use these icons, place the prefix `healy` (that's the name of this icon set) inside a `tag` as a class followed by the size and the name of the icon. I'd recommend using `span` as that is the most semantically correct and accessibble. These are cute cats after all.
