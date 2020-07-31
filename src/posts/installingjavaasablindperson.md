@@ -1,9 +1,9 @@
 ---
 title: Setting Up Java
-description: Make the computer work for you and don't strain your eyes
-date: 2020-26-02
+description: Make the Computer work for you and do not strain your eyes
+date: 2020-02-26
 tags:
-  ['a11y', 'life','accessibility']
+  ['life','java','accessibility']
 layout: layouts/post.html
 ---
 
