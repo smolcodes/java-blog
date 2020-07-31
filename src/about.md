@@ -6,44 +6,57 @@ eleventyNavigation:
   key: About
   order: 5
 ---
+## TL,DR 
 
->  To Love Another Person is to see the Face of God
+> Consume more things that take a long time to engage with and write more.
 
-Probably the first thing you ought to know about me is that Les Miserables is my favorite musical.
+## The Long way to verbose explanation
 
-<img src="https://pbs.twimg.com/media/Dpb1UA-WsActdut?format=jpg&name=medium" width="200" alt="self portrait"
-style="float: left; margin-right: 30px; margin-bottom: 20px; box-shadow: 10px 10px var(--dark-tan), -10px -10px var(--dark-purple);">
+Since leaving College, I don't read or write nearly as much as I used to. And I've noticed my brain started to atrophy. In school, my head would be filled with ideas. I could make connections between disparate subjects. I felt more *alive*. I was also better at sustaining long term focus.
 
-### About the Web Designer
+During the pandemic I decided to try to regain what I have lost. I've read more books than I have in the last few years*. I also played more video games. I say this because what I realized is the medium (books, games, movies) doesn't matter so much as the delivery. This is why simply reading any book isn't enough. Now before someone accuses me of being an elitest, let me explain what I mean.
 
-I'm a coffee making web designer. I started learning in high school [with this book by Jennifer N. Robbings](https://www.learningwebdesign.com/). 
-And with [W3schools](https://www.w3schools.com/html/). Back then, I used tables to create layouts. Wah~~. Some time around then I also attempted to make
-DeviantArt journal skins but couldn't afford a premium account. Around the beginning of college, I got a Tumblr. That's when my front end interests really took
-off. I [learned](https://buildthemes.tumblr.com/) how to make themes. The themes I've created have been used over 8,000 times!
+We can agree that there's a difference between the game 2048 and Portal**. 2048 is very passive, It's something the back driver in your brain does to pass the time while waiting at the dentist. Portal requires your full attention. Books are the same way. Compare The Princess Diaries to Flatland. 
 
-I didn't start to seriously take front end web developement as a field I'd like to be a part of until this year! 
+In College we'd be asked to write about what was being consumed: lab reports, essays etc. Being forced to write about what I just read made me engage with the text. Did I understand it? It also made me better at organizing my thoughts. *That's the bingo!*
 
-I recently learned [11ty](https://piccalil.li/course/learn-eleventy-from-scratch/) and am currently learning SASS as well as JavaScript and design systems. I'm also learning and have huge ineterest in accessibility.
+Consuming alone isn't enough. I have to also create something to really add to what I'm enjoying. This is the ultimate goal of this site: <mark>to be a better writer by reading books, playing video games and watching movies that require time and effort</mark>.
 
-<img src="https://pbs.twimg.com/media/EXxoE9mXsAAGNLF?format=png&name=small" width="200" alt="self portrait"
-style="float: right; margin-left: 30px; margin-bottom: 20px; box-shadow: -10px 10px var(--dark-tan), 10px -10px var(--dark-purple);">
+## [A list of Blogs I like to read](/blogs/index.md)
 
-### About the Coffee Drinker
+## Site organization
 
-Aside from web design, I'm a huge coffee fan and am technically [a coffee master](https://www.starbucks.co.th/coffeehouse/coffeemaster-program). But unfortunately 
-and not really related am only an orange belt in [Washin Ryu Karate](http://www.hidyochiai.org/). Anyway, I prefer light roast coffee, especially ones that are 
-fruity or nutty. The Chemex makes delicious coffee but I recommend you avid fabric filters and go for mesh if you're trying to reduce your carbon foot print.
+I'm going to try to make a habit of trying to write every day...at the very least every week. This means that this site might have a lot of garbage. I'm going to try to separate the signal from the noise by organizing topics in tags so you don't have to read my BS.
 
-I also like to say I'm going to run but never actually do it.. And sometimes I play video games, but only ones like Portal, Journey and Monument Valley because speed
-and reflex are foreign concepts. 
-<br>
+You might ask: why publish on the Web? Why not keep a diary?
+There's several reasons for this:
 
-### Some Opinion
-
-1. Websites should prioritize desktop over mobile
- 1. Websites should prioritize function over form 
-2. Accessibility is not just about the way a site looks or is navigatible but also if it is able to be accessed. A site that takes way too long to download is not acccessible.
-3. Dark roast coffee is gross. Somewwhere between light and medium is best
-4. No one is self made. We all got help from somewhere. Shout out to my astrnomy professor from Community College for making me realize STEM is pretty neat.
+1. This site's files are in 2 places: Github and my laptop
+2. I've noticed people don't really document the early parts of their learning journey. First post is: hey I'm learning HTML and then post 3 is: Why HAML is better than MarkDown***. Where's the in between steps?   
+3. I wasn't a part of MySpace or LiveJournal. I have nostalgia for a history of the web I didn't experience: the [indie web](https://www.jvt.me/posts/2019/10/20/indieweb-talk/). Now that it's resurging I'm going to jump on the train before it disapears. 
 
 
+___________________________________________________________________
+
+*
+## Books
+
+1. Flatland
+2. 2 Animorphs books:
+ 1. The Visser Chronicles
+ 2. The Andalite Chronicles
+
+In progress: 
+1. Wintersmith (by Terry Pratchett)
+2. Shutter Island (by Dennis Lehane)
+
+# Games
+
+1. The Stanley Parable
+2. Milkmaid of the Milkyway
+
+I finished reading [Julian Shapiro's Guide to Writing Well](https://www.julian.com/guide/write/intro). 
+
+** My all time favorite game and really the only game I play
+
+*** this is just an example. I have no stake in this kind of conversation and think they're dumb.
