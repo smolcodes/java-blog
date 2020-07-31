@@ -185,7 +185,6 @@ main {
 }
 .post {
   border-bottom: 1px solid var(--accent-color);
-  box-sizing: border-box;
 }
 blockquote {
   background: var(--accent-color-2);
@@ -197,10 +196,15 @@ blockquote {
 }
 .post-list {
   list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 .post-list__item {
   background: var(--body-bg);
   margin-bottom: 2%;
+  margin: 0px;
+  margin-bottom: 2%;
+  padding: 0px;
 }
 .post-list__item h2 a {
   background: none;
