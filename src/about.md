@@ -22,7 +22,7 @@ In College we'd be asked to write about what was being consumed: lab reports, es
 
 Consuming alone isn't enough. I have to also create something to really add to what I'm enjoying. This is the ultimate goal of this site: <mark>to be a better writer by reading books, playing video games and watching movies that require time and effort</mark>.
 
-## [A list of Blogs I like to read](/blogs/index.md)
+## [A list of Blogs I like to read](/blogs)
 
 ## Site organization
 
