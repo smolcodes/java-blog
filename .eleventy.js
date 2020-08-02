@@ -1,5 +1,6 @@
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
+const slugify = require("slugify");
 
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
