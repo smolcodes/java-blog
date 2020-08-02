@@ -17,7 +17,7 @@ collections:
       - label: "Tags"
         name: "tags"
         widget: "list"
-  collections:
+collections:
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     folder: "src" # The path to the folder where the documents are stored
