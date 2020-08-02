@@ -17,3 +17,31 @@ collections:
       - label: "Tags"
         name: "tags"
         widget: "list"
+  collections:
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages" # Used in the UI
+    folder: "src" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/about.html"}
+      - {label: "Title", name: "title", widget: "string"}
+      - { label: "Permalink", name: "permalink", widget: "string" }
+      - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+        name: "eleventyNavigation"
+        widget: "object"
+        fields:
+          - { label: "Key", name: "key", widget: "string" }
+          - { label: "Order", name: "order", widget: "number", default: 0 }
+      - {label: "Body", name: "body", widget: "markdown"}
+  collections:
+  - name: "work" # Used in routes, e.g., /admin/collections/blog
+    label: "Work Summary" # Used in the UI
+    folder: "src/work" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Link Title", name: "linkTitle", widget: "string"}
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Summary", name: "summary", widget: "string"}
