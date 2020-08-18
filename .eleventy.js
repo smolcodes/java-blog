@@ -1,12 +1,6 @@
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const slugify = require("slugify");
-//Comments
-var HYVOR_TALK_WEBSITE = 1660; // DO NOT CHANGE THIS
-var HYVOR_TALK_CONFIG = {
-    url: '{{ post.url | url }}',
-    id: '{{page.id}}'
-};
 
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
