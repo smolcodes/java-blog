@@ -1,5 +1,5 @@
 ---
-title: The Stanley Parable or It is ok. You can be Introspective
+title: The Stanley Parable or It is ok you can be Introspective
 description: Spoiler it is a good game but not as good as Portal
 date: 2020-07-30
 tags:
