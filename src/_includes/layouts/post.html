@@ -28,4 +28,11 @@
       </footer>
     {% endif %}
 {% endblock %}
+<script type="text/javascript">
+    var HYVOR_TALK_WEBSITE = 1660; // DO NOT CHANGE THIS
+    var HYVOR_TALK_CONFIG = {
+        url: '{{ post.url | url }}',
+        id: '{{page.id}}'
+    };
+</script>
 <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
