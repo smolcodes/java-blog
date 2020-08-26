@@ -3,7 +3,7 @@ title: Adventure Time
 description: 
 date: 2020-05-03
 tags:
-  ['tumblr', 'life']
+  ['life']
 layout: layouts/post.html
 ---
 
