@@ -2,22 +2,20 @@
 {% block content %}
      <header id="header" class="uk-section">
     <div class="uk-content">
- <h1 class="title uk-heading-large">{{ intro.title   }}</h1>
+ <h1 class="title uk-heading-large">{{ intro.greeting }}</h1>
   <p><span>{{ intro.summary }}</span></p>
  </div>
  </header>
-  {{ content | safe }}
 <section id="featured-boxes" class="uk-section">
-       {% for item in collections.work %}
+       {% for item in collections.books %}
       <div class="uk-card uk-card-default uk-card-hover uk-card-body item">
         <h2 class="uk-card-title">
           {{ item.data.title }}
         </h2>
         <p>
-          {{ item.data.summary }}
+          {{ item.data.author }}
         </p>
-        <a href="{{ item.data.link }}">{{ item.data.linkTitle}}</a>
-         {{ content | safe }}
+        <a href="{{ item.url }}">{{ item.data.genre}}</a>
           </div>
       {% endfor %}
 </section>

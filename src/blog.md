@@ -1,5 +1,5 @@
 ---
-title: 'Smol Rants'
+title: 'Good Morning'
 layout: 'layouts/feed.html'
 pagination:
   data: collections.blog
@@ -12,5 +12,3 @@ eleventyNavigation:
   key: Blog
   order: 2
 ---
-
-Tiny woman shakes fists up at the sky.

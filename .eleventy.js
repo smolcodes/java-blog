@@ -29,6 +29,12 @@ module.exports = config => {
       collection.getFilteredByGlob('./src/work/*.md'));
   });
 
+    // Returns books items, sorted by display order
+    config.addCollection('books', collection => {
+      return sortByDisplayOrder(
+        collection.getFilteredByGlob('./src/books/*.md'));
+    });
+
   // Returns a collection of blog posts in reverse date order
   config.addCollection('blog', collection => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
