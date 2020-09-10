@@ -2,7 +2,8 @@
 title: Wintersmith
 author: Terry Pratchett
 genre: books 📚
-image: 
+rating: 😃
+recommend: ✔️
 layout: layouts/book.html
 link: wintersmith/index.html
 ---
