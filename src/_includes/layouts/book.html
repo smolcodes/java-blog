@@ -1,5 +1,11 @@
 {% extends "layouts/base.html" %}
 {% set pageHeaderTitle = title %}
+{% set pageHeaderSummary %}
+  <div class="uk-card uk-card-primary uk-card-body">
+            <p><b>Author</b>{{ author }}  <b>Genre</b> {{ genre }} <b>Rating</b> {{ rating }} 
+            <b>Recommend</b> {{ recommend }}</p>
+        </div>
+{% endset %}
 {% block content %}
     {% include "partials/page-header.html" %}
         <section class="uk-section post">
