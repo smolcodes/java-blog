@@ -6,10 +6,11 @@
 {% set pageHeaderSummary %}
      <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
   {% if tags %}
-    <p class="visually-hidden" id="tags-desc">Tags for this post.</p>
+    <p class="visually-hidden" id="tags-desc">Tags for this post
       {% for tag in tags %}
           <a class="tags" href="/tag/{{ tag | slug }}/">#{{ tag | replace(' ', '') | capitalize }}</a>
       {% endfor %}
+      </p>
   {% endif %}
 {% endset %}
 {% block content %}
