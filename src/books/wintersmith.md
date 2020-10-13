@@ -1,6 +1,7 @@
 ---
 title: Wintersmith
 author: Terry Pratchett
+completed: July, 2020
 genre: books 📚
 rating: 😃
 recommend: ✔️
