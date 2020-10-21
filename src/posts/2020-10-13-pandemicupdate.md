@@ -39,4 +39,4 @@ On to more positive stuff!! I added a few more stuff in the Media page and am al
 
 ## Concluding Remarks
 
-To pass on to the internet what my friend has passed on to me: take care of yourself and don't take anything for granted. Also drink a ton of water. And then drink more water. Also stretch. 
+To pass on to the internet what my friend has passed on to me: take care of yourself and don't take anything for granted. 
