@@ -19,6 +19,7 @@ permalink: '/recommend/index.html'
 * [Nieman Lab](https://www.niemanlab.org/)
 * [The Intercept](https://theintercept.com/)
 * [Foreign Policy](https://foreignpolicy.com/)
+* [The Markup](https://themarkup.org/)
 
 ## Stay Curious
 * [Quanta Magazine](https://www.quantamagazine.org/)
@@ -44,6 +45,9 @@ permalink: '/recommend/index.html'
 * [Matt Litzinger](https://mlitzinger.com/) Used to follow them on Tumblr.
 * [Gift Egwuenu's Blog](https://www.giftegwuenu.com/writing/) I love the way her blog looks
 * [Josh Comeau](https://joshwcomeau.com/) Has useful code snippets
+* [Cassie's Blog](https://www.cassie.codes/writing/) 
+* [Sara Fossheim](https://fossheim.io/writing/)
+
 
 ## Making Stuff
 * [Maxim's Blog](https://maxoffsky.com/category/code-blog/) They create interesting stuff
