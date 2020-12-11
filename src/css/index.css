@@ -235,9 +235,6 @@ blockquote {
   padding: 10px;
 }
 @media only screen and (max-width: 600px) {
-body {
-  background-size: cover;
-}
 #featured-boxes {
   width: 80%;
   margin: 0 auto;
