@@ -21,7 +21,7 @@ Like many have stated, the Pandemic has revealed structural problems within the 
 
 Since this is my blog and I can talk about whatever I like: please feel free to watch this video.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AYP8-oxq8ig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="825" height="749"  src="https://www.youtube.com/embed/AYP8-oxq8ig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I didn't watch the first Biden/Trump debate because I'm not a masochist. But I did watch Harris/Pence, and while I assume it was probably much more professional than Biden/Trump...it was still politicians doing what they do best, not answering questions.
 

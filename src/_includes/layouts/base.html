@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {% include "partials/meta-info.html" %}
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
+<!--FitVid-->
+<script src="https://raw.githubusercontent.com/davatron5000/FitVids.js/master/jquery.fitvids.js"></script>
 <!-- Netlify CMS -->
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <!-- UIkit CSS -->
@@ -36,6 +38,8 @@
           <p>Made with ☕ . <a href="/colophon">Colophon</a>.</p>
       </footer>
      <script>
+      $(".post").fitVids();
+      $('iframe[src*="youtube"]').parent().fitVids();
           hljs.initHighlightingOnLoad();
              if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
