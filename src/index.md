@@ -1,11 +1,15 @@
 ---
-title: 'Shots of Java'
-metaDesc: 'web designer in upstate NY'
-intro: 
-  greeting: 'Shots of Java ☕'
-  summary: '...and other stuff like coffee. Why a sandwich as the background? Because it looks neat.'
-layout: 'layouts/home.html'
+title: 'Good Morning'
+layout: 'layouts/feed.html'
+pagination: 
+  data: collections.blog
+  size: 5
+permalink: '{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
+paginationPrevText: 'Newer posts'
+paginationNextText: 'Older posts'
+paginationAnchor: '#post-list'
 eleventyNavigation:
   key: Home
   order: 1
 ---
+A notebook of sorts. Let's put a pin in everything. 
