@@ -8,13 +8,12 @@ I'd like to thank [Andy Bell](https://hankchizljaw.com/) for his incredible [11t
 
 Fonts
 
-* [Londrina Outline](https://fonts.google.com/specimen/Londrina+Outline)
-* [Palanquin](https://fonts.google.com/specimen/Palanquin)
-* [Fanwood Text](https://fonts.google.com/specimen/Fanwood+Text)
+* [Permanent Marker](https://fonts.google.com/specimen/Permanent+Marker)
+* [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)
 
 Image
 
-* [Morocon Flower Dark Pattern](https://www.toptal.com/designers/subtlepatterns/moroccan-flower-dark-pattern/)
+* [Old Book Illustrations Hot Air Balloon](https://www.oldbookillustrations.com/wp-content/uploads/2020/02/de-groof-falling.jpg)
 * [Contour Generated Background](https://makebackground.io/bk/contour/gray-contour-map-vintage-texture)
 * All other images on this site was created by me
 
