@@ -21,7 +21,6 @@
 }
 body {
    color: var(--body-text-color);
-   font-size: 80%;
   line-height: 1.5;
    background-color: var(--body-bg);
   min-height: 100vh;
@@ -177,6 +176,7 @@ main {
   background-color: var(--body-bg);
   box-sizing: border-box;
   padding: 8% 5%;
+  font-size: 80%;
 }
 .post, .uk-card {
   border-radius: 5px;
