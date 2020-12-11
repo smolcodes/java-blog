@@ -34,7 +34,7 @@ h2, h3, h4, .uk-article a, .uk-article li {
 h1 a, h2 a, h3 a {
   color: var(--link-color);
 }
-.Home h1, .Home h1 a, .title, .h2-header, footer:last-child p {
+.Home h1, .Home h1 a, .title, .h2-header, footer:last-child  {
   color: var(--header-accent-color);
 }
 .Media {

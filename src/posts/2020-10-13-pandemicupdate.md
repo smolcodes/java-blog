@@ -9,7 +9,7 @@ layout: layouts/post.html
 
 ## Normal?
 
-I'm not surprsisingly back at work. I started two months ago. My area seems like it's moved beyond the pandemic. Malls are open and so are farmers' markets (!!!). My local favorite coffee shop is back to slinging coffee and delicous pastries. And of course, people are starting to let their gaurds down with mask wearing. It's hard to image, just a few months ago I was at [home](https://smolnotes.netlify.app/posts/2020-04-30-reading/).
+I'm back at work (not surprsisingly). I started two months ago. My area seems like it's moved beyond the pandemic. Malls are open and so are farmers' markets (!!!). My local favorite coffee shop is back to slinging coffee and delicous pastries. And of course, people are starting to let their gaurds down with mask wearing. It's hard to image, just a few months ago I was at [home](https://smolnotes.netlify.app/posts/2020-04-30-reading/).
 
 The key word is *seems*. Some of my friends and family are still jobless and just trying to keep their heads above water. Some got Covid and are working on healing themselves. Some are balancing parenting with working from home (eek!). 
 
