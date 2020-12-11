@@ -10,8 +10,7 @@
         <li class="post-list__item">
         <article class="uk-article post">
           <h2><a href="{{ item.url }}" class="post-list-link">{{ item.data.title }}</a></h2>
-          <time datetime="{{ item.data.date }}">{{ item.data.date | dateFilter }}</time>
-          <p>{{ item.data.description }}
+          <p>{{ item.data.description }} <time style="font-size: 12px; font-family: Calibri;" datetime="{{ item.data.date }}">{{ item.data.date | dateFilter }}</time></p>
           {% set pageHeaderSummary %}
 {% endset %}
  </article>
