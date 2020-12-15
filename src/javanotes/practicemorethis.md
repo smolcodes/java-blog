@@ -5,7 +5,7 @@ genre: Codegym
 rating: awesome
 summary: getting a better understanding of this through more practice
 layout: layouts/java.html
-----
+---
 
 Back to Java after abandoning it for a few weeks. I like that Codegym is repetitive. Anyway this exercise is the same as the last.
 

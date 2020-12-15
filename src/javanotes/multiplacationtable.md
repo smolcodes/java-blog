@@ -5,7 +5,7 @@ genre: Codegym
 rating: easy
 summary: a practice in for loops
 layout: layouts/java.html
-----
+---
 
 ```java
 package com.codegym.task.task03.task0314;
