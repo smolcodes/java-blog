@@ -1,0 +1,23 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+     <header id="header" class="uk-section">
+    <div class="uk-content">
+ <h1 class="title uk-heading-large">{{ intro.greeting }}</h1>
+  <p><span>{{ intro.summary }}</span></p>
+ </div>
+ </header>
+<section id="featured-boxes" class="uk-section">
+       {% for item in collections.javanotes %}
+      <div class="uk-card uk-card-default uk-card-hover uk-card-body item">
+        <h2 class="uk-card-title">
+          {{ item.data.title }}
+        </h2>
+        <p>
+         <b>Gengre: </b>{{ item.data.genre }} <b>Rating</b> {{ item.data.rating}} <b>Date</b> {{ item.data.completed }}
+        </p>
+        <p> {{ item.data.summary }}
+        <a href="{{ item.url }}">Read 👉</a>
+          </div>
+      {% endfor %}
+</section>
+{% endblock %}
