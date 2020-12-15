@@ -23,16 +23,17 @@ module.exports = config => {
   config.addPlugin(rssPlugin);
   config.addPlugin(pluginNavigation);
 
-  // Returns work items, sorted by display order
-  config.addCollection('work', collection => {
-    return sortByDisplayOrder(
-      collection.getFilteredByGlob('./src/work/*.md'));
-  });
-
     // Returns books items, sorted by display order
     config.addCollection('books', collection => {
       return sortByDisplayOrder(
         collection.getFilteredByGlob('./src/books/*.md'));
+    });
+
+    
+    // Returns books items, sorted by display order
+    config.addCollection('javanotes', collection => {
+      return sortByDisplayOrder(
+        collection.getFilteredByGlob('./src/javanotes/*.md'));
     });
 
   // Returns a collection of blog posts in reverse date order
