@@ -1,8 +1,8 @@
 ---
 title: Asteriks Pyramid
 completed: October, 2019
+rating: beginner
 layout: layouts/javanotes.html
-link: wintersmith/index.html
 ---
 A classic assignment that I never understood was making an asterisks pyramid that looks like this:
 ![image](https://64.media.tumblr.com/4deceb0418577a134b54bb7f318026fb/f1ed076fe0b5b56a-d7/s540x810/8ebfc59b93f30a4f68211cf5e95ee53f49829293.png)
