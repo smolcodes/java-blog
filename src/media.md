@@ -1,12 +1,12 @@
 ---
-title: 'Java Notes'
+title: 'Media'
 metaDesc: 'web designer in upstate NY'
 intro: 
-  greeting: 'Java Notes'
-  summary: 'Notes on Codegym Java activities'
-layout: 'layouts/javafeed.html'
+  greeting: 'Media'
+  summary: 'A collection of media I have eaten'
+layout: 'layouts/bookfeed.html'
 eleventyNavigation:
-  key: Java Notes
+  key: Media
   order: 1
 ---
 
