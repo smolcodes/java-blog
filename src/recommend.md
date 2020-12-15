@@ -13,6 +13,7 @@ permalink: '/recommend/index.html'
 * [Otium](https://srconstantin.wordpress.com/) Math and a lot of other intereting stuff
 * [Whatever Scalzi](https://whatever.scalzi.com/) Really fun blog
 * [Gin and Tacos](http://www.ginandtacos.com/) Whimsical. Makes ya think. Love the Communist design
+* [The Margins]()
 
 ## Journals
 * [Columbia Journalism Review](https://www.cjr.org/)
@@ -47,6 +48,7 @@ permalink: '/recommend/index.html'
 * [Josh Comeau](https://joshwcomeau.com/) Has useful code snippets
 * [Cassie's Blog](https://www.cassie.codes/writing/) 
 * [Sara Fossheim](https://fossheim.io/writing/)
+* [Jecelyn's Blog](https://jec.fyi/blog) web stuff!!
 
 
 ## Making Stuff
@@ -58,5 +60,6 @@ permalink: '/recommend/index.html'
 ## Philosophy
 * [Will Wilkinson](https://willwilkinson.net/)
 * [Embedded in Academia](https://blog.regehr.org/) 
+
 ## Not Blogs
 [Interviews of People](https://www.theframeworkproject.com/)
