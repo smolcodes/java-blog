@@ -12,10 +12,8 @@
         <h2 class="uk-card-title">
           {{ item.data.title }}
         </h2>
-        <p>
-         <b>Gengre: </b>{{ item.data.genre }} <b>Rating</b> {{ item.data.rating}} <b>Date</b> {{ item.data.completed }}
-        </p>
-        <p> {{ item.data.summary }}
+        <p> <b>Genre: </b>{{ item.data.genre }} <b>Rating</b> {{ item.data.rating}} <b>Date</b> {{ item.data.completed }}/p>
+        <p> {{ item.data.summary }}</p>
         <a href="{{ item.url }}">Read 👉</a>
           </div>
       {% endfor %}
