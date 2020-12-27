@@ -13,6 +13,8 @@ permalink: '/recommend/index.html'
 * [Otium](https://srconstantin.wordpress.com/) Math and a lot of other intereting stuff
 * [Whatever Scalzi](https://whatever.scalzi.com/) Really fun blog
 * [Gin and Tacos](http://www.ginandtacos.com/) Whimsical. Makes ya think. Love the Communist design
+* [Ramses](https://ramses.blog/) he talks about learning in general but also there's web stuff
+* [Salman's Blog](https://salman.io/blog/) His personal blog.
 
 ## Journals
 * [Columbia Journalism Review](https://www.cjr.org/)
@@ -47,6 +49,7 @@ permalink: '/recommend/index.html'
 * [Josh Comeau](https://joshwcomeau.com/) Has useful code snippets
 * [Cassie's Blog](https://www.cassie.codes/writing/) 
 * [Sara Fossheim](https://fossheim.io/writing/)
+* [Paul Scanlon](https://paulie.dev/) Really nice and interesting blog
 
 
 ## Making Stuff
