@@ -11,32 +11,29 @@
 <script src="https://raw.githubusercontent.com/davatron5000/FitVids.js/master/jquery.fitvids.js"></script>
 <!-- Netlify CMS -->
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<!-- UIkit CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css" />
 <!-- Highligh.js -->
 <link rel="stylesheet"
       href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
-<!-- UIkit JS -->
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/index.css">
     <link rel="stylesheet" type="text/css" href="/css/healyicon.css">
   </head>
   <body class="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}">
-    <a class="skip-main" href="#main">Skip to main content</a>
-      {% include "partials/site-head.html" %}
-      <main tabindex="-1" id="main">
+    <side>
+    <a class="sr-only" href="#main">Skip to main content</a>
+    {% include "partials/sidebar.html" %}
+    </side>
+    <main tabindex="-1" id="main">
         {% block content %}{% endblock %}
-      </main>
       <div  class="uk-section">
 <div class="uk-card uk-card-default uk-card-hover uk-card-body item">
 {% include "partials/cta.html" %} 
 </div>
-</div>
-      <footer role="contentinfo" class="uk-section">
+  <footer role="contentinfo" class="uk-section">
           <p>Made with ☕ . <a href="/colophon">Colophon</a>.</p>
       </footer>
+</div>
+</main>
      <script>
       $(".post").fitVids();
       $('iframe[src*="youtube"]').parent().fitVids();

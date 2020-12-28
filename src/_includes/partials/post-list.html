@@ -1,4 +1,3 @@
-
     <section class="uk-section">
         {% if postListHeadline %}
     <h2 class="h2-header">
@@ -9,8 +8,10 @@
         {% for item in postListItems %}
         <li class="post-list__item">
         <article class="uk-article post">
+        <time style="font-size: 12px; font-family: Calibri;" datetime="{{ item.data.date }}">
+        🕒 {{ item.data.date | dateFilter }}</time>
           <h2><a href="{{ item.url }}" class="post-list-link">{{ item.data.title }}</a></h2>
-          <p>{{ item.data.description }} <time style="font-size: 12px; font-family: Calibri;" datetime="{{ item.data.date }}">{{ item.data.date | dateFilter }}</time></p>
+          <p>{{ item.data.description }}</p>
           {% set pageHeaderSummary %}
 {% endset %}
  </article>
