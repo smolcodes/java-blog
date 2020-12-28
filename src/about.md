@@ -34,11 +34,8 @@ There's several reasons for this:
 1. This site's files are in 2 places: Github and my laptop
 2. I've noticed people don't really document the early parts of their learning journey. First post is: hey I'm learning HTML and then post 3 is: Why HAML is better than MarkDown***. Where's the in between steps?   
 3. I wasn't a part of MySpace or LiveJournal. I have nostalgia for a history of the web I didn't experience: the [indie web](https://www.jvt.me/posts/2019/10/20/indieweb-talk/). Now that it's resurging I'm going to jump on the train before it disapears. 
-
-
 ___________________________________________________________________
 
-*
 ## Books
 
 1. Flatland
