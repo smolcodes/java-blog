@@ -15,6 +15,7 @@ permalink: '/recommend/index.html'
 * [Gin and Tacos](http://www.ginandtacos.com/) Whimsical. Makes ya think. Love the Communist design
 * [Ramses](https://ramses.blog/) he talks about learning in general but also there's web stuff
 * [Salman's Blog](https://salman.io/blog/) His personal blog.
+* [Aegir](http://aegir.org/archive/) fun little short notes
 
 ## Journals
 * [Columbia Journalism Review](https://www.cjr.org/)
