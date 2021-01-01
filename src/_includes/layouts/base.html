@@ -19,20 +19,18 @@
     <link rel="stylesheet" type="text/css" href="/css/healyicon.css">
   </head>
   <body class="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}">
-    <side>
+    <div id="side">
     <a class="sr-only" href="#main">Skip to main content</a>
     {% include "partials/sidebar.html" %}
-    </side>
+    </div> 
     <main tabindex="-1" id="main">
         {% block content %}{% endblock %}
-      <div  class="uk-section">
-<div class="uk-card uk-card-default uk-card-hover uk-card-body item">
 {% include "partials/cta.html" %} 
-</div>
   <footer role="contentinfo" class="uk-section">
+       <center>
           <p>Made with ☕ . <a href="/colophon">Colophon</a>.</p>
+          </center>
       </footer>
-</div>
 </main>
      <script>
       $(".post").fitVids();

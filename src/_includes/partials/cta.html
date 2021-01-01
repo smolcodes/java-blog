@@ -2,6 +2,8 @@
 {% if ctaContent %} 
   {% set ctaPrefix = ctaContent %}
 {% endif %}
+<div class="cta">
       <h2  data-highlight="quaternary">{{ ctaPrefix.title }}</h2>
       <p>If you like my work, <a href="https://ko-fi.com/softthemes">consider buying me a ☕ coffe</a>{{ ctaPrefix.summary }}</p>
         <a  href="{{ ctaPrefix.buttonUrl }}">{{ ctaPrefix.buttonText }}</a>
+</div>
