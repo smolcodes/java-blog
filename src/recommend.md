@@ -51,7 +51,9 @@ permalink: '/recommend/index.html'
 * [Cassie's Blog](https://www.cassie.codes/writing/) 
 * [Sara Fossheim](https://fossheim.io/writing/)
 * [Paul Scanlon](https://paulie.dev/) Really nice and interesting blog
-
+* [Jessica's Blog](https://coder-coder.com/blog/) HTML, CSS and JS. Her blog is very beginner friendly
+* [Anhvn](https://anhvn.com/) Keyboards and art
+* [Una](https://una.im/) really nice blog, writes about web design
 
 ## Making Stuff
 * [Maxim's Blog](https://maxoffsky.com/category/code-blog/) They create interesting stuff
