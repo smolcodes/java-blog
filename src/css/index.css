@@ -46,6 +46,10 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
     * {   -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box; }
+      ul, ol, li {
+          margin: 0px;
+          padding: 0px;
+      }
       body, html {
         padding: 0px;
         margin: 0px;
@@ -282,7 +286,6 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
     }
     .post ul, .post ol {
         padding:10px 20px;
-        margin-left:40px;
     }
     .post ul li:before {
           content: '👉'; margin-left: -20px; margin-right: 10px; 
@@ -316,6 +319,8 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
     }
     .post-list {
       list-style: none;
+      margin: 0 auto;
+      padding: 5% 2%;
     }
     .post-list li {
       background: rgba(248,220,179, .7) url("/images/bg/ep_naturalwhite.png") repeat;
