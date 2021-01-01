@@ -19,18 +19,8 @@
     <link rel="stylesheet" type="text/css" href="/css/healyicon.css">
   </head>
   <body class="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}">
-    <div id="side">
-    <a class="sr-only" href="#main">Skip to main content</a>
-    {% include "partials/sidebar.html" %}
-    </div> 
     <main tabindex="-1" id="main">
         {% block content %}{% endblock %}
-{% include "partials/cta.html" %} 
-  <footer role="contentinfo" class="uk-section">
-       <center>
-          <p>Made with ☕ . <a href="/colophon">Colophon</a>.</p>
-          </center>
-      </footer>
 </main>
      <script>
       $(".post").fitVids();

@@ -11,12 +11,23 @@
 {% endif %}
 
 {% block content %}
+   <div id="side">
+    <a class="sr-only" href="#main">Skip to main content</a>
+    {% include "partials/sidebar.html" %}
+    </div> 
+    <div class="blog_content">
     {% include "partials/page-header.html" %}
     {% include "partials/post-list.html" %}
-
     {# If we leave pagination in for tags, the next and prev links will
       link to tags and be rather confusing, so don't render in that situation #}
     {% if not tag %}
       {% include "partials/pagination.html" %}
     {% endif %}
+    {% include "partials/cta.html" %} 
+      <footer role="contentinfo" class="uk-section">
+       <center>
+          <p>Made with ☕ . <a href="/colophon">Colophon</a>.</p>
+          </center>
+      </footer>
+    </div>
 {% endblock %}
