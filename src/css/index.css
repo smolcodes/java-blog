@@ -386,8 +386,6 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
 #pagination .pagination__inner {
     clear:both;
     display:flex;
-            padding-left:3%;
-            padding-right:3%;
             box-sizing: border-box;
             width:80%;
             margin: 0 auto;
