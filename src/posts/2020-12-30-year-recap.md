@@ -33,7 +33,7 @@ Here's the first version of my blog:
 
 ![blog version 1](https://smolcodes.netlify.app/images/work/openlearn.jpg)
 
-It's very clean but imho lacked a lot of personality. The personal site has ballooned since then. Maybe discovering collections was a dangerous thing. The goal for the personal site has slightly changed also. It's not just a playground for learning things like Tailwind, it's also to fulfill my obsession with logging my thoughts on everything (i know, very narcissistic 😈). I'm thinking of starting a coffee collection ☕. This current iteration ditches UIKit in favor of being ultra CSS controlling...vanilla css all the way (this is actually bc I can't seem to get Tailwind to work)! I also wanted this version toe be jam packed with personality so there's a lot of emojis and pictures of things I really like (food and coffee).
+It's very clean but imho lacked a lot of personality. The personal site has ballooned since then. Maybe discovering collections was a dangerous thing. The goal for the personal site has slightly changed also. It's not just a playground for learning things like Tailwind, it's also to fulfill my obsession with logging my thoughts on everything (i know, very narcissistic 😈). I'm thinking of starting a coffee collection ☕. This current iteration ditches UIKit in favor of being ultra CSS controlling...vanilla css all the way (this is actually bc I can't seem to get Tailwind to work)! I also wanted this version to be jam packed with personality so there's a lot of emojis and pictures of things I really like (food and coffee). The overall layout is heavily influenced by restaraunt menus. 
 
 ## Non Web Stuff
 
