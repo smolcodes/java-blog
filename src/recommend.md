@@ -54,6 +54,7 @@ permalink: '/recommend/index.html'
 * [Jessica's Blog](https://coder-coder.com/blog/) HTML, CSS and JS. Her blog is very beginner friendly
 * [Anhvn](https://anhvn.com/) Keyboards and art
 * [Una](https://una.im/) really nice blog, writes about web design
+* [Iheanyi's blog](https://iheanyi.com/journal/)
 
 ## Making Stuff
 * [Maxim's Blog](https://maxoffsky.com/category/code-blog/) They create interesting stuff
