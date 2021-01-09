@@ -173,7 +173,7 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
         color: var(--header-title-color);
     }
     #side {
-        min-width: 30%;
+        max-width: 30%;
         font-family: var(--sidebar-text-font);
         color:var(--sidebar-text-color);
       background-color: var(--sidebar-bg-color);
@@ -241,10 +241,11 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
        background-repeat: no-repeat;
        background-size: 35%;
        background-position: 95% 106%;
-   }
-   .Home #main {
        display: flex;
    }
+   .blog_content {
+    min-width: 70%;
+  }
    /***Single Column***/
     .post {
         color: var(--post-text-color);
@@ -475,13 +476,11 @@ blockquote q:before {
     font-size: 12px;
 }
 @media only screen and (max-width: 800px) {
-.Home #main {
+     #main {
     display: block;
 }
 #side {
-  background-size: 250px;
-  background-position: 90% 50%;
-  width: 100%;
+ display: none;
 }
 .post-list li {
     width: 90%;

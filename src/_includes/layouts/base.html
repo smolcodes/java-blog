@@ -20,7 +20,19 @@
   </head>
   <body class="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}">
     <main tabindex="-1" id="main">
+      <div id="side">
+    <a class="sr-only" href="#main">Skip to main content</a>
+    {% include "partials/sidebar.html" %}
+    </div> 
+    <div class="blog_content">
         {% block content %}{% endblock %}
+                 {% include "partials/cta.html" %} 
+      <footer role="contentinfo" class="uk-section">
+       <center>
+          <p>Made with ☕ . <a href="/colophon">Colophon</a>.</p>
+          </center>
+      </footer>
+        </div>
 </main>
      <script>
       $(".post").fitVids();

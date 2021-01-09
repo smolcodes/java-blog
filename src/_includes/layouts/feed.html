@@ -11,10 +11,6 @@
 {% endif %}
 
 {% block content %}
-   <div id="side">
-    <a class="sr-only" href="#main">Skip to main content</a>
-    {% include "partials/sidebar.html" %}
-    </div> 
     <div class="blog_content">
     {% include "partials/page-header.html" %}
     {% include "partials/post-list.html" %}
@@ -23,7 +19,6 @@
     {% if not tag %}
       {% include "partials/pagination.html" %}
     {% endif %}
-    {% include "partials/cta.html" %} 
       <footer role="contentinfo" class="uk-section">
        <center>
           <p>Made with ☕ . <a href="/colophon">Colophon</a>.</p>
