@@ -173,7 +173,7 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
         color: var(--header-title-color);
     }
     #side {
-        max-width: 30%;
+        width: 30%;
         font-family: var(--sidebar-text-font);
         color:var(--sidebar-text-color);
       background-color: var(--sidebar-bg-color);
@@ -244,7 +244,7 @@ pre .pln { color: var(---post-text-color); }    /* plaintext */
        display: flex;
    }
    .blog_content {
-    min-width: 70%;
+    width: 70%;
   }
    /***Single Column***/
     .post {
