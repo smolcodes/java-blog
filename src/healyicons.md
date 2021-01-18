@@ -1,6 +1,6 @@
 ---
 title: 'Healy Icons'
-layout: 'layouts/about.html'
+layout: 'layouts/post.html'
 permalink: '/healyicons/index.html'
 eleventyNavigation:
   key: Cat Icon

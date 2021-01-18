@@ -1,15 +1,10 @@
 {% extends "layouts/base.html" %}
 {% set pageHeaderTitle = title %}
 {% set pageHeaderSummary %}
-  <div class="uk-card uk-card-primary uk-box-shadow-large uk-card-body">
             <p><b>Genre</b> {{ genre }} <b>Date</b> {{ completed }} <b>Rating</b> {{ rating }} </p>
-        </div>
 {% endset %}
 {% block content %}
-    {% include "partials/page-header.html" %}
-        <section class="uk-section post">
-    <article class="uk-article">
+     <article class="prose lg:prose-xl w-full mx-auto mt-40">
       {{ content | safe }}
       </article>
-      </section>
 {% endblock %}

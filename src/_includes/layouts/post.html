@@ -1,5 +1,6 @@
 {% extends "layouts/base.html" %}
  {% set pageHeaderTitle = title %}
+ {% set pageHeaderImage = imageURL %}
 {# Grab other posts that aren't this one for the 'more from the blog' feed #}
 {% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
 {# Render post date and any tags that this post has been filed under #}
@@ -12,15 +13,12 @@
       {% endfor %}
       </p>
   {% endif %}
+  
 {% endset %}
 {% block content %}
-    {% include "partials/page-header.html" %}
-        <section class="uk-section post">
-    <article class="uk-article">
+    <article class="prose lg:prose-xl w-full mx-auto mt-40">
       {{ content | safe }}
       </article>
-      <div id="hyvor-talk-view"></div>
-      </section>
     {% if recommendedPosts %}
       <footer class="recommended-posts">
         {% set postListItems = recommendedPosts %}

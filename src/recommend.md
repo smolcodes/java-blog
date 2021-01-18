@@ -1,6 +1,6 @@
 ---
 title: 'Recommended Blogs'
-layout: 'layouts/about.html'
+layout: 'layouts/page.html'
 permalink: '/recommend/index.html'
 ---
 
@@ -67,3 +67,7 @@ permalink: '/recommend/index.html'
 * [Embedded in Academia](https://blog.regehr.org/) 
 ## Not Blogs
 [Interviews of People](https://www.theframeworkproject.com/)
+
+## Resources
+
+* [Python Repl.it](https://www.codewithrepl.it/)

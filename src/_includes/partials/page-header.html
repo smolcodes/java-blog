@@ -1,15 +1,12 @@
-    <header id="header" class="uk-section">
-  <div class="overlay o-80"></div>
-     <div class="header_content">
-     <div class="id_card">
-     <div class="image_id"></div>
-     <a href="/">← Home</a>
-     </div>
-    <h1 class="header_title uk-heading-large">
+    <header id="header" class="w-full m-0 p-0 bg-cover bg-bottom bg-gradient-to-r from-green-400 to-blue-500" style="background-image:url('{{ pageHeaderImage }}');">
+   <div class="bg-opacity-50 bg-black" style="background:rgba(0,0,0,0.5); height: 60vh; max-height:460px;">
+    <div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal text-gray-100">
+    <h1 class="text-red-400 font-extrabold text-3xl md:text-5xl">
       {{ pageHeaderTitle }}
     </h1>
     {% if pageHeaderSummary %}
       {{ pageHeaderSummary | safe }}
     {% endif %}
+    </div>
     </div>
 </header>

@@ -1,4 +1,5 @@
 const pluginNavigation = require("@11ty/eleventy-navigation");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const slugify = require("slugify");
 
@@ -13,6 +14,7 @@ const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
 
 module.exports = config => {
   config.setDataDeepMerge(true);
+  config.addPlugin(syntaxHighlight);
 
   // Add filters
 
@@ -46,7 +48,9 @@ module.exports = config => {
 
   config.addPassthroughCopy("src/images");
   config.addPassthroughCopy("src/css");
-  config.addPassthroughCopy('src/admin')
+  config.addPassthroughCopy('src/admin');
+
+  config.setTemplateFormats(["jpg", "png", "webp", "md", "njk", "html"]);
   return {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',

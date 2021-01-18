@@ -5,8 +5,8 @@ completed: August, 2020
 genre: books 📚
 rating: 😐
 recommend: ✔️
+imageURL: https://miro.medium.com/max/329/0*dBQMmztH_vvTDK5x.jpg
 layout: layouts/book.html
-link: wintersmith/index.html
 ---
 
 I unironically read a Dale Carnegie book. I've been avoiding him like the plague (I know, in times like these not very fashionable to say) because in high school I had to read *The 7 Habits of Highly Effective Teenagers* which I think took some insights from *How to Win Friends and Influence People*. The idea of friendship  being something to be won like chess seemed (and still does!) disgusting. 

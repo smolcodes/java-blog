@@ -2,15 +2,13 @@
 title: A Hot Mess of a Year Recap
 description: This year I learned 11ty and also read Animorphs. Happy New Years everyone!
 date: 2020-12-31
+imageURL: https://images.unsplash.com/photo-1504450874802-0ba2bcd9b5ae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80
 tags:
   ['pandemic journal']
 layout: layouts/post.html
 ---
 
-><q>
->
 >There are decades where nothing happens; and there are weeks where decades happen
-></q>
 
 You've probably seen this quote tossed around a bit this year. For almost half the year, I quarentined in my apartment. 
 It's easy to forget that quite a lot has happened. Despite being in a pandemic, this wasn't my most stressful year (and I'm very fortunate for that!). Like for many, the year has given me a lot of time to reflect on the world and myself. So here's a long rambling self indulgent end of year post.
@@ -73,3 +71,7 @@ The worste part about the pandemic is not being able to see anyone. I went on a 
 My goal for next year is to be better at taking initiative to hanging out with people. I need to get over myself and stop waiting for people to ask to hang out with me and actually do the stressful thing of reaching out first.
 
 Anyway, see ya'll on the flip side!
+
+_____
+
+Image from Unsplash. Lizard by [Selin Sahin](https://unsplash.com/photos/5DB3cYe7Nxk). The image is a callback to the first Animorphs book, which featured Jake morphing into a lizard.

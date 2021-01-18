@@ -1,27 +1,23 @@
 {% extends "layouts/base.html" %}
+ {% set pageHeaderTitle = title %}
+ {% set pageHeaderImage = imageURL %}
+ {% set pageHeaderSummary = summary %}
 {% block content %}
-     <header id="header" class="uk-section">
-  <div class="overlay o-80"></div>
-     <div class="header_content">
-        <div class="id_card">
-     <div class="image_id"></div>
-     <a href="/">← Home</a>
+     <section class="flex flex-wrap justify-between pt-12 -mx-6 ">
+         {% for item in collections.books %}
+        <article class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 bg-red-50 rounded-t rounded-b-none overflow-hidden shadow-md pb-5">
+							<div class="flex flex-wrap no-underline hover:no-underline">
+            <img src="{{ item.data.imageURL }}" class="h-full w-full rounded-t pb-6" style="height: 300px;">
+            <div class="w-full px-10">
+          <h2 class"w-full font-bold text-4xl text-gray-900" ><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
+          <p  class="text-gray-800 font-serif text-base mb-5"> <b>Author: </b>{{ item.data.author }} <b>Genre</b> {{ item.data.genre}}</p>
+          <a class="bg-yellow-100 p-2 hover:bg-yellow-300 mb-4"href="{{ item.url }}">Read 👉</a>
      </div>
- <h1 class="title uk-heading-large">{{ intro.greeting }}</h1>
-  <p><span>{{ intro.summary }}</span></p>
-  </div>
- </header>
-<section id="featured-boxes" class="uk-section">
-       {% for item in collections.books %}
-      <div class="uk-card uk-card-default uk-card-hover uk-card-body item">
-        <h2 class="uk-card-title">
-          {{ item.data.title }}
-        </h2>
-        <p>
-         <b>Author: </b>{{ item.data.author }} <b>Genre</b> {{ item.data.genre}}
-        </p>
-        <a href="{{ item.url }}">Read 👉</a>
-          </div>
-      {% endfor %}
-</section>
+ </div>
+ </div>
+ </article>
+        {% endfor %}
+           </section>
 {% endblock %}
+

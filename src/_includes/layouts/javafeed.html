@@ -1,26 +1,21 @@
 {% extends "layouts/base.html" %}
+ {% set pageHeaderTitle = title %}
+ {% set pageHeaderImage = imageURL %}
+ {% set pageHeaderSummary = summary %}
 {% block content %}
-     <header id="header" class="uk-section">
-    <div class="overlay o-80"></div>
-     <div class="header_content">
-        <div class="id_card">
-     <div class="image_id"></div>
-     <a href="/">← Home</a>
+     <section class="flex flex-wrap justify-between pt-12 -mx-6 ">
+           {% for item in collections.javanotes %}
+        <article class="w-full md:w-1/2 p-8 flex flex-col flex-grow flex-shrink">
+						<div class="flex-1 bg-green-50 rounded-t rounded-b-none overflow-hidden shadow-md pb-5">
+							<div class="flex flex-wrap no-underline hover:no-underline mt-6 mb-6 ">
+            <div class="w-full px-10">
+          <h2 class"w-full font-bold text-gray-900 mt-4" ><a class="text-4xl" href="{{ item.url }}">{{ item.data.title }}</a></h2>
+         <p class="mb-4"> <b>Genre: </b>{{ item.data.genre }} <b>Rating</b> {{ item.data.rating}} <b>Date</b> {{ item.data.completed }}</p>
+          <a class="bg-yellow-100 p-2 hover:bg-yellow-300 mt-4"href="{{ item.url }}">Read 👉</a>
      </div>
- <h1 class="title uk-heading-large">{{ intro.greeting }}</h1>
-  <p><span>{{ intro.summary }}</span></p>
  </div>
- </header>
-<section id="featured-boxes" class="uk-section">
-       {% for item in collections.javanotes %}
-      <div class="uk-card uk-card-default uk-card-hover uk-card-body item">
-        <h2 class="uk-card-title">
-          {{ item.data.title }}
-        </h2>
-        <p> <b>Genre: </b>{{ item.data.genre }} <b>Rating</b> {{ item.data.rating}} <b>Date</b> {{ item.data.completed }}</p>
-        <p> {{ item.data.summary }}</p>
-        <a href="{{ item.url }}">Read 👉</a>
-          </div>
-      {% endfor %}
-</section>
+ </div>
+ </article>
+        {% endfor %}
+           </section>
 {% endblock %}

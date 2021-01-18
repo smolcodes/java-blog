@@ -1,6 +1,6 @@
 ---
 title: 'Colophon'
-layout: 'layouts/about.html'
+layout: 'layouts/page.html'
 permalink: '/colophon/index.html'
 ---
 
