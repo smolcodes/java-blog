@@ -4,11 +4,10 @@
   "description": "personal sight of rachel b web designer",
   "main": ".eleventy.js",
   "scripts": {
-    "build": "eleventy",
+    "build": "eleventy && postcss src/css/tailwind.css -o dist/css/tailwind.css",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
-    "debug": "DEBUG=* eleventy",
-    "build:css": "tailwind build src/css/index.css -o dist/css/index.css "
+    "debug": "DEBUG=* eleventy"
   },
   "repository": {
     "type": "git",
@@ -39,6 +38,7 @@
     "html-minifier": "^4.0.0",
     "moment": "^2.27.0",
     "postcss": "^7.0.35",
+    "postcss-cli": "^7.1.1",
     "sass": "^1.26.8",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   }
