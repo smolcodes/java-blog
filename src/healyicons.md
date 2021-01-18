@@ -1,6 +1,6 @@
 ---
 title: 'Healy Icons'
-layout: 'layouts/post.html'
+layout: 'layouts/page.html'
 permalink: '/healyicons/index.html'
 eleventyNavigation:
   key: Cat Icon
@@ -45,12 +45,6 @@ This is the result
  </div>
  <div class="icons">
   <span class="healy healy-reg healy-fauxthot"></span> <b>healy-fauxthot</b>
- </div>
- <div class="icons">
-  <span class="healy healy-reg healy-happy"></span> <b>healy-happy</b>
- </div>
- <div class="icons">
-  <span class="healy healy-reg healy-okfriendo"></span> <b>healy-okfriendo</b>
  </div>
  <div class="icons">
   <span class="healy healy-reg healy-reassure"></span> <b>healy-reassure</b>

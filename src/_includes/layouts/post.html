@@ -1,6 +1,7 @@
 {% extends "layouts/base.html" %}
- {% set pageHeaderTitle = title %}
- {% set pageHeaderImage = imageURL %}
+{% set pageHeaderTitle = title %}
+{% set pageHeaderImage = imageURL %}
+
 {# Grab other posts that aren't this one for the 'more from the blog' feed #}
 {% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
 {# Render post date and any tags that this post has been filed under #}
