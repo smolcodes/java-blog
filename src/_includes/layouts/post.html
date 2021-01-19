@@ -19,17 +19,7 @@
 {% block content %}
     <article class="prose lg:prose-xl w-full mx-auto mt-40">
       {{ content | safe }}
-      <div id="hyvor-talk-view"></div>
 <div id="hyvor-talk-view"></div>
-<script type="text/javascript">
-    var HYVOR_TALK_WEBSITE = 2970; // DO NOT CHANGE THIS
-    var HYVOR_TALK_CONFIG = {
-        url: '{{ page.url | absolute_url }}',
-        id: '{{page.id}}'
-    };
-</script>
-<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
-<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
       </article>
     {% if recommendedPosts %}
       <footer class="recommended-posts">
@@ -40,10 +30,10 @@
     {% endif %}
 {% endblock %}
 <script type="text/javascript">
-    var HYVOR_TALK_WEBSITE = 1660; // DO NOT CHANGE THIS
+    var HYVOR_TALK_WEBSITE = 2970; // DO NOT CHANGE THIS
     var HYVOR_TALK_CONFIG = {
-        url: false,
-        id: false
+        url: '{{ page.url | absolute_url }}',
+        id: '{{page.id}}'
     };
 </script>
 <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
