@@ -1,9 +1,10 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = {
   entry: "./src/_bundle/main.js",
-  mode: process.env.NODE_ENV,
+  mode: isProduction ? 'production' : 'development',
   module: {
     rules: [
       {
