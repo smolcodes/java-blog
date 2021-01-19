@@ -16,6 +16,10 @@ module.exports = config => {
   config.setDataDeepMerge(true);
   config.addPlugin(syntaxHighlight);
 
+  config.setFrontMatterParsingOptions({
+    excerpt: true,
+    excerpt_separator: "<!-- excerpt -->",
+  });
   // Add filters
 
   config.addFilter('dateFilter', dateFilter);
