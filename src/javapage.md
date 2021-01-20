@@ -6,5 +6,5 @@ imageURL: https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixid=MXwxMjA
 layout: 'layouts/javafeed.html'
 eleventyNavigation:
   key: javanotes
-  order: 1
+  title: 📝Java Notes
 ---
