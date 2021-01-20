@@ -5,7 +5,7 @@ permalink: '/about/index.html'
 imageURL: https://pbs.twimg.com/media/EFwC00PWkAElLDC?format=jpg&name=large
 eleventyNavigation:
   key: About
-  order: 5
+  title: 🐀 About
 ---
 
 Hey I'm Rachel and this is my playground to try new stuff so be warned, it will change its look and feel often.
