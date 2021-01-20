@@ -18,8 +18,9 @@
     <link rel="stylesheet" type="text/css" href="/css/healyicon.css">
   </head>
   <body class="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %} bg-blue-50 font-sans leading-normal tracking-normal overflow-x-hidden w-full ">
-    <main tabindex="-1" id="main">
+  <a class="sr-only focus:not-sr-only" href="#main"> Skip to main</a>
         {% include "partials/page-header.html" %} 
+            <main tabindex="-1" id="main">
         <section class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32 mb-32">
         <div class="mx-0 sm:mx-6">
          {% include "partials/sidebar.html" %}
