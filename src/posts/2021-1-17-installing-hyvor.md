@@ -20,8 +20,7 @@ After going on Hyvor you will see a dashboard.
 
 ![Hyvor Dashboard](https://betalist.imgix.net/attachment/105196/image/cb5f2d60b90ad5bf9e1ab4f02be93f46.png?ixlib=rb-4.0.0&h=300&fit=clip&auto=format&dpr=2&s=84ca51bc5611c4d0147320aaf5cc2ccf)
 
-In general you will be given options to enter a web site name and website domain. IF you don't own a domain, that's ok! My website name is _Personal Blog_ and my 
-web site domain is _smolnotes.netlify.app_
+In general you will be given options to enter a web site name and website domain. If you don't own a domain, that's ok! My website name is _Personal Blog_ and my web site domain is _smolnotes.netlify.app_.
 
 Now go to your post template (it is generally in _includes/layouts and is listed as post.html, post.njk or some other format) and add this code where you want the comments to go:
 
@@ -35,7 +34,7 @@ Now go to your post template (it is generally in _includes/layouts and is listed
 </div>
 
 Make sure you replace `REPLACE WITH YOUR WEBSITE ID` with your website id. This can be found in the general tab of the Hyvor dashboard. Make sure that the website code 
-with the corresponds with the website url.
+corresponds with the website url.
 
 ```html
 
@@ -51,7 +50,8 @@ with the corresponds with the website url.
 
 ```
 
+And there you have it! Let me know if you have any questions or suggestions :).
 _______
 
-I can now cross adding [commenting system](posts/2020-12-30-year-recap/) to my blog.
+I can now cross adding [commenting system](posts/2020-12-30-year-recap/) to my blog off my todo list.
 All images are taken from Hyvor.
