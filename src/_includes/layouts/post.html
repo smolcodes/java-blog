@@ -19,15 +19,14 @@
 {% block content %}
     <article class="prose lg:prose-xl w-full mx-auto mt-40">
       {{ content | safe }}
-<div id="hyvor-talk-view"></div>
-<script type="text/javascript">
-    var HYVOR_TALK_WEBSITE = 2970; // DO NOT CHANGE THIS
-    var HYVOR_TALK_CONFIG = {
-        url: '{{ post.url | url }}',
-        id: '{{page.id}}'
-    };
-</script>
-<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
+<script
+  async
+  src="https://utteranc.es/client.js"
+  repo="smolcodes/java-blog"
+  issue-term="title"
+  theme="github-light"
+  crossorigin="anonymous"
+></script>
       </article>
     {% if recommendedPosts %}
       <footer class="recommended-posts">
