@@ -2,9 +2,6 @@
 title: 'Healy Icons'
 layout: 'layouts/page.html'
 permalink: '/healyicons/index.html'
-eleventyNavigation:
-  key: Cat Icon
-  order: 5
 ---
 Free sets of cat icons for you to use. Put this css file between the `<head>` tag:
 

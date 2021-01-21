@@ -33,6 +33,7 @@ module.exports = {
             color: '#4B5563',
             backgroundColor: '#FFFBEB',
             borderRadius: '10px',
+            boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
            },
            code: {
              backgroundColor: '#E5E7EB',
@@ -40,11 +41,16 @@ module.exports = {
              padding:'3px 6px',
            },
            pre: {
+            boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
            code: {
             backgroundColor: 'transparent',
             borderRadius: '5px',
             padding:'none',
           },
+        },
+        img: {
+            borderRadius: '5px',
+            boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
         },
         },
       },
