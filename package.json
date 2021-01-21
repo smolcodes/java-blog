@@ -4,11 +4,10 @@
   "description": "personal sight of rachel b web designer",
   "main": ".eleventy.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production npm-run-all clean -p build:*",
+    "build": "cross-env NODE_ENV=production npm-run-all -p build:*",
     "build:eleventy": "eleventy",
     "build:webpack": "webpack",
-    "clean": "rm -rf dist",
-    "start": "npm-run-all clean -p build:* -p start:*",
+    "start": "npm-run-all -p build:* -p start:*",
     "start:eleventy": "eleventy --serve --quiet",
     "start:webpack": "webpack --watch"
   },
