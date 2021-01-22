@@ -2,7 +2,7 @@
 title: Setting up Hyvor with 11ty
 description: Hyvor is a simple to use elegant commenting account
 imageURL: https://cdn.hyvor.com/uploads/talk/cover.png
-date: 2021-05-01
+date: 2021-01-19
 tags:
   ['pandemic journal']
 layout: layouts/post.html
