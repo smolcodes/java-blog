@@ -3,6 +3,7 @@ title: A Hot Mess of a Year Recap
 description: This year I learned 11ty and also read Animorphs. Happy New Years everyone!
 date: 2020-12-31
 imageURL: https://images.unsplash.com/photo-1504450874802-0ba2bcd9b5ae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80
+imageAlt: a lizard
 tags:
   ['pandemic journal']
 layout: layouts/post.html

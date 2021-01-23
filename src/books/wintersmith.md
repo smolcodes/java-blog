@@ -6,6 +6,7 @@ genre: books 📚
 rating: 😃
 recommend: ✔️
 imageURL: https://www.terrypratchettbooks.com/wp-content/uploads/2019/04/wintersmith-pb-us.jpg
+imageAlt: cover for wintersmith
 layout: layouts/book.html
 ---
 

@@ -6,6 +6,7 @@ genre: books 📚
 rating: 😐
 recommend: ✔️
 imageURL: https://miro.medium.com/max/329/0*dBQMmztH_vvTDK5x.jpg
+imageAlt: cover for Dale Carnegie book
 layout: layouts/book.html
 ---
 
