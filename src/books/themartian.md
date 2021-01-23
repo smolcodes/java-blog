@@ -6,6 +6,7 @@ genre: books 📚
 rating: 😃
 recommend: ✔️
 imageURL: https://www.intofilm.org/intofilm-production/6968/scaledcropped/970x546/resources/6968/the-martian-ep-20th-century-fox.jpg
+imageAlt: cover of the martian
 layout: layouts/book.html
 ---
 

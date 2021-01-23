@@ -2,6 +2,7 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const slugify = require("slugify");
+const shortcodes = require('./src/utils/shortcodes.js');
 
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
@@ -12,49 +13,57 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
 
-module.exports = config => {
-  config.setDataDeepMerge(true);
-  config.addPlugin(syntaxHighlight);
+module.exports = function (eleventyConfig) {
+  //shortcodes
+	Object.keys(shortcodes).forEach((shortcodeName) => {
+		eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName])
+	})
 
-  config.setFrontMatterParsingOptions({
+  //data deep merge
+  eleventyConfig.setDataDeepMerge(true);
+
+  //syntax highlight
+  eleventyConfig.addPlugin(syntaxHighlight);
+
+  eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
     excerpt_separator: "<!-- excerpt -->",
   });
   // Add filters
 
-  config.addFilter('dateFilter', dateFilter);
-  config.addFilter('w3DateFilter', w3DateFilter);
+  eleventyConfig.addFilter('dateFilter', dateFilter);
+  eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
 
   // Plugins
-  config.addPlugin(rssPlugin);
-  config.addPlugin(pluginNavigation);
+  eleventyConfig.addPlugin(rssPlugin);
+  eleventyConfig.addPlugin(pluginNavigation);
 
     // Returns books items, sorted by display order
-    config.addCollection('books', collection => {
+    eleventyConfig.addCollection('books', collection => {
       return sortByDisplayOrder(
         collection.getFilteredByGlob('./src/books/*.md'));
     });
 
     
     // Returns books items, sorted by display order
-    config.addCollection('javanotes', collection => {
+    eleventyConfig.addCollection('javanotes', collection => {
       return sortByDisplayOrder(
         collection.getFilteredByGlob('./src/javanotes/*.md'));
     });
 
   // Returns a collection of blog posts in reverse date order
-  config.addCollection('blog', collection => {
+  eleventyConfig.addCollection('blog', collection => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
-  config.setUseGitIgnore(false);
+  eleventyConfig.setUseGitIgnore(false);
 
-  config.addPassthroughCopy("src/images");
-  config.addPassthroughCopy("src/css");
-  config.addPassthroughCopy('src/admin');
+  eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy("src/css");
+   eleventyConfig.addPassthroughCopy('src/admin');
 
-  config.setTemplateFormats(["jpg", "png", "webp", "md", "njk", "html"]);
+  eleventyConfig.setTemplateFormats(["jpg", "png", "webp", "md", "njk", "html"]);
   return {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
