@@ -7,8 +7,6 @@ date: 2021-01-22
 tags: ['tailwindcss','11ty']
 ---
 
-{% Image "https://cdn.jsdelivr.net/gh/lovell/sharp@master/docs/image/sharp-logo.svg", "self portrait" %}
-
 ## What You Need
 
 * NPM (node package manager)
