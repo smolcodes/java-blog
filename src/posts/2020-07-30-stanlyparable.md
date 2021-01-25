@@ -23,9 +23,7 @@ Options (1)-(3) can be graphed as a parabola*:
 ![Parabola.png](http://wiki.dtonline.org/images/thumb/6/6f/Parabola.png/350px-Parabola.png)
 
 The axis aren't labeled. But (3) should be understood as the apex. 1 on the y axis corresponds to (1) and the end of the parabola (unlabeled as well) is (2).
-
 (1) and (2) both don't require much introspection. (1) is a naive take on existence. Just go with the flow, play by life's rules and continue to live in blissful ignorance. The narrator only ever gives one instruction at a time, so there isn't much degree of freedom. (2) offers more degrees of freedom because there are multiple ways of disobeying the Narrator but (3) offers the most degrees of freedom.
-
 Once (3) is realized however, (1) and (2) can be seen as a subset of (3) *if* thought was put into making a conscientious decision to repeatedly and consistently follow or disobey the narrator. The other alternative is combining (1), (2) and (3), that do all actions without any thought-this option-option 0 we'll say-generates the most diverse endings.
 
 The narrative subversion is the slow revelation that the Narrator is in the same boat (possibly worse off) as Stanley. It attempts to control Stanley's story but also it's own story is being controlled. Stanley has a few endings where he ascends into heaven or is allowed to go free. The Narrator does not. It is always bound to this office. It's very existence requires Stanley to be stuck in the office as well. And while the impression is the Narrator is controlling Stanley's life, it is the opposite. The narrator can't force Stanley to do anything.  Importantly the Narrator doesn't get to choose to die.
@@ -36,15 +34,6 @@ Stanley-you-can choose to be passive.
 
 I compared this game to Portal earlier because they're both successful but they hit differently. Portal stuck with me for months afterwards. Some times I still find myself thinking about the Companion Cube and about how one of the achievements is called "Infanticide". 
 
-Portal made me think a 
-
-
-
-
-
-____
 
 [1] I shamelessly grabbed from Google
-
-
 
