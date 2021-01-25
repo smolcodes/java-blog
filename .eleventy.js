@@ -22,7 +22,7 @@ module.exports = function (eleventyConfig) {
       widths: [25, 320, 640, 960, 1200, 1800, 2400],
       formats: ["jpeg", "webp"],
       urlPath: "/images/",
-      outputDir: "./_site/images/",
+      outputDir: "./dist/images/",
     });
 
     let lowestSrc = stats["jpeg"][0];
