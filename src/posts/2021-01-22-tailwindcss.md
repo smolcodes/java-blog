@@ -4,10 +4,10 @@ description: My thoughts on Tailwind
 imageURL: https://images.unsplash.com/photo-1544587265-c4a0035a6d22?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
 imageAlt: a whales tail
 date: 2021-01-22
-tags:
- ['tailwindcss','11ty']
-layout: layouts/post.html
+tags: ['tailwindcss','11ty']
 ---
+
+{% Image "https://cdn.jsdelivr.net/gh/lovell/sharp@master/docs/image/sharp-logo.svg", "self portrait" %}
 
 ## What You Need
 

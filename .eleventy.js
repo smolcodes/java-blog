@@ -1,24 +1,65 @@
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
-const slugify = require("slugify");
-const shortcodes = require('./src/utils/shortcodes.js');
+const Image = require("@11ty/eleventy-img");
+const sharp = require("sharp");
 
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 
 // Create a helpful production flag
-const isProduction = process.env.NODE_ENV === 'production';
-
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
 
 module.exports = function (eleventyConfig) {
   //shortcodes
-	Object.keys(shortcodes).forEach((shortcodeName) => {
-		eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName])
-	})
+  eleventyConfig.addNunjucksAsyncShortcode("Image", async (src, alt) => {
+    if (!alt) {
+      throw new Error(`Missing \`alt\` on myImage from: ${src}`);
+    }
 
+    let stats = await Image(src, {
+      widths: [25, 320, 640, 960, 1200, 1800, 2400],
+      formats: ["jpeg", "webp"],
+      urlPath: "/images/",
+      outputDir: "./_site/images/",
+    });
+
+    let lowestSrc = stats["jpeg"][0];
+
+    const placeholder = await sharp(lowestSrc.outputPath)
+      .resize({ fit: sharp.fit.inside })
+      .blur()
+      .toBuffer();
+
+    const base64Placeholder = `data:image/png;base64,${placeholder.toString(
+      "base64"
+    )}`;
+
+    const srcset = Object.keys(stats).reduce(
+      (acc, format) => ({
+        ...acc,
+        [format]: stats[format].reduce(
+          (_acc, curr) => `${_acc} ${curr.srcset} ,`,
+          ""
+        ),
+      }),
+    );
+
+    const source = `<source type="image/webp" data-srcset="${srcset["webp"]}" >`;
+
+    const img = `<img
+      class="lazy"
+      alt="${alt}"
+      src="${base64Placeholder}"
+      data-src="${lowestSrc.url}"
+      data-sizes='(min-width: 1024px) 1024px, 100vw'
+      data-srcset="${srcset["jpeg"]}"
+      width="${lowestSrc.width}"
+      height="${lowestSrc.height}">`;
+
+    return `<div class="image-wrapper"><picture> ${source} ${img} </picture></div>`;
+  });
   //data deep merge
   eleventyConfig.setDataDeepMerge(true);
 

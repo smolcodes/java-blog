@@ -1,0 +1,20 @@
+I know I created a new post design only a few weeks ago only to change it again, but I had to try Tailwinds. 
+I was very hesitant about using Tailwinds at first because it used inline CSS but thanks to kind Twitter users I 
+read [this](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/) and [this article](https://frontstuff.io/in-defense-of-utility-first-css)
+so had to at least give it a try. 
+
+I basically used this video with a lot of google Windows stuff:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gE8hcdG2vsw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+A major pitfall is [rm rf](https://superuser.com/questions/204406/whats-the-equivalent-to-rm-rf-with-windows-command)
+is not the same for windows so you will need to switch it to `rmdir /s /q [directory]`. Also make sure you are using
+the correct directories. For me, my output folder is _dis_ and my input is _src_. 
+
+I realized the hard way also the difference between eleventy --start and npm run start.
+
+[Customizing Tailwind](https://pinegrow.com/tutorials/customizing-a-tailwind-css-theme/)
+____
+
+Image from Unsplash by [Andrew Bain](https://unsplash.com/photos/zJ-9FHfTQzQ)

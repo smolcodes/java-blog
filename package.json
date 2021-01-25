@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/capybar/blog/#readme",
   "dependencies": {
-    "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-cache-assets": "^2.0.2",
     "@11ty/eleventy-img": "^0.7.4",
     "@11ty/eleventy-navigation": "^0.1.6",
@@ -46,5 +45,8 @@
     "vanilla-lazyload": "^17.1.2",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
   }
 }

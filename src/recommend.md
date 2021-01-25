@@ -55,6 +55,7 @@ permalink: '/recommend/index.html'
 * [Anhvn](https://anhvn.com/) Keyboards and art
 * [Una](https://una.im/) really nice blog, writes about web design
 * [Iheanyi's blog](https://iheanyi.com/journal/)
+* [Jecelyn's blog](https://jec.fyi/blog) really helpful blog 
 
 ## Making Stuff
 * [Maxim's Blog](https://maxoffsky.com/category/code-blog/) They create interesting stuff
