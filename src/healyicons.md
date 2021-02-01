@@ -1,6 +1,6 @@
 ---
 title: 'Healy Icons'
-layout: 'layouts/page.html'
+layout: 'layouts/page.njk'
 permalink: '/healyicons/index.html'
 ---
 Free sets of cat icons for you to use. Put this css file between the `<head>` tag:

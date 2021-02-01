@@ -4,7 +4,6 @@ completed: March, 2020
 genre: Codegym
 rating: not applicable
 summary: a tiny critique of CodeGym
-layout: layouts/java.html
 ---
 
 ![image](https://64.media.tumblr.com/3b0c12e442650b8933cc69c714570831/47e819b47923e325-b3/s540x810/c06ea7c7be8308a08ed7329aa3f55d7de40abbc0.png)

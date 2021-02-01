@@ -4,7 +4,6 @@ description: Spoiler it is a good game but not as good as Portal
 date: 2020-07-30
 tags:
   ['note', 'games']
-layout: layouts/post.html
 ---
 
 > ## __Parable__: a short story that teaches a moral or spiritual lesson

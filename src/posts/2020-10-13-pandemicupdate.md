@@ -4,7 +4,6 @@ description: Another Pandemic Post
 date: 2020-10-13
 tags:
   ['pandemic journal']
-layout: layouts/post.html
 ---
 
 ## Normal?

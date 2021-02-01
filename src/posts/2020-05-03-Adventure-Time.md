@@ -4,7 +4,6 @@ description:
 date: 2020-05-02
 tags:
   ['life']
-layout: layouts/post.html
 ---
 
 I love Tumblr, I really do but I think I let the ease of producing stop me from moving forward. The community is fun and I still plan to stick around making themes here or there but it's finally time to branch out.

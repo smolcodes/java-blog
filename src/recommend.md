@@ -1,6 +1,6 @@
 ---
 title: 'Recommended Blogs'
-layout: 'layouts/page.html'
+layout: 'layouts/page.njk'
 permalink: '/recommend/index.html'
 ---
 

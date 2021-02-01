@@ -4,7 +4,6 @@ description: Make the Computer work for you and do not strain your eyes
 date: 2020-02-26
 tags:
   ['life','java','accessibility']
-layout: layouts/post.html
 ---
 
 I've been hesitant to post this as I try not to corner myself as a blind person but here's a post on what I do to make things easier as someone with shit eyesight. 

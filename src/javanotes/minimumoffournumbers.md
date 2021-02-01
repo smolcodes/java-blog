@@ -4,7 +4,6 @@ completed: November, 2019
 genre: Codegym
 rating: easy
 summary: Finding the mimimum of numbers hint no computers needed
-layout: layouts/java.html
 ---
 
 I legit feel so smart bc I like sat down with a pen and paper and just...worked through the problem for the base case (compare 3 numbers and find the smallest).

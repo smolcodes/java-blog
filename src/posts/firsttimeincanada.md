@@ -4,7 +4,6 @@ description: My impression of Canada
 date: 2016-11-28
 tags:
   ['life']
-layout: layouts/post.html
 ---
 We are on the train and have been for eight hours s. Drove through Vermont for quite some time. It's kind of boring looking.
 

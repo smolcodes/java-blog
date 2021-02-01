@@ -4,7 +4,6 @@ completed: March, 2020
 genre: Codegym
 rating: easy and fun
 summary: a practice in printing unique characters like forward slashes
-layout: layouts/java.html
 ----
 
 Here is the prompt:

@@ -4,7 +4,6 @@ description:
 date: 2020-06-18
 tags:
   ['pandemic journal','blogging','accessibility']
-layout: layouts/post.html
 ---
 
 ## Accessibility 

@@ -28,34 +28,23 @@ module.exports = (eleventyConfig) => {
   });
 
   /// Markdown Component from Markdown-it
-  const md = require('markdown-it')();
-  md.use(require('markdown-it-footnote').default);
-  md.use(require('markdown-it-container').default);
+  let markdownIt = require("markdown-it");
+  let markdownItFootnote = require("markdown-it-footnote");
+  let markdownItContainer = require("markdown-it-container");
   let options = {
     html: true,
     breaks: true,
     linkify: true,
     typographer: true
   };
-
   eleventyConfig.setLibrary("md", markdownIt(options)
-    .use('url_new_win', 'link_open', function (tokens, idx) {
-      const [attrName, href] = tokens[idx].attrs.find(attr => attr[0] === 'href');
-      if (href && (!href.includes('franknoirot.co') && !href.startsWith('/') && !href.startsWith('#'))) {
-        tokens[idx].attrPush(['target', '_blank']);
-        tokens[idx].attrPush(['rel', 'noopener noreferrer']);
-      }
-    })
-
-    .use(markdownItFootnote)
-    .use(markdownItContainer, 'callout')
-    .use(markdownItContainer, 'callout-blue')
-    .use(markdownItContainer, 'callout-pink')
-    .use(markdownItContainer, 'callout-green')
-    .use(markdownItContainer, 'warning')
-
+  .use(markdownItFootnote)
+  .use(markdownItContainer, 'callout')
+  .use(markdownItContainer, 'callout-blue')
+  .use(markdownItContainer, 'callout-pink')
+  .use(markdownItContainer, 'callout-green')
+  .use(markdownItContainer, 'warning')
   );
-
 
   //shortcodes
   eleventyConfig.addNunjucksAsyncShortcode("Image", async (src, alt) => {
@@ -150,7 +139,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.setTemplateFormats(["jpg", "png", "webp", "md", "njk", "html"]);
   return {
-    markdownTemplateEngine: 'liquid',
+    markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     dir: {

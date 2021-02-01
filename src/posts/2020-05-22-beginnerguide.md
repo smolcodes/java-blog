@@ -4,7 +4,6 @@ description:
 date: 2020-05-11
 tags:
   ['css art']
-layout: layouts/post.html
 ---
 
 Today I made a very simple picture of coffee.

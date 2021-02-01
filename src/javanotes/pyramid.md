@@ -4,7 +4,6 @@ completed: October, 2019
 genre: Codegym
 rating: easy
 summary: Creating different pyramid shapes in java
-layout: layouts/java.html
 ---
 
 A classic assignment that I never understood was making an asterisks pyramid that looks like this:

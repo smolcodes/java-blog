@@ -4,7 +4,6 @@ description:
 date: 2020-05-09
 tags:
   ['freecodecamp']
-layout: layouts/post.html
 ---
 
 A few months ago I decided to give [FreeCodeCamp](https://www.freecodecamp.org/) (FCC) a go. As of submitting this post, I'm basically done with the Responsive Webdesign Certificate. I already knew the majority of this stuff way before FCC, however I still got a lot out of this, especially the projects. The most valuable lesson and challenge is that of using only what you need.

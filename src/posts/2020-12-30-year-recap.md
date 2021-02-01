@@ -6,7 +6,6 @@ imageURL: https://images.unsplash.com/photo-1504450874802-0ba2bcd9b5ae?ixid=MXwx
 imageAlt: a lizard
 tags:
   ['pandemic journal']
-layout: layouts/post.html
 ---
 
 >There are decades where nothing happens; and there are weeks where decades happen

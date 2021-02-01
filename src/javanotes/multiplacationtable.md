@@ -4,7 +4,6 @@ completed: February, 2020
 genre: Codegym
 rating: easy
 summary: a practice in for loops
-layout: layouts/java.html
 ---
 
 ```java

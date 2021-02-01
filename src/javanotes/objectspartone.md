@@ -4,7 +4,6 @@ completed: October, 2019
 genre: Codegym
 rating: easy
 summary: Using Starbucks to explain objects
-layout: layouts/java.html
 ---
 
 I’m going to relate this to Starbucks because-hey, I work there.

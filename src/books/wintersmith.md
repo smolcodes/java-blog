@@ -7,7 +7,6 @@ rating: 😃
 recommend: ✔️
 imageURL: https://www.terrypratchettbooks.com/wp-content/uploads/2019/04/wintersmith-pb-us.jpg
 imageAlt: cover for wintersmith
-layout: layouts/book.html
 ---
 
 [Following up with Wintersmith](https://smolnotes.netlify.app/about/) I finished it! It's my first Terry Pratchett book. It follows Tiffany Aching's beginning journey of becoming a Witch. It's part of the Discworld universe (nice, more books to read).

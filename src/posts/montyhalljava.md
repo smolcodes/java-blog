@@ -4,7 +4,6 @@ description: Explanation of the Monty Hall problem
 date: 2017-11-28
 tags:
   ['java', 'Monty Hall']
-layout: layouts/post.html
 ---
 
 The Monty Hall problem is a classic logic problem that's not really like the game that it's based on

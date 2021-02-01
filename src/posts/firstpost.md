@@ -4,7 +4,6 @@ description: This is a post on My Blog about agile frameworks.
 date: 2020-05-04
 tags:
   -11ty
-layout: layouts/post.html
 ---
 
 I'm an avid user of Tumblr. I love Tumblr. I love the functionality and how quick it is to make a theme. I love the theme developing community BUT I don't like the writing experience. It's good for long notes however what if I want to post crap? And I always want to post crap!

@@ -4,7 +4,6 @@ description: Listen do not stay at a 50 dollar hotel in NYC
 date: 2019-08-03
 tags:
   ['Code Land', 'life']
-layout: layouts/post.html
 ---
 Let me tell you: it was an adventure. We need to start at the very beginning.
 

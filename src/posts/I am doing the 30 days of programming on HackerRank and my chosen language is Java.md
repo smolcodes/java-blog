@@ -4,7 +4,6 @@ description: The first 3 challenges leave out quite a lot of information and may
 date: 2020-07-31
 tags:
   ['java']
-layout: layouts/post.html
 ---
 
 I am doing the 30 days of programming on HackerRank and my chosen language is Java. The Day 1. challenge got me thinking: how empty should a tutorial be?

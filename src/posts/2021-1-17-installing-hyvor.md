@@ -6,7 +6,6 @@ imageAlt: hyvor banner
 date: 2021-01-19
 tags:
   ['pandemic journal']
-layout: layouts/post.html
 ---
 
 [Hyvor](https://talk.hyvor.com/) is a free commenting system for the web. It's easy to set up and has a stunning UI.
