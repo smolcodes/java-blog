@@ -14,7 +14,6 @@
       {% endfor %}
       </p>
   {% endif %}
-  
 {% endset %}
 {% block content %}
     <article class="prose lg:prose-xl w-full mx-auto mt-40">
@@ -33,7 +32,7 @@
       <footer class="recommended-posts">
         {% set postListItems = recommendedPosts %}
         {% set postListHeadline = 'More from the blog' %}
-        {% include "partials/post-list.html" %}
+        {% include "partials/post-list.njk" %}
       </footer>
     {% endif %}
 {% endblock %}

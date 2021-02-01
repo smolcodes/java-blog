@@ -1,0 +1,13 @@
+{% extends "layouts/base.njk" %}
+ {% set pageHeaderTitle = title %}
+ {% set pageHeaderImage = imageURL %}
+{% set pageHeaderSummary %}
+  <p>
+  <b>Author</b>{{ author }}  <b>Genre</b> {{ genre }} <b>Date</b> {{ completed }} <b>Rating</b> {{ rating }}<b>Recommend</b> {{ recommend }}
+ </p>
+{% endset %}
+{% block content %}
+    <article class="prose lg:prose-xl w-full mx-auto mt-40">
+      {{ content | safe }}
+    </article>
+{% endblock %}
