@@ -22,7 +22,7 @@
 <script type="text/javascript">
     var HYVOR_TALK_WEBSITE = 1660; // DO NOT CHANGE THIS
     var HYVOR_TALK_CONFIG = {
-        url: '{{ post.url | url }}',
+        url: '{% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}',
         id: '{{page.id}}'
     };
 </script>
