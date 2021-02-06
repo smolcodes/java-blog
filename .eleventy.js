@@ -131,10 +131,9 @@ module.exports = function (eleventyConfig) {
       return sortByDisplayOrder(
         collection.getFilteredByGlob('./src/javanotes/*.md'));
     });
-
   // Returns a collection of blog posts in reverse date order
   eleventyConfig.addCollection('blog', collection => {
-    return [...collection.getFilteredByGlob('./src/posts/*.md')]
+    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
 
   // Collections for Math posts
