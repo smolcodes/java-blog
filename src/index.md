@@ -1,18 +1,20 @@
 ---
-title: 'Good Morning'
-layout: 'layouts/feed.njk'
-imageURL: https://images.unsplash.com/photo-1503481766315-7a586b20f66d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1335&q=80
-imageAlt: coffee
-pagination: 
-  data: collections.blog
-  size: 7
-permalink: '{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
-paginationPrevText: 'Newer posts'
-paginationNextText: 'Older posts'
-paginationAnchor: '#post-list'
+title: 'Hello There 👋'
+layout: 'layouts/page.njk'
 eleventyNavigation:
-  key: Home
-  title: 🏠 Home
+  key: home
+  title: 🐀 Home
   order: 1
 ---
-A notebook of sorts. Let's put a pin in everything. 
+
+## A Hot Mess of a Place
+
+You're viewing my sandbox of sorts. Be warned it will change and break often.
+
+{% Image "https://pbs.twimg.com/media/EFwC00PWkAElLDC?format=jpg&name=large", "self portrait with bulbsaur" %}
+
+This little space has incomplete posts, notes on various things I'm learning and also notes on books I've read (so hopefully I don't forget them).
+
+You can find me [elsewhere on the internet](https://smolcodes.netlify.app/links/)
+
+Anyway, thanks for visiting :)

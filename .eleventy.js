@@ -1,53 +1,58 @@
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const htmlmin = require("html-minifier");
+const rssPlugin = require('@11ty/eleventy-plugin-rss');
+const slugify = require("slugify");
 const Image = require("@11ty/eleventy-img");
 const sharp = require("sharp");
+
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 
 // Create a helpful production flag
+const isProduction = process.env.NODE_ENV === 'production';
+
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
 
-module.exports = (eleventyConfig) => {
-  //html minifier
-  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
-    // Eleventy 1.0+: use this.inputPath and this.outputPath instead
-    if (outputPath.endsWith(".html")) {
-      let minified = htmlmin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true
-      });
-      return minified;
-    }
-
-    return content;
-  });
-
-  /// Markdown Component from Markdown-it
-  let markdownIt = require("markdown-it");
-  let markdownItFootnote = require("markdown-it-footnote");
-  let markdownItContainer = require("markdown-it-container");
-  let options = {
-    html: true,
-    breaks: true,
-    linkify: true,
-    typographer: true
-  };
-  eleventyConfig.setLibrary("md", markdownIt(options)
-  .use(markdownItFootnote)
-  .use(markdownItContainer, 'callout')
-  .use(markdownItContainer, 'callout-blue')
-  .use(markdownItContainer, 'callout-pink')
-  .use(markdownItContainer, 'callout-green')
-  .use(markdownItContainer, 'warning')
-  );
-
-  //shortcodes
-  eleventyConfig.addNunjucksAsyncShortcode("Image", async (src, alt) => {
+module.exports = function (eleventyConfig) {
+    //html minifier
+    eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+      // Eleventy 1.0+: use this.inputPath and this.outputPath instead
+      if (outputPath.endsWith(".html")) {
+        let minified = htmlmin.minify(content, {
+          useShortDoctype: true,
+          removeComments: true,
+          collapseWhitespace: true
+        });
+        return minified;
+      }
+  
+      return content;
+    });
+  
+    /// Markdown Component from Markdown-it
+    let markdownIt = require("markdown-it");
+    let markdownItFootnote = require("markdown-it-footnote");
+    let markdownItContainer = require("markdown-it-container");
+    let options = {
+      html: true,
+      breaks: true,
+      linkify: true,
+      typographer: true
+    };
+    eleventyConfig.setLibrary("md", markdownIt(options)
+    .use(markdownItFootnote)
+    .use(markdownItContainer, 'callout')
+    .use(markdownItContainer, 'callout-yellow')
+    .use(markdownItContainer, 'callout-blue')
+    .use(markdownItContainer, 'callout-pink')
+    .use(markdownItContainer, 'callout-purple')
+    .use(markdownItContainer, 'callout-green')
+    .use(markdownItContainer, 'warning')
+    );
+	 //shortcodes
+   eleventyConfig.addNunjucksAsyncShortcode("Image", async (src, alt) => {
     if (!alt) {
       throw new Error(`Missing \`alt\` on myImage from: ${src}`);
     }
@@ -94,6 +99,7 @@ module.exports = (eleventyConfig) => {
 
     return `<div class="image-wrapper"><picture> ${source} ${img} </picture></div>`;
   });
+
   //data deep merge
   eleventyConfig.setDataDeepMerge(true);
 
@@ -105,6 +111,7 @@ module.exports = (eleventyConfig) => {
     excerpt_separator: "<!-- excerpt -->",
   });
   // Add filters
+
   eleventyConfig.addFilter('dateFilter', dateFilter);
   eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
 
@@ -112,30 +119,34 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(rssPlugin);
   eleventyConfig.addPlugin(pluginNavigation);
 
-  // Returns books items, sorted by display order
-  eleventyConfig.addCollection('books', collection => {
-    return sortByDisplayOrder(
-      collection.getFilteredByGlob('./src/books/*.md'));
-  });
+    // Returns books items, sorted by display order
+    eleventyConfig.addCollection('books', collection => {
+      return sortByDisplayOrder(
+        collection.getFilteredByGlob('./src/books/*.md'));
+    });
 
-
-  // Returns books items, sorted by display order
-  eleventyConfig.addCollection('javanotes', collection => {
-    return sortByDisplayOrder(
-      collection.getFilteredByGlob('./src/javanotes/*.md'));
-  });
+    
+    // Returns books items, sorted by display order
+    eleventyConfig.addCollection('javanotes', collection => {
+      return sortByDisplayOrder(
+        collection.getFilteredByGlob('./src/javanotes/*.md'));
+    });
 
   // Returns a collection of blog posts in reverse date order
   eleventyConfig.addCollection('blog', collection => {
-    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+    return [...collection.getFilteredByGlob('./src/posts/*.md')]
   });
 
+  // Collections for Math posts
+  eleventyConfig.addCollection("math", function(collection) {
+    return collection.getFilteredByTags("math");
+});
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   eleventyConfig.setUseGitIgnore(false);
 
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/css");
-  eleventyConfig.addPassthroughCopy('src/admin');
+   eleventyConfig.addPassthroughCopy('src/admin');
 
   eleventyConfig.setTemplateFormats(["jpg", "png", "webp", "md", "njk", "html"]);
   return {

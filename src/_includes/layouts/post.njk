@@ -6,13 +6,12 @@
 {% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
 {# Render post date and any tags that this post has been filed under #}
 {% set pageHeaderSummary %}
-     <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
+     <time class="bg-blue-100 text-blue-800 p-1" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
   {% if tags %}
-    <p class="visually-hidden" id="tags-desc">Tags for this post
+    <span class="sr-only" id="tags-desc">Tags for this post</span>
       {% for tag in tags %}
-          <a class="tags" href="/tag/{{ tag | slug }}/">#{{ tag | replace(' ', '') | capitalize }}</a>
+          <a class="bg-yellow-100 text-yellow-700 p-1 hover:bg-blue-700 hover:text-gray-50" href="/tag/{{ tag | slug }}/">#{{ tag | replace(' ', '') | capitalize }}</a>
       {% endfor %}
-      </p>
   {% endif %}
 {% endset %}
 {% block content %}

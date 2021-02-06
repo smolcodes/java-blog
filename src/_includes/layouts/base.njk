@@ -14,15 +14,22 @@
  <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/healyicon.css">
   </head>
-  <body class="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %} bg-blue-50 font-sans leading-normal tracking-normal overflow-x-hidden w-full ">
+  <body class="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %} bg-gray-100 font-sans leading-normal tracking-normal overflow-x-hidden w-full ">
   <a class="sr-only focus:not-sr-only" href="#main"> Skip to main</a>
-        {% include "partials/page-header.njk" %} 
-            <main id="main">
-        <section class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32 mb-32">
+            <main id="main" class="flex flex-wrap">
+                 <aside class="md:h-full pt-10 w-full md:w-2/6">
+        <div class="md:float-right md:mx-auto md:fixed mt-10 md:w-6/12">
+              {% include "partials/navigation.njk" %}
+              </div>
+            </aside>
+        <section class="md:w-4/6 bg-gray-50 z-10 overflow-hidden">
+         {% include "partials/page-header.njk" %} 
+         <div class="px-4 md:px-0 max-w-6xl mx-auto -mt-32 mb-32">
         <div class="mx-0 sm:mx-6">
-         {% include "partials/navigation.njk" %}
         {% block content %}
         {% endblock %}
+        
+        </div>
         </div>
       </section
 </main>
