@@ -19,11 +19,15 @@ module.exports = {
           color: '#333',
           strong: {
             color: '#EF4444',
+            fontWeight: '700',
+            fontFamily: 'Bitter',
+            fontStyle: 'italic',
           },
           i: {
-              fontWeight: '700',
-              color: '#2563EB',
+              fontWeight: '400',
+              color: '#EF4444',
               fontFamily: 'Bitter',
+              fontStyle: 'italic',
           },
           h1: {
              fontFamily: 'Bitter',
