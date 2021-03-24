@@ -1,12 +1,10 @@
 ---
 title: The Martian
 author: Andy Weir
-completed: September, 2020
+date: 2020-09-01 
 genre: books 📚
 rating: 😃
 recommend: ✔️
-imageURL: https://www.intofilm.org/intofilm-production/6968/scaledcropped/970x546/resources/6968/the-martian-ep-20th-century-fox.jpg
-imageAlt: cover of the martian
 ---
 
 I don't have much to say about this book except that I thought it was fun. Mark Watney was a quick whitted, humorous and exceptionally intelligent character. This book definitely had me googling if some things Watney did was possible (like growing potatoes on Mars). I'm currently trying to be more fit so couldn't understand how Watney was able to be physically and mentally strong enough to survive like he did. He regularely partook in physically laborious tasks while eating less than half the amount of food he should've been consuming.

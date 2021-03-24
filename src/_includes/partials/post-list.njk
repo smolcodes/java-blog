@@ -7,7 +7,7 @@
         {% for item in postListItems %}
         {% set currentPost = post.data.post %}
         <article class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
-					<div class="flex-1 bg-yellow-50 rounded-t rounded-b-none overflow-hidden shadow-md pb-5">
+					<div class="flex-1 bg-yellow-50 rounded-t rounded-b overflow-hidden shadow-md hover:shadow-2xl pb-5">
 						<div class="flex flex-wrap no-underline hover:no-underline">
               {% if item.data.imageURL %}
               <div class="mx-auto max-h-56 overflow-hidden">
@@ -17,11 +17,13 @@
             <div class="w-full px-10 pt-5 pb-5">
             <time class="serif text-sm" datetime="{{ item.data.date }}"> 🕒 {{ item.data.date | dateFilter }}</time>
             <h2 class="w-full" ><a class="text-yellow-600 font-bold text-4xl font-serif" href="{{ item.url }}">{{ item.data.title }}</a></h2>
-            <p  class="text-gray-800 font-sans text-base mb-5">{{ item.data.description }}</p>
-            <a class="bg-yellow-100 p-2 hover:bg-yellow-300 mb-4"href="{{ item.url }}">Read 👉</a>
            </div>
          </div>
        </div>
+       <div class="pt-12 pb-12">
+          <p  class="text-gray-800 font-sans text-base mb-5">{{ item.data.description }}</p>
+            <a class="bg-yellow-100 p-2 hover:bg-yellow-300 mb-4"href="{{ item.url }}">Read 👉</a>
+            </div>
       </article>
         {% endfor %}
      </section>
