@@ -9,7 +9,7 @@ eleventyNavigation:
 
 ## Featured Tags
 
-Lmfao. Here's some tags to help make this page *look* organized. It's really an excuse to put some color on this here page.
+These tags are an excuse to use gradients.
 
 <div class="grid grid-cols-2 gap-6">
   <a href="/tag/languages/">
