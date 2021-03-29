@@ -11,7 +11,7 @@ eleventyNavigation:
 
 These tags are an excuse to use gradients.
 
-<div class="grid grid-cols-2 gap-6">
+<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
   <a href="/tag/languages/">
   <div class="bg-gradient-to-r from-green-400 to-blue-500 rounded-t rounded-b transition-shadow shadow-md hover:shadow-2xl text-center p-12"><p class="text-4xl text-white">Language</p></div>
   </a>
