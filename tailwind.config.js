@@ -20,15 +20,20 @@ module.exports = {
           strong: {
             color: '#EF4444',
             fontWeight: '700',
-            fontFamily: 'Bitter',
+            fontFamily: 'Georgia',
             fontStyle: 'italic',
           },
           i: {
               fontWeight: '400',
               color: '#EF4444',
-              fontFamily: 'Bitter',
+              fontFamily: 'Georgia',
               fontStyle: 'italic',
           },
+        em: {
+            fontWeight: '400',
+            fontFamily: 'Georgia',
+            fontStyle: 'italic',
+        },
           h1: {
              fontFamily: 'Bitter',
           },
@@ -93,6 +98,6 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [require("daisyui"), require("@tailwindcss/typography"),],
   purge: ["./src/**/*.js", "./src/**/*.njk", "./src/**/*.svg", "./src/**/*.md"],
 };

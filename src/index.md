@@ -46,6 +46,8 @@ Here are the blogs and sites I like to read.
 * [Ramses](https://ramses.blog/) he talks about learning in general but also there's web stuff
 * [Salman's Blog](https://salman.io/blog/) His personal blog.
 * [Aegir](http://aegir.org/archive/) fun little short notes
+* [Kottke](https://kottke.org/) his blog is old
+* [Marius Masalar](https://mariusmasalar.me/) he writes mainly about tech but also about blogging sites
 
 ### Journals
 * [Columbia Journalism Review](https://www.cjr.org/)
@@ -86,6 +88,9 @@ Here are the blogs and sites I like to read.
 * [Una](https://una.im/) really nice blog, writes about web design
 * [Iheanyi's blog](https://iheanyi.com/journal/)
 * [Jecelyn's blog](https://jec.fyi/blog) really helpful blog 
+* [Simone Magurno](https://magur.no/)
+* [Fem Geek](https://www.femgeek.co.uk/) she is a designer but also photographer I found her [tutorial](https://www.femgeek.co.uk/posts/2020-12-30-how-to-show-posts-on-the-homepage-of-eleventy-base-blog/) really useful for my community site.
+
 
 ### Making Stuff
 * [Maxim's Blog](https://maxoffsky.com/category/code-blog/) They create interesting stuff
@@ -94,11 +99,15 @@ Here are the blogs and sites I like to read.
 * [Michael McBride](https://medium.com/@MichaelMcBride)
 
 ### Philosophy
-* [Will Wilkinson](https://willwilkinson.net/)
 * [Embedded in Academia](https://blog.regehr.org/) 
+* [Michael Huemer](http://fakenous.net/): he is one of my favorite modern philosophers (although I still am not convinced by libertarianism and most likely never will be)
+
+### Science
+* [Adam Ruben](https://www.science.org/content/author/adam-ruben) he writes hilarious science posts. I remember loving his comedic column in community college.
+* [Phil Plait Bad Astronomy](https://www.syfy.com/tags/bad-astronomy)
 
 ### Not Blogs
-[Interviews of People](https://www.theframeworkproject.com/)
+* [Interviews of People](https://www.theframeworkproject.com/)
 
 ### Resources
 
@@ -122,7 +131,7 @@ __________________
 
 listen friend, you've made it this far in the page and I am so proud of you. I spent a heckn' lot of time filling this page up with words so thank you for reading them. And if you want to read more words written by me (because this little page just doesn't have enough content), why not follow me elsewhere?
 
-[twitter](https://twitter.com/smolcodes) [Buy Me a Coffee](https://ko-fi.com/softthemes) [Ask Me Anything](http://localhost:8080) [Check out my portfolio](https://smolcodes.netlify.app/) 
+[twitter](https://twitter.com/smolcodes) [Buy Me a Coffee](https://ko-fi.com/softthemes) [Ask Me Anything](https://rep.ly/smolcodes) [Check out my portfolio](https://smolcodes.netlify.app/) 
 ________________
 
 ## [Learn Sign Language With Me](https://wpclipart.com/sign_language/American_Sign_Language_Alphabet.png)

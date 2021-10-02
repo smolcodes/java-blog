@@ -16,13 +16,13 @@
   </head>
   <body class="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %} bg-gray-100 font-sans leading-normal tracking-normal overflow-x-hidden w-full ">
   <a class="sr-only focus:not-sr-only" href="#main"> Skip to main</a>
-            <main id="main" class="flex flex-wrap">
+            <main class="flex flex-wrap">
                  <aside class="md:h-full pt-10 w-full md:w-2/6">
         <div class="md:float-right md:mx-auto md:fixed mt-10 md:w-6/12">
               {% include "partials/navigation.njk" %}
               </div>
             </aside>
-        <section class="md:w-4/6 bg-gray-50 z-10 overflow-hidden">
+        <section id="main" class="md:w-4/6 bg-gray-50 z-10 overflow-hidden">
          {% include "partials/page-header.njk" %} 
          <div class="px-4 md:px-0 max-w-6xl mx-auto  -mt-20 md:-mt-28 mb-32">
         <div class="mx-0 sm:mx-6">

@@ -19,7 +19,7 @@ module.exports = function (eleventyConfig) {
     //html minifier
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
       // Eleventy 1.0+: use this.inputPath and this.outputPath instead
-      if (outputPath.endsWith(".html")) {
+      if (outputPath && outputPath.endsWith(".html")) {
         let minified = htmlmin.minify(content, {
           useShortDoctype: true,
           removeComments: true,
@@ -145,7 +145,6 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/css");
-   eleventyConfig.addPassthroughCopy('src/admin');
 
   eleventyConfig.setTemplateFormats(["jpg", "png", "webp", "md", "njk", "html"]);
   return {
