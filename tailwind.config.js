@@ -58,6 +58,14 @@ module.exports = {
             color: '#EF4444',
             },
           },
+          kbd: {
+            backgroundColor: '#63B3ED',
+            fontWeight: '700',
+            borderColor: '#2A4365',
+            borderRadius: '5px',
+            borderWidth: '2px',
+            padding:'3px 6px',
+          },
           blockquote: {
             borderLeftColor: '#F59E0B',
             borderLeftWidth: '4px',
