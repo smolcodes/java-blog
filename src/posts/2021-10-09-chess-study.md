@@ -30,6 +30,6 @@ Could I play Chess online and never see a human being ever again? Of course. And
 
 Even with all this tech, with all these digital distractions, humans are still humans. We still seak each other.
 
-It is not in our nature to be complacent. Social media is new but one day we will get used to it. And we will get bored of these marketers' cheap tricks. We'll get tired of the influencers, of the addictive nature of gluing our eyes to a glass screen. And we'll move on. Some of us are already starting to. The new will replace the old. Sure right now we worry about Big Tech but around the corner somewhere not too far in the distance, there'll be something else to be terrify us. 
+It is not in our nature to be complacent. Social media is new but one day we will get used to it. And we will get bored of these marketers' cheap tricks. We'll get tired of the influencers, of the addictive nature of gluing our eyes to a glass screen. And we'll move on. Some of us are already starting to. The new will replace the old. Sure right now we worry about Big Tech but around the corner somewhere not too far in the distance, there'll be something else to terrify us. 
 
 As long as Chess exists, there will be someone who will want to play it the 'ol analog way. As long as people exist, they will want to see each other and no matter how much Techies want to delude themselves into believing they have this vast paramount control over our existance - they don't. We have much to fear but I don't think technology turning us into hermits is one of them.
