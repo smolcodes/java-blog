@@ -13,10 +13,16 @@ const w3DateFilter = require('./src/filters/w3-date-filter.js');
 // Create a helpful production flag
 const isProduction = process.env.NODE_ENV === 'production';
 
+// Embed Media
+const embeds = require("eleventy-plugin-embed-everything");
+
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
 
 module.exports = function (eleventyConfig) {
-    //html minifier
+  //Embed Media
+  eleventyConfig.addPlugin(embeds);
+  
+  //html minifier
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
       // Eleventy 1.0+: use this.inputPath and this.outputPath instead
       if (outputPath && outputPath.endsWith(".html")) {

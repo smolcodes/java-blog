@@ -36,6 +36,7 @@
     "cross-env": "^7.0.3",
     "css-loader": "^5.2.7",
     "daisyui": "^1.14.2",
+    "eleventy-plugin-embed-everything": "^1.13.3",
     "html-minifier": "^4.0.0",
     "install": "^0.13.0",
     "lodash": "^4.17.21",
