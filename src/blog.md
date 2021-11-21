@@ -13,4 +13,5 @@ eleventyNavigation:
   title: 📓 blog
   order: 1
 ---
-A notebook of sorts. Let's put a pin in everything. 
+
+<span class="my-10 bg-purple-700 text-2xl p-4">A notebook of sorts. Let's put a pin in everything.</span>

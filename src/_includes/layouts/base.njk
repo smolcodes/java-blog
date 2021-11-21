@@ -7,24 +7,76 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {% include "partials/meta-info.njk" %}
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
-<script async
-  src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+ <script>
+  MathJax = {
+    loader: {load: ['a11y/semantic-enrich']},
+    options: {
+        a11y: {
+      speech: true,                      // switch on speech output
+      braille: true,                     // switch on Braille output
+      subtitles: true,                   // show speech as a subtitle
+      viewBraille: false,                // display Braille output as subtitles
+
+      backgroundColor: 'Blue',           // color for background of selected sub-expression
+      backgroundOpacity: .2,             // opacity for background of selected sub-expression
+      foregroundColor: 'Black',          // color to use for text of selected sub-expression
+      foregroundOpacity: 1,              // opacity for text of selected sub-expression
+
+      highlight: 'None',                 // type of highlighting for collapsible sub-expressions
+      flame: false,                      // color collapsible sub-expressions
+      hover: false,                      // show collapsible sub-expression on mouse hovering
+
+      treeColoring: false,               // tree color expression
+
+      magnification: 'None',             // type of magnification
+      magnify: '400%',                   // percentage of magnification of zoomed expressions
+      keyMagnifier: false,               // switch on magnification via key exploration
+      mouseMagnifier: false,             // switch on magnification via mouse hovering
+      align: 'top',                      // placement of magnified expression
+
+      infoType: false                    // show semantic type on mouse hovering
+      infoRole: false,                   // show semantic role on mouse hovering
+      infoPrefix: false,                 // show speech prefixes on mouse hovering
+    },
+      menuOptions: {
+      settings: {
+        assistiveMml: true;   // true to enable assitive MathML
+        collapsible: false;   // true to enable collapsible math
+        explorer: false;      // true to enable the expression explorer
+      }
+    },
+      sre: {
+        speech: 'shallow'  // one of: 'deep', 'shallow', or 'none'
+      },
+      renderActions: {
+        //
+        // Force speech enrichment regardless of the menu settings
+        //
+        enrich: {'[+]': [
+          function (doc) {doc.enrich(true)},
+          function (math, doc) {math.enrich(doc, true)}  
+        ]}
+      }
+    },
+    tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+  };
+  </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
  <link rel="stylesheet" href="/assets/main.bundle.css">
  <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/healyicon.css">
   </head>
-  <body class="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %} bg-gray-100 font-sans leading-normal tracking-normal overflow-x-hidden w-full ">
+  <body class="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %} font-sans leading-normal tracking-normal overflow-x-hidden w-full">
   <a class="sr-only focus:not-sr-only" href="#main"> Skip to main</a>
-            <main class="flex flex-wrap">
-                 <aside class="md:h-full pt-10 w-full md:w-2/6">
-        <div class="md:float-right md:mx-auto md:fixed mt-10 md:w-6/12">
+            <main class="flex flex-wrap bg-yellow-50 container mx-auto px-4">
+              {% include "partials/page-header.njk" %} 
+           <aside class="md:h-full pt-10 w-full md:w-2/6">
+        <div class="md:float-left md:mx-auto mt-10">
               {% include "partials/navigation.njk" %}
               </div>
             </aside>
-        <section id="main" class="md:w-4/6 bg-gray-50 z-10 overflow-hidden">
-         {% include "partials/page-header.njk" %} 
-         <div class="px-4 md:px-0 max-w-6xl mx-auto  -mt-20 md:-mt-28 mb-32">
+        <section id="main" class="md:w-4/6 z-10 overflow-hidden border-l-2 border-yellow-400">
+         <div class="px-4 md:px-0 max-w-6xl mx-auto mb-32">
         <div class="mx-0 sm:mx-6">
         {% block content %}
         {% endblock %}

@@ -47,16 +47,23 @@ module.exports = {
             fontFamily: 'Bitter',
          },
           a: {
-            backgroundColor: '#FFFBEB',
+            backgroundColor: '#FDE68A',
             fontWeight: '700',
             color: '#6B7280',
             transition: '1s',
+            borderColor: '#F59E0B',
             borderRadius: '5px',
+            borderWidth: '2px',
             padding:'3px 6px',
             '&:hover': {
             background: '#FEF2F2',
             color: '#EF4444',
             },
+          },
+          hr: {
+            borderColor: '#F59E0B',
+            color: '#F59E0B',
+            borderWidth: '2px',
           },
           kbd: {
             backgroundColor: '#63B3ED',

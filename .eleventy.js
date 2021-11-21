@@ -131,12 +131,57 @@ module.exports = function (eleventyConfig) {
         collection.getFilteredByGlob('./src/books/*.md'));
     });
 
-    
-    // Returns books items, sorted by display order
+    // Returns javanotes items, sorted by display order
     eleventyConfig.addCollection('javanotes', collection => {
       return sortByDisplayOrder(
         collection.getFilteredByGlob('./src/javanotes/*.md'));
     });
+
+
+    // Get the first `n` elements of a collection.
+    eleventyConfig.addFilter("head", (array, n) => {
+      if(!Array.isArray(array) || array.length === 0) {
+        return [];
+      }
+      if( n < 0 ) {
+        return array.slice(n);
+      }
+  
+      return array.slice(0, n);
+    });
+  
+    // Return the smallest number argument
+    eleventyConfig.addFilter("min", (...numbers) => {
+      return Math.min.apply(null, numbers);
+    });
+  
+    function filterTagList(tags) {
+      return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
+    }
+
+  eleventyConfig.addFilter("filterTagList", filterTagList)
+// Tag Cloud
+  eleventyConfig.addCollection('tagList', collection => {
+    let tagSet = new Set();
+    collection.getAll().forEach(item => {
+      (item.data.tags || []).forEach(tag => tagSet.add(tag));
+    });
+
+    return filterTagList([...tagSet]);
+  });
+
+  // Returns Chess list
+     eleventyConfig.addCollection('chess', collection => {
+      return sortByDisplayOrder(
+        collection.getFilteredByGlob('./src/chess/*.md'));
+    });
+
+      // Returns Scrabble list
+      eleventyConfig.addCollection('scrabble', collection => {
+        return sortByDisplayOrder(
+          collection.getFilteredByGlob('./src/scrabble/*.md'));
+      });
+
   // Returns a collection of blog posts in reverse date order
   eleventyConfig.addCollection('blog', collection => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();

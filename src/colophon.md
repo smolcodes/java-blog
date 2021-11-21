@@ -50,3 +50,6 @@ Tools
 * Laptop: ThinkPad Yoga 14
 
 This site is hosted on Github and deployed with Netlify.
+____________
+Update 11/20/2021
+ [Background Image](https://unsplash.com/photos/RbbdzZBKRDY) by Nitish Meena

@@ -7,6 +7,14 @@ eleventyNavigation:
   order: 1
 ---
 
+## A Hot Mess of a Place
+
+You're viewing my digital [garden/sandbox](https://maggieappleton.com/garden-history) of sorts. Be warned it will change and break often.
+
+{% Image "https://pbs.twimg.com/media/EFwC00PWkAElLDC?format=jpg&name=large", "self portrait with bulbsaur" %}
+
+The first purpose of this place is to store my thoughts. Think of it as those post it notes stuck all over your house and office but in one place (I consider myself precocious when it comes to memory loss). The second purpose is to learn all things web developement. The best way to learn is to do. I need a place where I can break things. This is that place.
+
 ## Featured Tags
 
 These tags are an excuse to use gradients.
@@ -90,7 +98,13 @@ Here are the blogs and sites I like to read.
 * [Jecelyn's blog](https://jec.fyi/blog) really helpful blog 
 * [Simone Magurno](https://magur.no/)
 * [Fem Geek](https://www.femgeek.co.uk/) she is a designer but also photographer I found her [tutorial](https://www.femgeek.co.uk/posts/2020-12-30-how-to-show-posts-on-the-homepage-of-eleventy-base-blog/) really useful for my community site.
+* [Brian Lovin](https://brianlovin.com/) his site is just so fascinating. 
 
+### Accessible Web Stuff
+
+* [Tink](https://tink.uk/) front end web design and screen readers
+* [Adrian Roselli](https://adrianroselli.com/)
+* [La Lutiine du Web](https://www.lalutineduweb.fr/en/)
 
 ### Making Stuff
 * [Maxim's Blog](https://maxoffsky.com/category/code-blog/) They create interesting stuff
@@ -114,16 +128,6 @@ Here are the blogs and sites I like to read.
 * [Python Repl.it](https://www.codewithrepl.it/)
 
 :::
-
-________________
-
-## A Hot Mess of a Place
-
-You're viewing my digital garden/sandbox of sorts. Be warned it will change and break often.
-
-{% Image "https://pbs.twimg.com/media/EFwC00PWkAElLDC?format=jpg&name=large", "self portrait with bulbsaur" %}
-
-The first purpose of this place is to store my thoughts. Think of it as those post it notes stuck all over your house and office but in one place. I think it is important to have a part of the web where I don't need to be so polished. I can just be free to learn. This site has (probably mostly incomplete) thoughts on books I've read and whatever is clawing at my brain. The second purpose is to learn all things web developement. The best way to learn is to do. I need a place where I can break things. This is that place.
 
 __________________
 
