@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Palanquin', 'sans-serif'],
-        serif: ['Special Elite', 'cursive'],
+        serif: ['Georgia', 'serif'],
     },
     typography: {
       DEFAULT: {

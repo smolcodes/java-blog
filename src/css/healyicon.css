@@ -9,6 +9,10 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
   }
+header h1, nav div h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
 .prose {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
