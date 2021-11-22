@@ -6,4 +6,4 @@ eleventyNavigation:
   key: Media
   title: 📚 Media
 ---
-<span class="my-10 bg-purple-700 text-2xl p-4">Superfluous oppinions on media</span>
+<span class="bg-purple-700 md:text-2xl text-xl md:p-2 p-1">Superfluous oppinions on media</span>

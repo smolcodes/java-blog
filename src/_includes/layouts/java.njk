@@ -1,7 +1,9 @@
 {% extends "layouts/base.njk" %}
 {% set pageHeaderTitle = title %}
 {% set pageHeaderSummary %}
-  <p><b>Genre</b> {{ genre }} <b>Date</b> {{ completed }} <b>Rating</b> {{ rating }} </p>
+ <span  class="bg-purple-700 p-4">
+  <b>Genre</b> {{ genre }} <b>Date</b> {{ completed }} <b>Rating</b> {{ rating }} 
+  </span>
 {% endset %}
 {% block content %}
      <article class="prose lg:prose-xl w-full mx-auto mt-40">

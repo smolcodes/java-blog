@@ -6,4 +6,4 @@ eleventyNavigation:
   key: javanotes
   title: 📝Java Notes
 ---
-<span class="my-10 bg-purple-700 text-2xl p-4">Notes on CodeGym and other courses.</span>
+<span class="bg-purple-700 md:text-2xl text-xl md:p-2 p-1">Notes on CodeGym and other courses.</span>

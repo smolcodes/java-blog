@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Palanquin', 'sans-serif'],
-        serif: ['Bitter', 'serif'],
+        serif: ['Special Elite', 'cursive'],
     },
     typography: {
       DEFAULT: {
@@ -16,7 +16,7 @@ module.exports = {
           "code::after": false,
           "blockquote p:first-of-type::before": false,
           "blockquote p:last-of-type::after": false,
-          color: '#333',
+          color: '#374151',
           strong: {
             color: '#EF4444',
             fontWeight: '700',
@@ -34,22 +34,10 @@ module.exports = {
             fontFamily: 'Georgia',
             fontStyle: 'italic',
         },
-          h1: {
-             fontFamily: 'Bitter',
-          },
-          h2: {
-            fontFamily: 'Bitter',
-         },
-         h3: {
-          fontFamily: 'Bitter',
-          },
-          h4: {
-            fontFamily: 'Bitter',
-         },
           a: {
             backgroundColor: '#FDE68A',
             fontWeight: '700',
-            color: '#6B7280',
+            color: '#1F2937',
             transition: '1s',
             borderColor: '#F59E0B',
             borderRadius: '5px',

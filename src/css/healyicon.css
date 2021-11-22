@@ -3,9 +3,19 @@ body {
     background: url("/images/bg/orange.jpg");
     background-attachment: fixed;
     background-size: cover;
+    color: #374151;
     padding-top: 5%;
     padding-bottom: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
   }
+.prose {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.prose h1, .prose h2, .prose h3, .prose h4 {
+    font-family: 'Special Elite', cursive;
+}
 /**Healy Icons**/
 .healy {
   border-radius: 50%;
@@ -67,3 +77,14 @@ body {
 .healy-work {
     background-image: url("/images/icons/work.jpg");
 }
+@media (max-width: 768px) { 
+    body {
+        font-size: 12px;
+      }
+    .prose {
+        font-size: 18px;
+    }
+    .hidemobile {
+        display: none;
+    }
+ }
