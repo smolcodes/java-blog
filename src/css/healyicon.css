@@ -15,11 +15,28 @@ header h1, nav div h1 {
 }
 .prose {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 22px;
 }
 .prose h1, .prose h2, .prose h3, .prose h4 {
     font-family: 'Special Elite', cursive;
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Palanquin', 'sans-serif';
+}
+table, th, td {
+    border: 1px solid#B45309;
+  }
+th {
+    background: #A78BFA;
+    font-weight: bold;
+}
+th, td {
+    padding: .5rem;
+}
+tr:nth-child(even){background-color: #FDE68A;}
+
 /**Healy Icons**/
 .healy {
   border-radius: 50%;
