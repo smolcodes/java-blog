@@ -8,6 +8,13 @@ body {
     padding-bottom: 5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+    counter-reset: footnotes;
+  }
+  [role="doc-noteref"]::after {
+    counter-increment: footnotes;
+    content: '[' counter(footnotes) ']';
+    margin-left: 5px;
+    color: #dc2626;
   }
 header h1, nav div h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;

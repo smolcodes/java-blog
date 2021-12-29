@@ -63,3 +63,24 @@ This is the result
   </div>
  </div>
  </div>
+
+ _______________
+
+ ## Shortcodes for this site
+
+1. Footnotes 
+Place where you want the item to have the footnote to go
+
+```html
+{% raw %}{% footnoteref "anchorTag","Foot Note" %}Some Word{% endfootnoteref %}{% endraw %}
+```
+Place at end of post
+
+```html
+{% raw %}{% footnotes %}{% endraw %}
+```
+2. Images
+
+```html
+{% raw %}{% Image "catsarecute.jpg", "Description of said cute cat" %}{% endraw %}
+```

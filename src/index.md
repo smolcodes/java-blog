@@ -56,6 +56,7 @@ Here are the blogs and sites I like to read.
 * [Aegir](http://aegir.org/archive/) fun little short notes
 * [Kottke](https://kottke.org/) his blog is old
 * [Marius Masalar](https://mariusmasalar.me/) he writes mainly about tech but also about blogging sites
+* [Mandy Brown Books](https://aworkinglibrary.com/r)
 
 ### Journals
 * [Columbia Journalism Review](https://www.cjr.org/)
@@ -76,7 +77,7 @@ Here are the blogs and sites I like to read.
 
 ### Brain Stuff
 * [Neuro Plausible](https://neuroplausible.com/). They write about brain stuff.
-* [Slate Star Codex](https://slatestarcodex.com/author/admin/) I'm sad I discovered them after they left their blog. They have really interesting posts about psychology
+* [Scott Alexander](https://astralcodexten.substack.com/) I'm sad I discovered them after they left their blog. They have really interesting posts about psychology
 
 ### Web Stuff
 * [Monica's Blog](https://www.monica.dev/) She writes about software and other interesting stuff
@@ -99,12 +100,19 @@ Here are the blogs and sites I like to read.
 * [Simone Magurno](https://magur.no/)
 * [Fem Geek](https://www.femgeek.co.uk/) she is a designer but also photographer I found her [tutorial](https://www.femgeek.co.uk/posts/2020-12-30-how-to-show-posts-on-the-homepage-of-eleventy-base-blog/) really useful for my community site.
 * [Brian Lovin](https://brianlovin.com/) his site is just so fascinating. 
+* [Ste Grainer](https://stegrainer.com/)
+* [Stephen Ajulu](https://stephenajulu.com/)
+* [Rob Dip](https://robertodip.com/)
+* [Dominic Jay](https://dominickjay.com/)
+* [Kev](https://kevq.uk/posts/)
 
 ### Accessible Web Stuff
 
 * [Tink](https://tink.uk/) front end web design and screen readers
 * [Adrian Roselli](https://adrianroselli.com/)
 * [La Lutiine du Web](https://www.lalutineduweb.fr/en/)
+* [Accessibility Developer Guide](https://www.accessibility-developer-guide.com/)
+* [W3C Web Accessibility](https://www.w3.org/WAI/)
 
 ### Making Stuff
 * [Maxim's Blog](https://maxoffsky.com/category/code-blog/) They create interesting stuff
@@ -126,6 +134,7 @@ Here are the blogs and sites I like to read.
 ### Resources
 
 * [Python Repl.it](https://www.codewithrepl.it/)
+* [Learn Javascript](https://javascript.info/)
 
 :::
 
@@ -141,8 +150,6 @@ ________________
 ## [Learn Sign Language With Me](https://wpclipart.com/sign_language/American_Sign_Language_Alphabet.png)
 
 {% Image "https://wpclipart.com/sign_language/American_Sign_Language_Alphabet.png", "american sign language alphabet" %}
-
-You can find me [elsewhere on the internet](https://smolcodes.netlify.app/links/)
 
 Anyway, thanks for visiting :)
 ___________

@@ -3,7 +3,7 @@ title: Accessibility and Running
 description: 
 date: 2020-06-18
 tags:
-  ['pandemic journal','blogging','accessibility']
+  ['pandemic journal','blogging','accessibility','reading']
 ---
 
 ## Accessibility 

@@ -18,10 +18,9 @@ module.exports = {
           "blockquote p:last-of-type::after": false,
           color: '#374151',
           strong: {
-            color: '#EF4444',
-            fontWeight: '700',
-            fontFamily: 'Georgia',
-            fontStyle: 'italic',
+            color: '#7C3AED',
+            fontWeight: '900',
+            fontFamily: 'Palanquin',
           },
           i: {
               fontWeight: '400',
