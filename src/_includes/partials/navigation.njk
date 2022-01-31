@@ -4,7 +4,7 @@
         <div class="text-sm mx-auto text-gray-100">
           <h1 class="text-4xl font-serif mb-11 hidemobile"> <span class="healy healy-big healy-hey"></span> <span class="pr-5 pl-5 text-yellow-500"><a href="/">[ {{ site.title }} ]</a></span></h1>
        <p class="text-2xl text-gray-500 w-9/12 p-2 md:p-0 pb-5 hidemobile ">{{ site.description }}</p>
-         <ul class="mt-6 list-reset flex md:block border-t-2 border-yellow-200">
+         <ul class=" list-reset flex md:block border-t-2 border-yellow-200">
          {%- for entry in navPages %}
           <li>
           <a class="p-2 pb-8 md:p-5 md:w-full inline-block md:block hover:bg-gray-200 md:border-l-2 border-gray-100 md:hover:border-gray-500 text-gray-800 {% if entry.url == page.url %}bg-yellow-100 md:border-l-2 border-yellow-500{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
