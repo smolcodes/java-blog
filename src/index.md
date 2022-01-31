@@ -13,7 +13,7 @@ You're viewing my digital [garden/sandbox](https://maggieappleton.com/garden-his
 
 {% Image "https://pbs.twimg.com/media/EFwC00PWkAElLDC?format=jpg&name=large", "self portrait with bulbsaur" %}
 
-The first purpose of this place is to store my thoughts. Think of it as those post it notes stuck all over your house and office but in one place (I consider myself precocious when it comes to memory loss). The second purpose is to learn all things web developement. The best way to learn is to do. I need a place where I can break things. This is that place.
+Tomorrow this will look different.
 
 ## Featured Tags
 
@@ -58,7 +58,7 @@ Here are the blogs and sites I like to read.
 * [Marius Masalar](https://mariusmasalar.me/) he writes mainly about tech but also about blogging sites
 * [Mandy Brown Books](https://aworkinglibrary.com/r)
 
-### Journals
+### News (maybe??)
 * [Columbia Journalism Review](https://www.cjr.org/)
 * [Nieman Lab](https://www.niemanlab.org/)
 * [The Intercept](https://theintercept.com/)
@@ -135,14 +135,15 @@ Here are the blogs and sites I like to read.
 
 * [Python Repl.it](https://www.codewithrepl.it/)
 * [Learn Javascript](https://javascript.info/)
-
+* [Exercism for Learning to Program](https://exercism.org/)
+* [Better Dev JS](https://www.better.dev/welcome-to-getting-started-with-javascript)
 :::
 
 __________________
 
 ## Please Validate Me
 
-listen friend, you've made it this far in the page and I am so proud of you. I spent a heckn' lot of time filling this page up with words so thank you for reading them. And if you want to read more words written by me (because this little page just doesn't have enough content), why not follow me elsewhere?
+Listen friend, you've made it this far in the page and I am so proud of you. I spent a heckn' lot of time filling this page up with words so thank you for reading them. And if you want to read more words written by me (because this little page just doesn't have enough content), why not follow me elsewhere?
 
 [twitter](https://twitter.com/smolcodes) [Buy Me a Coffee](https://ko-fi.com/softthemes) [Ask Me Anything](https://rep.ly/smolcodes) [Check out my portfolio](https://smolcodes.netlify.app/) 
 ________________
