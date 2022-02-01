@@ -174,27 +174,12 @@ module.exports = function (eleventyConfig) {
     return filterTagList([...tagSet]);
   });
 
-  // Returns Chess list
-     eleventyConfig.addCollection('chess', collection => {
-      return sortByDisplayOrder(
-        collection.getFilteredByGlob('./src/chess/*.md'));
-    });
-
-      // Returns Scrabble list
-      eleventyConfig.addCollection('scrabble', collection => {
-        return sortByDisplayOrder(
-          collection.getFilteredByGlob('./src/scrabble/*.md'));
-      });
-
   // Returns a collection of blog posts in reverse date order
   eleventyConfig.addCollection('blog', collection => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
 
-  // Collections for Math posts
-  eleventyConfig.addCollection("math", function(collection) {
-    return collection.getFilteredByTags("math");
-});
+
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   eleventyConfig.setUseGitIgnore(false);
 
