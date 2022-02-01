@@ -1,6 +1,6 @@
 ---
 title: Printing Unique Characters
-completed: March, 2020
+date: 2020-03-12
 genre: Codegym
 rating: easy and fun
 summary: a practice in printing unique characters like forward slashes

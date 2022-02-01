@@ -1,6 +1,6 @@
 ---
 title: ETI5 THIS
-completed: June, 2020
+date: 2020-06-10
 genre: Codegym
 rating: awesome
 summary: getting a better understanding of this in java

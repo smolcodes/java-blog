@@ -10,7 +10,8 @@
 			<div class="p-8 mb-10 hover:bg-green-100 border-2 border-gray-500 bg-gray-100 rounded-t rounded-b overflow-hidden hover:shadow-md hover:shadow-2xl border-4 border-transparent hover:border-green-500 pb-5">
 			<div class="no-underline hover:no-underline">
           <h2 class="w-full" ><a class="text-4xl  font-bold font-serif text-green-600" href="{{ item.url }}">{{ item.data.title }}</a></h2>
-         <p class="mb-4"> <b>Genre: </b>{{ item.data.genre }} <b>Rating</b> {{ item.data.rating}} <b>Date</b> {{ item.data.completed }}</p>
+         <p class="mb-4"> <b>Genre: </b>{{ item.data.genre }} <b>Rating</b> {{ item.data.rating}} <b>Date</b>      <time datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
+</p>
        </div>
        </div>
           <a class="bg-yellow-100 p-2 hover:bg-yellow-300 mt-4"href="{{ item.url }}">Read 👉</a>

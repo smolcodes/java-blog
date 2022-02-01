@@ -137,8 +137,8 @@ module.exports = function (eleventyConfig) {
 
     // Returns javanotes items, sorted by display order
     eleventyConfig.addCollection('javanotes', collection => {
-      return sortByDisplayOrder(
-        collection.getFilteredByGlob('./src/javanotes/*.md'));
+        return [...collection.getFilteredByGlob('./src/javanotes/*.md')].reverse();
+
     });
 
 

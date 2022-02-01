@@ -1,6 +1,6 @@
 ---
 title: Multiplacation Table
-completed: February, 2020
+date: 2020-02-13
 genre: Codegym
 rating: easy
 summary: a practice in for loops

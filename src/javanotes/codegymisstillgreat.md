@@ -1,6 +1,6 @@
 ---
 title: Task Not Written Well
-completed: March, 2020
+date: 2020-03-06 
 genre: Codegym
 rating: not applicable
 summary: a tiny critique of CodeGym

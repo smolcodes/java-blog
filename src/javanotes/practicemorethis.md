@@ -1,6 +1,6 @@
 ---
 title: More Practice with This
-completed: July, 2020
+date: 2020-07-22
 genre: Codegym
 rating: awesome
 summary: getting a better understanding of this through more practice

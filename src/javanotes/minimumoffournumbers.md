@@ -1,6 +1,6 @@
 ---
 title: Minimum of Four Numbers
-completed: November, 2019
+date: 2019-11-10
 genre: Codegym
 rating: easy
 summary: Finding the mimimum of numbers hint no computers needed

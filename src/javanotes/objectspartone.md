@@ -1,6 +1,6 @@
 ---
 title: Understanding Objects Part One
-completed: October, 2019
+date: 2019-10-02
 genre: Codegym
 rating: easy
 summary: Using Starbucks to explain objects

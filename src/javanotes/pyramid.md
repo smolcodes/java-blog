@@ -1,6 +1,6 @@
 ---
 title: Star Pyramid
-completed: October, 2019
+date: 2019-09-06
 genre: Codegym
 rating: easy
 summary: Creating different pyramid shapes in java
