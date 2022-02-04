@@ -17,7 +17,7 @@ tags: ['tailwindcss','11ty']
 
 Watch this video and follow the instructions very carefully
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gE8hcdG2vsw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/embed/gE8hcdG2vsw
 
 The biggest part that tripped me up was the clean instruction in the package.json file. [rm rf](https://superuser.com/questions/204406/whats-the-equivalent-to-rm-rf-with-windows-command). These commands don't exist for Windows. The equivalent code is `rmdir /s /q`. Now the problem is while this is will work fine on your windows laptop, it will not run on Netlify. I don't have a good solution to this. The clean instruction basically deletes the directory (output fold) so 11ty can recreate one every time you build your site. My current solution is to just manually delete the file once in a while.
 

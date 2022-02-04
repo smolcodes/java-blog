@@ -1,6 +1,7 @@
 ---
 title: Foundations of Rehabilitation Teaching With Persons Who Are Blind or Visually Impaired
 author: S.V. and P.E. Ponchillia
+imageURL: https://www4.alibris-static.com/foundations-of-rehabilitation-teaching-with-persons-who-are-blind-or-visually-impaired/isbn/9780891289395_l.jpg
 date: 2021-06-20
 genre: books 📚
 rating: 😃

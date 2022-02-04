@@ -3,7 +3,7 @@ title: "Tailwind Thus Far"
 description: "Redesigning My Website Again"
 date: 2021-10-15 
 tags:
-  ['tailwind', 'web+design','css','life','reading']
+  ['tailwindcss', 'web+design','css','life','reading']
 ---
 
 I liked how organzied my previous site was but I also hated how clean it looked. It had no personality. I mean I don't know if it has any now. I literally slapped a cat in it and voila! *Personality*. It is structurally exactly the same. The only thing I changed was the look. 

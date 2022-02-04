@@ -1,5 +1,6 @@
 ---
 title: 'Hello There 👋'
+imageURL: /images/bg/breakfast.png
 layout: 'layouts/page.njk'
 eleventyNavigation:
   key: home

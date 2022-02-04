@@ -1,6 +1,7 @@
 ---
 title: Wintersmith
 author: Terry Pratchett
+imageURL: https://images-na.ssl-images-amazon.com/images/I/51YV209X3XL._SX339_BO1,204,203,200_.jpg
 date: 2020-07-15
 genre: books 📚
 rating: 😃

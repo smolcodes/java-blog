@@ -1,6 +1,7 @@
 ---
 title: The Quick and Easy Way to Effective Speaking 
 author: Dale Carnegie
+imageURL: https://images-na.ssl-images-amazon.com/images/I/51Pl1t-PmhL._SX305_BO1,204,203,200_.jpg
 date: 2020-08-23
 genre: books 📚
 rating: 😐

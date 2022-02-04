@@ -20,14 +20,18 @@ body {
     color: #dc2626;
   }
 header {
-    background: url("/images/bg/breakfast.png");
+    width: 100%;
+    margin-bottom:4%;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    clear: both;
+}
+#home header, #blog header,#media header, .media-content header  {
     background-position: right;
     background-repeat: no-repeat;
     background-size: 40%;
     width: 100%;
-    margin-bottom:4%;
-    position:relative;
-    clear: both;
 }
 header h1 {
     max-width: 60%;

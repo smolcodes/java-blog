@@ -1,6 +1,7 @@
 ---
 title: 'Blog'
 layout: 'layouts/feed.njk'
+imageURL: /images/bg/coffee.png
 pagination: 
   data: collections.blog
   size: 6

@@ -18,8 +18,6 @@ Image
 * [Old Book Illustrations Hot Air Balloon](https://www.oldbookillustrations.com/wp-content/uploads/2020/02/de-groof-falling.jpg)
 * [French Press](https://www.manypixels.co/gallery/?color=d5ab47&page=1&s=coffee)
 * [Contour Generated Background](https://makebackground.io/bk/contour/gray-contour-map-vintage-texture)
-* I think the sandwich illustration is by [Pablo Stanly](https://www.pablostanley.com/). I apoligize if the accredation is incorrect but I'll fix if notified or if I find the real source.
-* [Quote by Mega Agustina from the Noun Project](https://thenounproject.com/search/?q=quote&i=3138686)
 * [Latte by Smashicons](https://www.flaticon.com/authors/smashicons)
 * [Coffee](https://www.manypixels.co/gallery/?color=f7df74&page=1&s=coffee)
 * All other images on this site was created by me

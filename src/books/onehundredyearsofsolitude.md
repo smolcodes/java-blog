@@ -1,6 +1,7 @@
 ---
 title: Onehundred Years of Solitude
 author: Gabriel Garcia Marquez
+imageURL: https://images-na.ssl-images-amazon.com/images/I/5164gibO9ZL._SX327_BO1,204,203,200_.jpg
 date: 2021-03-15
 genre: books 📚
 rating: 😃

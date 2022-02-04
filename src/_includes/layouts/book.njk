@@ -2,16 +2,14 @@
  {% set pageHeaderTitle = title %}
  {% set pageHeaderImage = imageURL %}
 {% set pageHeaderSummary %}
-  <p class="mt-8">
-  <span  class="bg-purple-700 p-4">
+  <div class="mt-8 bg-purple-700 p-4 inline-block">
   <b>Author</b> {{ author }} <b>Date</b> <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time> <b>Rating</b> {{ rating }}<b>Recommend</b> {{ recommend }}
     {% if genres %}
       {% for genre in genres %}
-          <a class="inline-block m-1 bg-yellow-50 font-bold text-lg text-yellow-700 p-1 hover:bg-blue-700 hover:text-gray-50" href="/genre/{{ genre | slug }}/">#{{ genre | replace(' ', '') | capitalize }}</a>
+          <a class="inline-block font-bold text-lg text-yellow-700 p-1 hover:bg-blue-700 hover:text-gray-50" href="/genre/{{ genre | slug }}/">#{{ genre | replace(' ', '') | capitalize }}</a>
       {% endfor %}
   {% endif %}
-  </span>
- </p>
+ </div>
 {% endset %}
 {% block content %}
     <article class="prose lg:prose-xl w-full mx-auto">

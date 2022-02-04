@@ -84,3 +84,9 @@ Place at end of post
 ```html
 {% raw %}{% Image "catsarecute.jpg", "Description of said cute cat" %}{% endraw %}
 ```
+
+3. Add math
+
+Place &#92;&#92;( in front of the math and &#92;&#92;) at the end of the math for inline math.
+
+For stand alone use &#36;&#36; in the beginning and end.
