@@ -5,7 +5,7 @@ imageURL: https://images.unsplash.com/photo-1597742200037-aa4d64d843be?ixlib=rb-
 imageAlt: image of a scrabble board
 date: 2022-02-03
 tags:
-  ['tutorial', 'javascript']
+  ['scrabble', 'javascript']
 ---
 
 Someone on Quora asked the [question](https://www.quora.com/Is-Scrabble-more-about-strategy-or-knowledge): **Is scrabble more about tactics or knowledge?**
