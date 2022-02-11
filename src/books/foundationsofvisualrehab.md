@@ -40,27 +40,20 @@ A book is great not only because of how it is written but also when it was read.
 
 I started reading this book during my third month working at the Bank. This was my first job where I was being confronted with my crap eyesight almost every day. Clients were pissed at me because I was slow. When I took too long to read their IDs, they would berate me. Reading this book was like therapy. The Ponchillias truly understood the plight of those with low vision (hint: it's people, not the actual dissability). They brought up many points that I've tried to ignore (those who are congenitally blind can bo too reluctant to ask for help or too dependent on others for example). Anyway, below are my thoughts organized by sections.
 
-<div class="bg-base-100 collapse border rounded-box collapse-arrow" data-theme="bumblebee">
-  <input type="checkbox"> 
-  <h3 class="collapse-title">
+<details>
+<summary>
     Part 1: Profession of the Rehabilitation Teaching & Chapter 1 An Introduction to the Profession
-  </h3> 
-  <section class="collapse-content"> 
+</summary>
 
   To be quite honest, I don't really remember this chapter that well. Listening to a professionally read audiobook is very different from text to speach. To be sure, this technology has come a long way from when I was a child (as a dumb young fool, I refused to engage with text to speach). 
 
   I remember the book discussed Canada a bit but also the business side of the job. It talked about time management and how you might want to devote more time to a specific struggling client, but you have other clients to assist as well. The book stated you may have multiple clients a day in different areas so you must plan accordingly. 
-
-  </section>
-</div> 
-
-
-<div class="bg-base-100 collapse border rounded-box collapse-arrow">
-  <input type="checkbox"> 
-  <h3 class="collapse-title">
+  </details>
+  <details>
+ <summary>
   The Process of Rehabilitation: Chapters 4,5 and 6.
-  </h3> 
-  <section class="collapse-content"> 
+  </summary>
+
  This part I remember being quite laborious sounding. And very clerical. But I suppose no industry can escape paperwork's grip. I remember there was an example on writing lesson plans for things that didn't sound like they'd have a lesson plan ex: sweeping (this is a tad ironic as *I* learned from a CVRT how to sweep). There was countless examples of forms one may come accross, and kinds of information a CVRT should be aware of or leave for others (such as academic, medical, familial and recreational information).
 
  I found this part difficult to understand because as a sighted person, I'm used to seeing forms. Listening was difficult, especially because the monotone voice would trail from one word to the next. I should have gone back and maybe even slowed downthe text to speach.
@@ -68,32 +61,22 @@ I started reading this book during my third month working at the Bank. This was 
  The theories on adult learning were really interesting to me. This is the part of the book I want to go back to. I took a ton of notes but lost them.
 
  What was really refreshing to hear was the authors' awareness of the perspective of both the teacher and client. They brought up certain harmful perceptions that both parties might have and stressed caution and respect on the part of the instructor.
-
-  </section>
-</div> 
-
-<div class="bg-base-100 collapse border rounded-box collapse-arrow">
-  <input type="checkbox"> 
-  <h3 class="collapse-title">
+</details>
+<details>
+<summary>
    Communication Skills: Chapters 6-11
-  </h3> 
-  <section class="collapse-content"> 
+  </summary>
 
 I wonder if the Ponchillias owned an abacus. I'll be honest, I don't remeber this section too well (I was reading whilst falling asleep haha) but what I do remember is the abacus. I was shocked to learn it was being taught to the blind!
 
 To go back to a recurring theme here, I found the abacus section quite difficult because I didn't have an abacus infront of me to work through the lessons that were being taught. But I also didn't have photos of the abacus either.
 
 This section is also perhaps the most revealing of why I am hesitant to recommend this book. THere's a lot of tech used here that are no longer used. At some point the authors mentioned rotary phones (they were exiting popular existance by the time I was born). There was discussion of other oldfangled tech that I had never even heard of. The important takeaway though, is to make lessons relative to the learner. If you are teaching a client to navigate their home and they know B
-  </section>
-</div> 
-
-<div class="bg-base-100 collapse border rounded-box collapse-arrow">
-  <input type="checkbox"> 
-  <h3 class="collapse-title">
+</details>
+<details>
+<summary>
    Activities of Daily Living Skills: Chapters 12-16
-  </h3> 
-  <section class="collapse-content"> 
-
+  </summary>
 I found this section of the book to be the most difficult to read. To be a a CVRT requires a great deal of maturity and this section shows (excrutiatingly clearly) why. Three common instances displayed in the book struck me:
 
  _Appearance_: To be employable, one must be presentable. We can argue all day long about whether one aught to judge others by their appearance but this is unfortunately a fact of living in a society. The Ponchillias talked about assisting clients with fashion. They stated it is important to make sure the client is wearing what is in vogue (what shall aid them in acquiring a job and also not intrude on their self-worth). Fashion is so personal. I am not sure *how* I would even tell someone what to wear. The same with makeup.
@@ -105,18 +88,15 @@ There must be a great deal of trust between both the client and CVRT in both the
 _Insulin_: Some forms of vision loss is caused by diabetes (diabetic retinopathy). This can be from unmaintained diabetes where blood sugars are not always carefully watched. This eye condition is rare and the progression of eye loss can be abated but not cured. Clients with diabetes might need to know how to monitor their glucose levels and inject insulin. They would also need to know how to take other necessary medications. And when teaching them, it is important to have sugar on hand. All of this sounds like quite a lot of responsiblity to me. Reading this part gave me fear. *What if I gave them the wrong amount of insulin?* This is an odd fear to have since I don't plan to a CVRT but also because the CVRT would work closely with a physician. They might not even administer medcation to the client and instead guide the physician in aiding the client.  
 
 I loved the section about cooking and orienting. The general idea seemed to be use what the client enjoys to help them become independent. Essentially have them direct their learning. Clients might be more excited to learn if they are allowed to take initiative. The point of the job after all is to help the client live the life the client wishes to live-not what the CVRT *thinks* they should live. The book discussed picking out cooking food the client liked or doing a hobby with them that they enjoyed.
-  </section>
-</div> 
 
-<div class="bg-base-100 collapse border rounded-box collapse-arrow">
-  <input type="checkbox"> 
-  <h3 class="collapse-title">
+</details> 
+<details>
+<summary>
    The Practice of Rehabilitation: Chapter 17
-  </h3> 
-  <section class="collapse-content"> 
+  </summary>
+  
 I am quite an embarassement because I ...uhhh...don't really remember this chapter.
-  </section>
-</div> 
+</details>
 
 ## Conclusion
 

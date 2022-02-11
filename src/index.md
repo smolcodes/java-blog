@@ -138,6 +138,11 @@ Here are the blogs and sites I like to read.
 * [Learn Javascript](https://javascript.info/)
 * [Exercism for Learning to Program](https://exercism.org/)
 * [Better Dev JS](https://www.better.dev/welcome-to-getting-started-with-javascript)
+
+### Chess
+
+* [Marcus Buffet](https://mbuffett.com/posts/)
+* [Matt Plays Chess](https://mattplayschess.com/)
 :::
 
 __________________
