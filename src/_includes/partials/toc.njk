@@ -1,0 +1,9 @@
+{% set toclist = content | toc | safe %}
+{% if toclist.length > 23 %}
+  <aside class="post-toc">
+    <details id="toc-list" class="post-toc__list callout" aria-hidden="true">
+    <summary>Table of Contents</summary>
+      {{ toclist }}
+    </details>
+  </aside>
+{% endif %}

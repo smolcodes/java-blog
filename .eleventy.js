@@ -5,6 +5,21 @@ const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const slugify = require("slugify");
 const Image = require("@11ty/eleventy-img");
 const sharp = require("sharp");
+const pluginTOC = require('eleventy-plugin-toc')
+const markdownItAnchor = require('markdown-it-anchor')
+
+const mdOptions = {
+  html: true,
+  breaks: true,
+  linkify: true,
+  typographer: true
+}
+const mdAnchorOpts = {
+  permalink: true,
+  permalinkClass: 'anchor-link',
+  permalinkSymbol: '#',
+  level: [1, 2, 3, 4]
+}
 
 // Filters
 const dateFilter = require('./src/filters/date-filter.js');
@@ -53,6 +68,7 @@ module.exports = function (eleventyConfig) {
     };
     eleventyConfig.setLibrary("md", markdownIt(options)
     .use(markdownItFootnote)
+    .use(markdownItAnchor, mdAnchorOpts)
     .use(markdownItContainer, 'callout')
     .use(markdownItContainer, 'callout-yellow')
     .use(markdownItContainer, 'callout-blue')
@@ -61,6 +77,7 @@ module.exports = function (eleventyConfig) {
     .use(markdownItContainer, 'callout-green')
     .use(markdownItContainer, 'warning')
     );
+    eleventyConfig.addPlugin(pluginTOC)
 	 //shortcodes
    eleventyConfig.addNunjucksAsyncShortcode("Image", async (src, alt) => {
     if (!alt) {

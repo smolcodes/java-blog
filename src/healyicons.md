@@ -90,3 +90,7 @@ Place at end of post
 Place &#92;&#92;( in front of the math and &#92;&#92;) at the end of the math for inline math.
 
 For stand alone use &#36;&#36; in the beginning and end.
+
+4. Add table of content
+
+Place <code>toc: "true"</code> in front matter

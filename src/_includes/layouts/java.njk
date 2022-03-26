@@ -1,7 +1,7 @@
 {% extends "layouts/base.njk" %}
 {% set pageHeaderTitle = title %}
 {% set pageHeaderSummary %}
- <span  class="bg-purple-700 p-4">
+ <span  class="rounded-3xl bg-purple-700 p-4">
   <b>Genre</b> {{ genre }} <b>Date</b> <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
 <b>Rating</b> {{ rating }} 
   </span>

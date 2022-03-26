@@ -4,14 +4,12 @@ body, html {
     padding: 0px;
 }
 body {
-    background-image: url("/images/bg/contour.png");
-    background-attachment: fixed;
-    background-size: cover;
     color: #374151;
     padding-bottom: 5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     counter-reset: footnotes;
+    background: rgb(255,237,213);
   }
   [role="doc-noteref"]::after {
     counter-increment: footnotes;
@@ -21,13 +19,32 @@ body {
   }
 header {
     width: 100%;
+    background-image: linear-gradient(
+  45deg,
+  hsl(255deg 43% 68%) 0%,
+  hsl(283deg 37% 67%) 11%,
+  hsl(312deg 39% 69%) 22%,
+  hsl(331deg 52% 73%) 33%,
+  hsl(345deg 62% 77%) 44%,
+  hsl(357deg 68% 80%) 56%,
+  hsl(8deg 72% 82%) 67%,
+  hsl(17deg 72% 82%) 78%,
+  hsl(25deg 69% 84%) 89%,
+  hsl(33deg 62% 85%) 100%
+);
     margin-bottom:4%;
+    background-repeat: repeat;
+    min-height: 25%;
+    white-space: normal;
+}
+header .headerimage  {
     background-size: cover;
     background-position: center;
     position:relative;
     clear: both;
+    width: 100%;
 }
-#home header, #blog header,#media header, .media-content header  {
+#home header .headerimage , #blog header .headerimage ,#media header .headerimage , .media-content header .headerimage  {
     background-position: right;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -46,6 +63,15 @@ header h1, nav div h1 {
 }
 .prose h1, .prose h2, .prose h3, .prose h4 {
     font-family: 'Special Elite', cursive;
+}
+.prose ul, .prose ul li {list-style-type: none;}
+
+.prose ul li::before {
+    content: '✨';
+    background-color: transparent;
+    position: absolute;
+    padding-right: 2em;
+    margin-top: -1em;
 }
 table {
     border-collapse: collapse;

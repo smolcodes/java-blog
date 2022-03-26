@@ -5,7 +5,7 @@ layout: 'layouts/page.njk'
 eleventyNavigation:
   key: home
   title: 🐀 Home
-  order: 1
+  order: 0
 ---
 
 ## A Hot Mess of a Place
@@ -22,19 +22,19 @@ These tags are an excuse to use gradients.
 
 <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
   <a href="/tag/languages/">
-  <div class="bg-gradient-to-r from-green-400 to-blue-500 rounded-t rounded-b transition-shadow shadow-md hover:shadow-2xl text-center p-12"><p class="text-4xl text-white">Language</p></div>
+  <div class="hover:bg-gradient-to-r hover:from-purple-300 hover:to-orange-100 bg-gradient-to-r from-green-400 to-blue-500 rounded-t rounded-b transition-shadow shadow-md hover:shadow-2xl text-center p-12 text-4xl hover:text-gray-600 text-white"><p>Language</p></div>
   </a>
 
    <a href="/tag/11ty/">
-  <div class="bg-gradient-to-r from-yellow-400 to-red-600 rounded-t rounded-b transition-shadow shadow-md hover:shadow-2xl text-center p-12"><p class="text-4xl text-white">11ty</p></div>
+  <div class="hover:bg-gradient-to-r hover:from-purple-300 hover:to-orange-100 bg-gradient-to-r from-yellow-400 to-red-600 rounded-t rounded-b transition-shadow shadow-md hover:shadow-2xl text-center p-12 text-4xl hover:text-gray-600 text-white"><p>11ty</p></div>
   </a>
 
    <a href="/tag/accessibility/">
-  <div class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 rounded-t rounded-b transition-shadow shadow-md hover:shadow-2xl text-center p-12"><p class="text-4xl text-white">Accessibility</p></div>
+  <div class="hover:bg-gradient-to-r hover:from-purple-300 hover:to-orange-100 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 rounded-t rounded-b transition-shadow shadow-md hover:shadow-2xl text-center p-12 text-4xl hover:text-gray-600 text-white"><p>Accessibility</p></div>
   </a>
 
    <a href="/tag/life/">
-  <div class="bg-gradient-to-r from-pink-400 via-purple-500 to-green-400 rounded-t rounded-b transition-shadow shadow-md hover:shadow-2xl text-center p-12"><p class="text-4xl text-white">Life</p></div>
+  <div class="hover:bg-gradient-to-r hover:from-purple-300 hover:to-orange-100 bg-gradient-to-r from-pink-400 via-purple-500 to-green-400 rounded-t rounded-b transition-shadow shadow-md hover:shadow-2xl text-center p-12 text-4xl hover:text-gray-600 text-white"><p>Life</p></div>
   </a>
 </div>
 

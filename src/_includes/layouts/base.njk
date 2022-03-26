@@ -61,16 +61,17 @@
     tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
   };
   </script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script> 
+   <script src="https://cdn.tailwindcss.com"></script>
  <link rel="stylesheet" href="/assets/main.bundle.css">
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"> 
  <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
-     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" type="text/css" href="/css/healyicon.css">
+
+ <link rel="stylesheet" type="text/css" href="/css/healyicon.css">
   </head>
-  <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-sans leading-normal tracking-normal bg-gray-100 overflow-x-hidden w-full">
+  <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-sans leading-normal tracking-normal bg-orange-100 overflow-x-hidden w-full">
   <a class="sr-only focus:not-sr-only" href="#main"> Skip to main</a>
             <main>
                 {% include "partials/page-header.njk" %} 
@@ -80,7 +81,7 @@
               {% include "partials/navigation.njk" %}
               </div>
             </aside>
-        <section id="main" class="md:w-4/6 z-10 overflow-hidden bg-gray-50 md:border-2 md:border-gray-600 shadow-xl rounded">
+        <section id="main" class="md:w-4/6 z-10 overflow-hidden bg-gray-50 md:border-2 md:border-gray-600 shadow-xl rounded mt-0 md:-mt-64 lg:-mt-96">
          <div class="p-8 max-w-6xl mx-auto">
         {% block content %}
         {% endblock %}
