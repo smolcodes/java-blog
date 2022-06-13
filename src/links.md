@@ -1,0 +1,16 @@
+---
+title: 'Blog Roll and Links'
+metaDesc: 'links to stuff'
+layout: 'layouts/linkfeed.njk'
+imageURL: /images/bg/reading.png
+pagination: 
+  data: collections.links
+  size: 6
+permalink: '/links/{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
+paginationPrevText: 'Newer posts'
+paginationNextText: 'Older posts'
+paginationAnchor: '#post-list'
+eleventyNavigation:
+  key: links
+  title: Links
+---

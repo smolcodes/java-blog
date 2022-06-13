@@ -71,17 +71,17 @@
 
  <link rel="stylesheet" type="text/css" href="/css/healyicon.css">
   </head>
-  <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-sans leading-normal tracking-normal bg-orange-100 overflow-x-hidden w-full">
+  <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-sans leading-normal tracking-normal bg-purple-100 overflow-x-hidden w-full">
   <a class="sr-only focus:not-sr-only" href="#main"> Skip to main</a>
-            <main>
+            <main class="container pt-24">
                 {% include "partials/page-header.njk" %} 
-            <div class="container flex flex-wrap mx-auto">
+            <div class="flex flex-wrap mx-auto">
            <aside class="md:h-full pt-10 w-full md:w-2/6">
-        <div class="md:float-left md:mx-auto mt-10">
+        <div class="md:float-left md:mx-auto mt-24">
               {% include "partials/navigation.njk" %}
               </div>
             </aside>
-        <section id="main" class="md:w-4/6 z-10 overflow-hidden bg-gray-50 md:border-2 md:border-gray-600 shadow-xl rounded mt-0 md:-mt-64 lg:-mt-72 xl:-mt-96">
+        <section id="main" class="md:w-4/6 z-10 overflow-hidden bg-gray-50 md:border-2 md:border-gray-600 shadow-xl rounded">
          <div class="p-8 max-w-6xl mx-auto">
         {% block content %}
         {% endblock %}

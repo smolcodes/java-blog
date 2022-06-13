@@ -152,6 +152,12 @@ module.exports = function (eleventyConfig) {
         collection.getFilteredByGlob('./src/books/*.md'));
     });
 
+    // Returns links items, sorted by display order
+    eleventyConfig.addCollection('links', collection => {
+      return sortByDisplayOrder(
+        collection.getFilteredByGlob('./src/links/*.md'));
+    });
+
     // Returns javanotes items, sorted by display order
     eleventyConfig.addCollection('javanotes', collection => {
         return [...collection.getFilteredByGlob('./src/javanotes/*.md')].reverse();

@@ -9,7 +9,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     counter-reset: footnotes;
-    background: rgb(255,237,213);
+    background-image: url("/images/bg/sssquiggly.svg");
   }
   [role="doc-noteref"]::after {
     counter-increment: footnotes;
