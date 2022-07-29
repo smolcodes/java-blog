@@ -1,13 +1,15 @@
+    {% if pageHeaderImage %}
     <style>
     header .headerimage { background-image: 
             url("{{ pageHeaderImage }}");
     }
     </style>
-    <header id="header" class="mx-auto rounded-xl mb-5 md:mb-20 bg-gray-400">
+    {% endif %}
+    <header id="header" class="mx-auto rounded-xl mb-5">
     <div class="headerimage mx-auto break-normal text-gray-50">
     <div class="overlay">
-    <div class="container pt-12 pb-12">
-    <h1 class="text-slate-600 my-6 font-serif font-extrabold text-4xl md:text-6xl">
+    <div class="mx-6 pt-12 pb-12">
+    <h1 class="my-6 font-serif font-extrabold text-4xl md:text-6xl">
       <span class="py-2 px-6 inline-block my-6 text-white">{{ pageHeaderTitle }}</span>
     </h1>
     {% if pageHeaderSummary %}

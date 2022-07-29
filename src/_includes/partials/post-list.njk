@@ -6,8 +6,8 @@
      <section>
         {% for item in postListItems %}
         {% set currentPost = post.data.post %}
-        <article class="mb-8 border-b-2 border-gray-500">
-					<div class="hover:bg-yellow-100 border-4 border-gray-500 bg-gray-100 rounded-t rounded-b overflow-hidden hover:shadow-md hover:shadow-2xl hover:border-yellow-500 pb-5">
+        <article class="mb-8 border-b-2 border-yellow-500">
+					<div class="hover:bg-yellow-100 border-4 border-purple-700 bg-purple-100 rounded-t rounded-b overflow-hidden hover:shadow-md hover:shadow-2xl hover:border-yellow-500 pb-5">
 						<div class="no-underline hover:no-underline">
               {% if item.data.imageURL %}
               <div class="mx-auto max-h-56 overflow-hidden">
@@ -15,8 +15,8 @@
               </div>
             {% endif %}
             <div class="p-2 md:p-8">
-            <time class="serif text-sm" datetime="{{ item.data.date }}"> 🕒 {{ item.data.date | dateFilter }}</time>
-            <h2><a class="text-yellow-600 font-bold text-2xl md:text-4xl font-serif" href="{{ item.url }}">{{ item.data.title }}</a></h2>
+            <time class="serif text-sm text-white p-2 rounded-2xl bg-purple-600" datetime="{{ item.data.date }}"> 🕒 {{ item.data.date | dateFilter }}</time>
+            <h2 class="mt-4"><a class="font-bold text-2xl md:text-4xl font-sans font-extrabold" href="{{ item.url }}">{{ item.data.title }}</a></h2>
            </div>
          </div>
        </div>

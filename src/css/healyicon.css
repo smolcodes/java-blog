@@ -9,7 +9,21 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     counter-reset: footnotes;
-    background-image: url("/images/bg/sssquiggly.svg");
+    background-image: linear-gradient(
+        55deg,
+        hsl(240deg 74% 24%) 0%,
+        hsl(289deg 79% 23%) 26%,
+        hsl(316deg 70% 31%) 43%,
+        hsl(334deg 56% 42%) 56%,
+        hsl(350deg 49% 53%) 67%,
+        hsl(6deg 59% 61%) 76%,
+        hsl(19deg 70% 65%) 83%,
+        hsl(29deg 78% 70%) 90%,
+        hsl(40deg 83% 76%) 95%,
+        hsl(55deg 87% 83%) 100%
+      );
+      background-position: center;
+      background-attachment: fixed;
   }
   [role="doc-noteref"]::after {
     counter-increment: footnotes;
@@ -19,19 +33,7 @@ body {
   }
 header {
     width: 100%;
-    background-image: linear-gradient(
-  45deg,
-  hsl(255deg 43% 68%) 0%,
-  hsl(283deg 37% 67%) 11%,
-  hsl(312deg 39% 69%) 22%,
-  hsl(331deg 52% 73%) 33%,
-  hsl(345deg 62% 77%) 44%,
-  hsl(357deg 68% 80%) 56%,
-  hsl(8deg 72% 82%) 67%,
-  hsl(17deg 72% 82%) 78%,
-  hsl(25deg 69% 84%) 89%,
-  hsl(33deg 62% 85%) 100%
-);
+    background-image: url("/images/bg/design-tools.jpg");
     margin-bottom:4%;
     background-repeat: repeat;
     min-height: 25%;

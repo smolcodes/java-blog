@@ -4,7 +4,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 .post-content .overlay {
-  @apply bg-gray-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40;
+    @apply bg-gray-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40;
 }
 .prose blockquote {
       @apply border-l-4 border-purple-400 px-8 py-4 mb-4 rounded-lg bg-yellow-100 shadow-xl;
@@ -17,6 +17,15 @@ details summary {
 }
 details p {
   @apply py-2 px-5;
+}
+article h2 a:nth-child(2n+1) {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-purple-500;
+}
+article h2 a:nth-child(2n+2) {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-purple-200 to-blue-600;
+}
+article h2 a:nth-child(2n+3) {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-green-600;
 }
  .callout {
     @apply border-l-4 border-gray-400 px-8 py-4 mb-4 rounded-lg bg-gray-100 shadow-xl;
