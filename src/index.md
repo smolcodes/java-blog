@@ -45,14 +45,6 @@ ________________
 Listen friend, you've made it this far in the page and I am so proud of you. I spent a heckn' lot of time filling this page up with words so thank you for reading them. And if you want to read more words written by me (because this little page just doesn't have enough content), why not follow me elsewhere?
 
 [twitter](https://twitter.com/smolcodes) [Buy Me a Coffee](https://ko-fi.com/softthemes) [Ask Me Anything](https://rep.ly/smolcodes) [Check out my portfolio](https://smolcodes.netlify.app/) 
-
-________________
-
-## [Learn Sign Language With Me](https://wpclipart.com/sign_language/American_Sign_Language_Alphabet.png)
-
-{% Image "https://wpclipart.com/sign_language/American_Sign_Language_Alphabet.png", "american sign language alphabet" %}
-
-Anyway, thanks for visiting :)
 ___________
 
 [Previous](https://dg-webring.netlify.app/prev) [Next](https://dg-webring.netlify.app/next) [randome](https://dg-webring.netlify.app/random)
