@@ -66,6 +66,43 @@ This is the result
 
  _______________
 
+## General Style
+
+*italic* **bold**
+
+* this is
+* an
+    * unordered list
+1. One
+2. Two
+    1. Two point 1
+
+> This is a general quote
+
+::: callout-yellow
+This is a yellow call out. I think I should use this to point out something important
+:::
+
+::: callout-blue
+This is a blue call out. I use this as a warning for books but that's not really great. I need to figure this one out
+:::
+
+::: callout-pink
+This one is pink and it is the only obvious one, it is an important warning.
+:::
+
+::: callout-green
+This is a green call out. I use this as a warning for books but that's not really great. I need to figure this one out
+:::
+
+::: callout-purple
+This is a purple call out. I use this as a warning for books but that's not really great. I need to figure this one out
+:::
+
+
+
+________________
+
  ## Shortcodes for this site
 
 1. Footnotes 

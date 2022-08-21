@@ -6,24 +6,20 @@
      <section>
         {% for item in postListItems %}
         {% set currentPost = post.data.post %}
-        <article class="mb-8 border-b-2 border-yellow-500">
-					<div class="hover:bg-yellow-100 border-4 border-purple-700 bg-purple-100 rounded-t rounded-b overflow-hidden hover:shadow-md hover:shadow-2xl hover:border-yellow-500 pb-5">
-						<div class="no-underline hover:no-underline">
+					<article class="mb-8 border-b-2 border-purple-300 first:border-2 p-4 first:bg-purple-200 first:border-purple-600 hover:border-2 hover:bg-yellow-100 rounded-t rounded-b overflow-hidden first:shadow-md first:shadow-2xl first:shadow-purple-500/50 hover:shadow-md hover:shadow-xl hover:border-yellow-500 pb-5">
+						<div class="no-underline hover:no-underline flex flex-wrap">
               {% if item.data.imageURL %}
-              <div class="mx-auto max-h-56 overflow-hidden">
-              <img class="lazy w-full max-w-full h-auto" src="{{ item.data.imageURL}}" alt="{{ item.data.imageAlt }}">
+              <div class="mx-auto overflow-hidden md:flex-1 sm:w-full md:w-6/12 sm:h-24 md:h-2/5">
+              <img class="lazy w-full max-w-full h-auto rounded-t rounded-b" src="{{ item.data.imageURL}}" alt="{{ item.data.imageAlt }}">
               </div>
             {% endif %}
-            <div class="p-2 md:p-8">
+            <div class="md:p-8 flex-1">
             <time class="serif text-sm text-white p-2 rounded-2xl bg-purple-600" datetime="{{ item.data.date }}"> 🕒 {{ item.data.date | dateFilter }}</time>
-            <h2 class="mt-4"><a class="font-bold text-2xl md:text-4xl font-sans font-extrabold" href="{{ item.url }}">{{ item.data.title }}</a></h2>
+            <h2 class="mt-4"><a class="border-none font-bold text-2xl md:text-4xl font-sans font-extrabold" href="{{ item.url }}">{{ item.data.title }}</a></h2>
+              <p  class="text-gray-800 font-sans text-base mb-5">{{ item.data.description }}</p>
+            <a class="bg-yellow-100 p-2 hover:bg-yellow-300 mb-4"href="{{ item.url }}">Read 👉</a>
            </div>
          </div>
-       </div>
-       <div class="pt-12 pb-12">
-          <p  class="text-gray-800 font-sans text-base mb-5">{{ item.data.description }}</p>
-            <a class="bg-yellow-100 p-2 hover:bg-yellow-300 mb-4"href="{{ item.url }}">Read 👉</a>
-            </div>
       </article>
         {% endfor %}
      </section>

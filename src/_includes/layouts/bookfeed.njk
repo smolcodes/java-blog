@@ -6,22 +6,21 @@
 {% block content %}
       <section>
          {% for item in postListItems %}
-       <article class="pb-8 mb-8 border-b-2 border-gray-500 flex flex-wrap justify-center">
-            {% if item.data.imageURL %}
-            <div style="flex: 1 1 30%; padding: 0% 2%;">
-              <img class="rounded lazy w-full max-w-full h-auto shadow-lg" src="{{ item.data.imageURL}}" alt="{{ item.data.imageAlt }}">
-          </div>
+ 			<article class="mb-8 border-b-2 border-purple-300 first:border-2 p-4 first:bg-purple-200 first:border-purple-600 hover:border-2 hover:bg-yellow-100 rounded-t rounded-b overflow-hidden first:shadow-md first:shadow-2xl first:shadow-purple-500/50 hover:shadow-md hover:shadow-xl hover:border-yellow-500 pb-5">
+						<div class="no-underline hover:no-underline md:flex flex-wrap">
+              {% if item.data.imageURL %}
+              <div class="mx-auto overflow-hidden md:flex-1 sm:w-full md:w-6/12">
+              <img class="lazy w-full max-w-full h-auto rounded-t rounded-b" src="{{ item.data.imageURL}}" alt="{{ item.data.imageAlt }}">
+              </div>
             {% endif %}
-       <div class="content" style="flex: 1 1 70%;">
-		<div class="p-2 md:p-8 hover:bg-pink-100 border-4 border-gray-500 bg-gray-100 rounded-t rounded-b overflow-hidden hover:shadow-md hover:shadow-2xl hover:border-pink-500 pb-5">
-           <h2><a class="text-2xl md:text-4xl font-bold font-serif text-red-400" href="{{ item.url }}">{{ item.data.title }}</a></h2>
-          </div>
-       <div class="pt-12 pb-12">
-           <p  class="text-gray-800 font-serif text-base mb-5"> <b>Author: </b>{{ item.data.author }} <b>Genre</b> {{ item.data.genre}}</p>
-          <a class="bg-yellow-100 p-2 hover:bg-yellow-300 mb-4"href="{{ item.url }}">Read 👉</a>
+            <div class="md:p-8 flex-1 sm:w-full">
+            <span class="serif text-sm text-white p-2 rounded-2xl bg-purple-600" datetime="{{ item.data.date }}"><b>Genre</b> {{ item.data.genre }} <b>Rating</b> {{ item.data.rating }}</span>
+            <h2 class="mt-4"><a class="border-none font-bold text-2xl md:text-4xl font-sans font-extrabold" href="{{ item.url }}">{{ item.data.title }}</a></h2>
+              <p  class="text-gray-800 font-sans text-base mb-5">{{ item.data.description }}</p>
+            <a class="bg-yellow-100 p-2 hover:bg-yellow-300 mb-4"href="{{ item.url }}">Read 👉</a>
            </div>
-           </div>
- </article>
+         </div>
+      </article>
         {% endfor %}
         </section>
            {% if not tag %}

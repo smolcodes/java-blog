@@ -4,24 +4,8 @@ body, html {
     padding: 0px;
 }
 body {
-    color: #374151;
     padding-bottom: 5%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
     counter-reset: footnotes;
-    background-image: linear-gradient(
-        55deg,
-        hsl(240deg 74% 24%) 0%,
-        hsl(289deg 79% 23%) 26%,
-        hsl(316deg 70% 31%) 43%,
-        hsl(334deg 56% 42%) 56%,
-        hsl(350deg 49% 53%) 67%,
-        hsl(6deg 59% 61%) 76%,
-        hsl(19deg 70% 65%) 83%,
-        hsl(29deg 78% 70%) 90%,
-        hsl(40deg 83% 76%) 95%,
-        hsl(55deg 87% 83%) 100%
-      );
       background-position: center;
       background-attachment: fixed;
   }
@@ -59,21 +43,20 @@ header h1, nav div h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
-.prose {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 22px;
-}
 .prose h1, .prose h2, .prose h3, .prose h4 {
     font-family: 'Special Elite', cursive;
 }
 .prose ul, .prose ul li {list-style-type: none;}
 
 .prose ul li::before {
-    content: '✨';
-    background-color: transparent;
+    content: '';
+    background-color: #c084fc;
+    height:2px;
+    width: 1px;
     position: absolute;
-    padding-right: 2em;
-    margin-top: -1em;
+    padding-right: 1em;
+    margin-right: 4px;
+    margin-top: 2px;
 }
 table {
     border-collapse: collapse;

@@ -62,7 +62,6 @@
   };
   </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script> 
-   <script src="https://cdn.tailwindcss.com"></script>
  <link rel="stylesheet" href="/assets/main.bundle.css">
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,16 +70,16 @@
 
  <link rel="stylesheet" type="text/css" href="/css/healyicon.css">
   </head>
-  <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-sans leading-normal tracking-normal bg-purple-100 overflow-x-hidden">
+  <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-sans leading-normal tracking-normal bg-gradient-to-t from-purple-200 to-purple-50 overflow-x-hidden">
   <a class="sr-only focus:not-sr-only" href="#main"> Skip to main</a>
             <main class="lg:w-10/12 md:w-11/12 sm:w-full m-auto md:pt-14">
                 {% include "partials/page-header.njk" %} 
-            <div class="flex flex-col md:flex-row flex-grow flex-wrap mx-auto">
+            <div class="flex flex-col md:flex-row flex-grow flex-wrap mx-auto mt-20">
            <aside class="md:h-full md:w-2/6">
               {% include "partials/navigation.njk" %}
             </aside>
-        <section id="main" class="md:w-4/6 z-10 overflow-hidden bg-orange-50 shadow-xl rounded">
-         <div class="p-8 max-w-6xl mx-auto">
+        <section id="main" class="md:w-4/6 z-10 overflow-hidden mt-1/12 md:p-0 md:pl-10 ">
+         <div class="max-w-6xl mx-auto">
         {% block content %}
         {% endblock %}
         </div>
