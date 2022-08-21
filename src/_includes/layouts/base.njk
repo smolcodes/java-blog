@@ -70,7 +70,7 @@
 
  <link rel="stylesheet" type="text/css" href="/css/healyicon.css">
   </head>
-  <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-sans leading-normal tracking-normal bg-gradient-to-t from-purple-200 to-purple-50 overflow-x-hidden">
+  <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-sans leading-normal tracking-normal bg-contain bg-gradient-to-t from-purple-200 to-purple-50 overflow-x-hidden">
   <a class="sr-only focus:not-sr-only" href="#main"> Skip to main</a>
             <main class="lg:w-10/12 md:w-11/12 sm:w-full m-auto md:pt-14">
                 {% include "partials/page-header.njk" %} 

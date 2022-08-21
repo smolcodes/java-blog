@@ -15,6 +15,14 @@ body {
     margin-left: 5px;
     color: #dc2626;
   }
+  pre[class*="language-" ], code[class*="language-"]  {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+  }
 header {
     width: 100%;
     background-image: url("/images/bg/design-tools.jpg");
