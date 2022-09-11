@@ -11,7 +11,7 @@ tags:
 
 You're minding your business updaing 11ty with <code>npm i -D @11ty/eleventy@latest</code> when out of the blue you get this horrifying mess:
 
-::: callout
+```
 [11ty] \\?\C:\Users\mycomputer\Documents\java-blog\node_modules\sharp\build\Release\sharp-win32-x
 64.node
 [11ty]
@@ -31,7 +31,7 @@ You're minding your business updaing 11ty with <code>npm i -D @11ty/eleventy@lat
 [11ty]     at Module._compile (internal/modules/cjs/loader.js:1063:30)
 [11ty]     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
 ERROR: "build:eleventy" exited with 1.
-:::
+```
 
 You try all the suggestions save the last one, to no avail, the problem persists.
 

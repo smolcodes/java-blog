@@ -13,4 +13,6 @@ eleventyNavigation:
   key: javanotes
   title: 📝Java Notes
 ---
-<span class="rounded-3xl bg-purple-700 md:text-2xl text-xl md:p-2 p-1">Notes on CodeGym and other courses.</span>
+  <div class="mt-8 bg-purple-700 p-4 inline-block rounded-3xl">
+Notes on Codegym and Other Courses
+ </div>

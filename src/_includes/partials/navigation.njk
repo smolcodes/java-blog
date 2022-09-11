@@ -9,15 +9,15 @@
          <ul class="md:block flex flex-row justify-center">
          {%- for entry in navPages %}
           <li>
-          <a class="p-2 my-6 mr-2 text-gray-600 bg-purple-200 rounded-2xl md:p-5 inline-block  md:block hover:bg-yellow-100 hover:border-yellow-400 hover:shadow-lg hover:shadow-orange-400/50 hover:border-2 {% if entry.url == page.url %}border-2 text-gray-600 md:border-l-2 border-purple-500{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
+          <a class="p-2 my-5 mr-2 text-gray-600 bg-purple-200 rounded-2xl md:p-5 inline-block  md:block hover:bg-yellow-100 hover:border-yellow-400 hover:shadow-lg hover:shadow-orange-400/50 hover:border-2 {% if entry.url == page.url %}border-2 text-gray-600 md:border-l-2 border-purple-500{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
            </li>
                 {%- endfor %}
              </ul>
              </div>
    </nav>
-   <div class="w-full md:container mx-auto hidemobile">
+   <div class="hidemobile">
      <h2 class="text-4xl my-5 text-yellow-500 font-serif">All Tags</h2>
-     <p class="text-xl my-5">
-    {% for tag in collections.tagList %}{% set tagUrl %}/tag/{{ tag | slug }}/{% endset %} <a class="inline-block m-1 rounded-2xl bg-purple-600 font-bold text-xl text-yellow-100 p-2 hover:bg-blue-700 hover:text-gray-50" href="{{ tagUrl | url }}">{{ tag }}</a>{% endfor %}
+     <p class="text-sm my-2">
+    {% for tag in collections.tagList %}{% set tagUrl %}/tag/{{ tag | slug }}/{% endset %} <a class="inline-block m-1 rounded-2xl bg-purple-600 font-bold text-sm text-yellow-100 p-2 hover:bg-blue-700 hover:text-gray-50" href="{{ tagUrl | url }}">{{ tag }}</a>{% endfor %}
     </p>
 </div>

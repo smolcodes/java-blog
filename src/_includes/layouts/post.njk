@@ -6,11 +6,11 @@
 {% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
 {# Render post date and any tags that this post has been filed under #}
 {% set pageHeaderSummary %}
-     <time class="rounded-xl inline-block m-1 bg-blue-50 font-bold text-xl text-blue-800 p-2" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
+     <time class="rounded-xl inline-block m-1 bg-blue-50 font-bold text-sm text-blue-800 p-2" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
   {% if tags %}
     <span class="sr-only" id="tags-desc">Tags for this post</span>
       {% for tag in tags %}
-          <a class="rounded-xl inline-block m-1 bg-purple-700 font-bold text-xl text-yellow-200 p-2 hover:bg-blue-700 hover:text-gray-50" href="/tag/{{ tag | slug }}/">#{{ tag | replace(' ', ' ') | capitalize }}</a>
+          <a class="rounded-xl inline-block m-1 bg-purple-700 font-bold text-sm text-yellow-200 p-2 hover:bg-blue-700 hover:text-gray-50" href="/tag/{{ tag | slug }}/">#{{ tag | replace(' ', ' ') | capitalize }}</a>
       {% endfor %}
   {% endif %}
 {% endset %}
@@ -29,7 +29,7 @@
         id: '{{page.id}}'
     };
 </script>
-<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
+<script async type="text/javascript" src="https://talk.hyvor.com/web-api/embed"></script>
     {% if recommendedPosts %}
       <footer class="recommended-posts">
         {% set postListItems = recommendedPosts %}

@@ -1,13 +1,13 @@
 {# Only renders this section if there are links to render #}
 {% if pagination.href.next or pagination.href.previous %}
-      <nav class="flex justify-between " aria-label="Pagination links">
+      <nav class="flex justify-between text-gray-600" aria-label="Pagination links">
                {% if pagination.href.next %}
-          <a class="text-2xl p-2 hover:bg-yellow-100" href="{{ pagination.href.next }}{{ paginationAnchor }}" data-direction="forwards">
+          <a class="rounded-2xl bg-purple-600 font-bold text-sm text-yellow-100 p-4  hover:bg-yellow-100 hover:text-purple-600" href="{{ pagination.href.next }}{{ paginationAnchor }}" data-direction="forwards">
             ← {{ paginationNextText if paginationNextText else 'Next' }}
           </a>
         {% endif %}
              {% if pagination.href.previous %}
-          <a class="text-2xl p-2 hover:bg-yellow-100" href="{{ pagination.href.previous }}{{ paginationAnchor }}" data-direction="backwards">
+          <a class="rounded-2xl bg-purple-600 font-bold text-base text-yellow-100 p-4  hover:bg-yellow-100 hover:text-purple-600" href="{{ pagination.href.previous }}{{ paginationAnchor }}" data-direction="backwards">
             {{ paginationPrevText if paginationPrevText else 'Previous' }} →
           </a>
         {% endif %}

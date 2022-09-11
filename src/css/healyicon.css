@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 /**General CSS**/
 body, html {
     margin: 0px;
@@ -51,21 +54,10 @@ header h1, nav div h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
-.prose h1, .prose h2, .prose h3, .prose h4 {
-    font-family: 'Special Elite', cursive;
+article h1, article h2, article h3, article h4 {
+    font-family: 'Alfa Slab One', cursive;
 }
 .prose ul, .prose ul li {list-style-type: none;}
-
-.prose ul li::before {
-    content: '';
-    background-color: #c084fc;
-    height:2px;
-    width: 1px;
-    position: absolute;
-    padding-right: 1em;
-    margin-right: 4px;
-    margin-top: 2px;
-}
 table {
     border-collapse: collapse;
     width: 100%;

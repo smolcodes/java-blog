@@ -14,5 +14,6 @@ eleventyNavigation:
   title: 📓 blog
   order: 1
 ---
-
-<span class="bg-purple-700 md:text-2xl text-xl md:p-2 p-1">A notebook of sorts. Let's put a pin in everything.</span>
+<div class="mt-8 bg-purple-700 p-4 inline-block rounded-3xl">
+A Notebooks of Sorts.
+ </div>

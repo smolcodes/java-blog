@@ -33,20 +33,6 @@ module.exports = {
             fontFamily: 'Georgia',
             fontStyle: 'italic',
         },
-          a: {
-            backgroundColor: '#FDE68A',
-            fontWeight: '700',
-            color: '#1F2937',
-            transition: '1s',
-            borderColor: '#F59E0B',
-            borderRadius: '5px',
-            borderWidth: '2px',
-            padding:'3px 6px',
-            '&:hover': {
-            background: '#FEF2F2',
-            color: '#EF4444',
-            },
-          },
           hr: {
             borderColor: '#F59E0B',
             color: '#F59E0B',
