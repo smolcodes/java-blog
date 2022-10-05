@@ -43,7 +43,7 @@ module.exports = {
             fontWeight: '700',
             borderColor: '#2A4365',
             borderRadius: '5px',
-            borderWidth: '2px',
+            borderWidth: '1px',
             padding:'3px 6px',
           },
           blockquote: {
@@ -59,6 +59,9 @@ module.exports = {
              backgroundColor: '#E5E7EB',
              borderRadius: '5px',
              padding:'3px 6px',
+             borderColor: '#000',
+             borderRadius: '5px',
+             borderWidth: '1px',
            },
            pre: {
             boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',

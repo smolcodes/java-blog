@@ -1,7 +1,7 @@
 ---
 title: "The State of the Blog since March"
 description: "Thoughts on the site thus far"
-date: 2022-07-25
+date: 2022-10-01
 toc: "true"
 tags:
   ['11ty', 'tailwindcss','blogging']
@@ -21,7 +21,7 @@ I cleaned up a lot of duplicate HTML, CSS and JS. Right around March I started w
 
 I added [footnotes](https://github.com/KittyGiraudel/eleventy-plugin-footnotes) and [table of contents](https://github.com/jdsteinbach/eleventy-plugin-toc). 
 
-With the look and feel, I tried to give every page a more consistent appearance. Hopefully this page feels more unified.
+With the look and feel, I tried to give every page a more consistent appearance. I changed links, made the site overall more purple and slate. I also shrunk the font size. And most importantly I fixed how code appears in blog posts. Hopefully this page feels more unified.
 
 I made a ton of responsive fixes. One that was bothering me was specifically how to blog resized on mobile. I don't know why I find breakpoints difficult but hopefully I'll get better at them.
 
@@ -58,4 +58,35 @@ I wondered whether I should keep this to just books but then wondered where woul
 
 ## A blog post or a Java post or a media post? That is the question
 
-[Digital Gardens were all the rage a while back](https://joelhooks.com/digital-garden). There's steams, campfires and second brains. And the aim of all those *things* is to better organize content...I think. And this is what I try to do with my media list and my java notes. So when should I put something in those pages instead of the blog? The way I go about it is ease and frequency of reference. If I want to look up a book 8 years from now, it'll be hard from the blog because I'll have so many blog posts but from books it'll be much easier. I read more books than on my book section but I rarely publically write about them.
+[Digital Gardens were all the rage a while back](https://joelhooks.com/digital-garden). There's streams, campfires and second brains. And the aim of all those *things* is to better organize content...I think. And this is what I try to do with my media list and my java notes. So when should I put something in those pages instead of the blog? The way I go about it is ease and frequency of reference. If I want to look up a book 8 years from now, it'll be hard from the blog because I'll have so many blog posts but from books it'll be much easier. I read more books than on my book section but I rarely publically write about them.
+
+::: callout-blue
+## Reading on the Web
+* [BRIEF OF THE ONION AS AMICUS CURIAE IN SUPPORT OF PETITIONER](https://www.supremecourt.gov/DocketPDF/22/22-293/242292/20221003125252896_35295545_1-22.10.03%20-%20Novak-Parma%20-%20Onion%20Amicus%20Brief.pdf) The Supreme Court is back in session for round two of not giving af f*** about what its citizens think. Anyway, here's hoping they might overturn the decisions of the 6th circuit, if only to protect the *Onion's* paychecks.
+* [The Palmer Method](https://thepalmermethod.com/wp-content/uploads/2020/11/the-palmer-method-of-business-writing-free-pdf.pdf?204192&204192) my attempt at having better hand writing.
+* [How Managerial Aesthetics Explain Why Cities Can't Authentically Market Themselves](https://aaronrenn.substack.com/p/how-managerial-aesthetics-explain) fascinating read. 
+* [The Problem with the Conservative Party](https://joxleywrites.substack.com/p/the-problem-with-the-conservative?sd=pf) this article is from a British perspective which as an American is pretty cool. The gist is that the conservatives aren't attuned to actual problems. For what it's worth, meither are liberals. I mean, who actual wants to think about global warming?
+* [The Nature of Money](https://www.currentaffairs.org/2021/01/trumps-taxes-and-the-nature-of-money)
+8 [THE RISE AND FALL OF BITCOIN BILLIONAIRE ARTHUR HAYES](https://www.vanityfair.com/news/2021/02/the-rise-and-fall-of-bitcoin-billionaire-arthur-hayes) This article is quite dated. The man is actually doing well for himself right now. BitMex is still strong.
+
+## Reading off the Web
+* [ETHNOGRAPHIES OF POWER ETHNOGRAPHIESOF POWER](https://library.oapen.org/bitstream/handle/20.500.12657/57561/9781776146833.pdf?sequence=1&isAllowed=y)
+* [A Modest Proposal](https://www.readwritethink.org/sites/default/files/resources/30827_modestproposal.pdf) Heard about it in history class and now can say have read it.
+* [What we do in the shadows: dual industrial policy during the Thatcher governments, 1979–1990](https://arrow.tudublin.ie/cgi/viewcontent.cgi?article=1062&context=buschmanart) This is a fascinating take on neoliberalism.
+:::
+
+::: callout-yellow
+## Good finds around the web
+
+### Tools
+* [reading.supply](https://reading.supply/)
+* [Postulate](https://postulate.us/)
+* [Curius](https://curius.app/)
+* [Roadmap](https://roadmap.sh/)
+
+### Sites
+* [Lydia Hallie](https://www.lydiahallie.io/)
+* [Tania Melnyczuk](https://tania.co.za/)
+* [Sam Smith](https://smth.uk/)
+* [Madison Kanna](https://madisonkanna.com/)
+:::

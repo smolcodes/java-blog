@@ -4,20 +4,20 @@
  {% set pageHeaderSummary = content %}
  {% set postListItems = pagination.items %}
 {% block content %}
-      <section>
+      <section class="grid grid-cols-2 gap-6">
          {% for item in postListItems %}
- 			<article class="mb-8 border-b-2 border-purple-300 first:border-2 p-4 first:bg-purple-200 first:border-purple-600 hover:border-2 hover:bg-yellow-100 rounded-t rounded-b overflow-hidden first:shadow-md first:shadow-2xl first:shadow-purple-500/50 hover:shadow-md hover:shadow-xl hover:border-yellow-500 pb-5">
-						<div class="no-underline hover:no-underline md:flex flex-wrap">
+ 			<article class="border-b-2 border-purple-300 first:border-2 first:bg-purple-200 first:border-purple-600 hover:border-2 hover:bg-yellow-50 rounded-t rounded-b overflow-hidden first:shadow-md first:shadow-2xl first:shadow-purple-500/50 hover:shadow-md hover:shadow-xl hover:border-yellow-500 p-4">
+						<div class="no-underline md:flex md:items-start hover:no-underline">
               {% if item.data.imageURL %}
-              <div class="mx-auto overflow-hidden md:flex-1 sm:w-full md:w-6/12">
-              <img class="lazy w-full max-w-full h-auto rounded-t rounded-b" src="{{ item.data.imageURL}}" alt="{{ item.data.imageAlt }}">
+              <div class="sm:w-full md:w-7/12">
+              <img class="lazy w-full m-0 rounded-t rounded-b" src="{{ item.data.imageURL}}" alt="{{ item.data.imageAlt }}">
               </div>
             {% endif %}
-            <div class="md:p-8 flex-1 sm:w-full">
-            <span class="serif text-sm text-white p-2 rounded-2xl bg-purple-600" datetime="{{ item.data.date }}"><b>Genre</b> {{ item.data.genre }} <b>Rating</b> {{ item.data.rating }}</span>
-            <h2 class="mt-4"><a class="border-none font-bold text-2xl md:text-4xl font-sans font-extrabold" href="{{ item.url }}">{{ item.data.title }}</a></h2>
+            <div class="md:pl-4 sm:w-full">
+            <span class="serif text-sm text-white p-2 inline-block rounded-2xl bg-purple-600" datetime="{{ item.data.date }}"><b>Genre</b> {{ item.data.genre }} <b>Rating</b> {{ item.data.rating }}</span>
+            <h2 class="mt-4"><a class="border-none font-bold text-lg md:text-xl font-sans font-extrabold" href="{{ item.url }}">{{ item.data.title }}</a></h2>
               <p  class="text-gray-800 font-sans text-base mb-5">{{ item.data.description }}</p>
-            <a class="bg-yellow-100 p-2 hover:bg-yellow-300 mb-4"href="{{ item.url }}">Read 👉</a>
+            <a class="bg-yellow-200 p-2 hover:bg-yellow-300 mb-4"href="{{ item.url }}">Read 👉</a>
            </div>
          </div>
       </article>

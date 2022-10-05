@@ -7,10 +7,11 @@ body, html {
     padding: 0px;
 }
 body {
-    padding-bottom: 5%;
     counter-reset: footnotes;
-      background-position: center;
-      background-attachment: fixed;
+    background-attachment: fixed;
+      background-color: #f1f5f9;
+      background-repeat: repeat;
+      background-image: url("/images/bg/circuit-board.svg");
   }
   [role="doc-noteref"]::after {
     counter-increment: footnotes;
@@ -54,7 +55,7 @@ header h1, nav div h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
-article h1, article h2, article h3, article h4 {
+article h1 a, article h2 a{
     font-family: 'Alfa Slab One', cursive;
 }
 .prose ul, .prose ul li {list-style-type: none;}
@@ -96,6 +97,11 @@ tr:nth-child(even){background-color: #FDE68A;}
     height: 96px;
     width: 96px;
     background-size: 96px;
+}
+.healy-huge {
+    height: 112px;
+    width: 112px;
+    background-size: 112px;
 }
 .healy-aaa {
     background-image: url("/images/icons/aaa.jpg");

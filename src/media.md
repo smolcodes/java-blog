@@ -5,7 +5,7 @@ layout: 'layouts/bookfeed.njk'
 imageURL: /images/bg/reading.png
 pagination: 
   data: collections.books
-  size: 6
+  size: 12
 permalink: '/books/{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
 paginationPrevText: 'Newer posts'
 paginationNextText: 'Older posts'
