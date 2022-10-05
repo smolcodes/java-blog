@@ -70,21 +70,22 @@
 
  <link rel="stylesheet" type="text/css" href="/css/healyicon.css">
   </head>
-  <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-serif text-gray-600 leading-normal tracking-normal bg-contain bg-gradient-to-t from-purple-200 to-purple-50 overflow-x-hidden text-base">
+  <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-serif text-gray-800 leading-normal tracking-normal bg-slate-100 overflow-x-hidden text-base">
   <a class="sr-only focus:not-sr-only" href="#main"> Skip to main</a>
-            <main class="lg:w-9/12 md:w-11/12 sm:w-full m-auto lg:pt-14 md:pt-10">
+            <main class="lg:w-8/12 md:w-11/12 sm:w-full m-auto lg:pt-20 md:pt-10">
                 {% include "partials/page-header.njk" %} 
             <div class="sm:flex sm:flex-col md:flex-row sm:flex-grow sm:flex-wrap mx-auto mt-20">
            <aside class="md:w-2/6">
               {% include "partials/navigation.njk" %}
             </aside>
-        <section id="main" class="w-full md:w-4/6 mx-auto z-10 overflow-hidden mt-2/12 p-5 md:p-0 md:pl-10 ">
+        <section id="main" class="w-full md:w-4/6 mx-auto z-10 overflow-hidden mt-2/12 p-5 md:pl-10">
         {% block content %}
         {{ content | safe }}
         {% endblock %}
       </section
       </div>
 </main>
+<div class="gradient"></div>
 <!--FitVid-->
 <script src="/assets/main.bundle.js" defer></script>
 <!--Laxy Load-->
