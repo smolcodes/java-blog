@@ -12,7 +12,7 @@ eleventyNavigation:
 
 You're viewing my digital [garden/sandbox](https://maggieappleton.com/garden-history) of sorts.
 
-{% myImage "https://pbs.twimg.com/media/EFwC00PWkAElLDC?format=jpg&name=large", "self portrait with bulbsaur" %}
+{% myImage "dist/images/assets/profile.webp", "self portrait with bulbsaur" %}
 
 ## Featured Tags
 
