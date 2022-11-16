@@ -67,10 +67,10 @@ I wondered whether I should keep this to just books but then wondered where woul
 * [How Managerial Aesthetics Explain Why Cities Can't Authentically Market Themselves](https://aaronrenn.substack.com/p/how-managerial-aesthetics-explain) fascinating read. 
 * [The Problem with the Conservative Party](https://joxleywrites.substack.com/p/the-problem-with-the-conservative?sd=pf) this article is from a British perspective which as an American is pretty cool. The gist is that the conservatives aren't attuned to actual problems. For what it's worth, meither are liberals. I mean, who actual wants to think about global warming?
 * [The Nature of Money](https://www.currentaffairs.org/2021/01/trumps-taxes-and-the-nature-of-money)
-8 [THE RISE AND FALL OF BITCOIN BILLIONAIRE ARTHUR HAYES](https://www.vanityfair.com/news/2021/02/the-rise-and-fall-of-bitcoin-billionaire-arthur-hayes) This article is quite dated. The man is actually doing well for himself right now. BitMex is still strong.
+* [THE RISE AND FALL OF BITCOIN BILLIONAIRE ARTHUR HAYES](https://www.vanityfair.com/news/2021/02/the-rise-and-fall-of-bitcoin-billionaire-arthur-hayes) This article is quite dated. The man is actually doing well for himself right now. BitMex is still strong.
 
 ## Reading off the Web
-* [ETHNOGRAPHIES OF POWER ETHNOGRAPHIESOF POWER](https://library.oapen.org/bitstream/handle/20.500.12657/57561/9781776146833.pdf?sequence=1&isAllowed=y)
+* [ETHNOGRAPHIES OF POWER](https://library.oapen.org/bitstream/handle/20.500.12657/57561/9781776146833.pdf?sequence=1&isAllowed=y)
 * [A Modest Proposal](https://www.readwritethink.org/sites/default/files/resources/30827_modestproposal.pdf) Heard about it in history class and now can say have read it.
 * [What we do in the shadows: dual industrial policy during the Thatcher governments, 1979–1990](https://arrow.tudublin.ie/cgi/viewcontent.cgi?article=1062&context=buschmanart) This is a fascinating take on neoliberalism.
 :::

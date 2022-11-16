@@ -13,6 +13,9 @@
 {% endset %}
 {% block content %}
     <article>
+         {% if toc == "true" %}
+      {% include "partials/toc.njk" %}
+      {% endif %}
       {{ content | safe }}
     </article>
 {% endblock %}

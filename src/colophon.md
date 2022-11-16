@@ -129,6 +129,8 @@ Image
 * [Coffee](https://www.manypixels.co/gallery/?color=f7df74&page=1&s=coffee)
 * [Gradient Generator by Josh Comeau](https://www.joshwcomeau.com/gradient-generator/)
 * [Computers](http://thepatternlibrary.com/#design-tools) by [Miguel Angel Avila](https://dribbble.com/miketopus)
+* [Javascript code](https://unsplash.com/@flowforfrank)
+* [Capybara](https://unsplash.com/photos/yelJAbAPLy8)
 * All other images on this site was created by me
 
 Resources
