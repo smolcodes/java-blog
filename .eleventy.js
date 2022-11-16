@@ -79,7 +79,7 @@ module.exports = function (eleventyConfig) {
     );
     eleventyConfig.addPlugin(pluginTOC)
 	 //shortcodes
-   eleventyConfig.addNunjucksAsyncShortcode("Image", async (src, alt) => {
+   eleventyConfig.addNunjucksAsyncShortcode("myImage", async (src, alt) => {
     if (!alt) {
       throw new Error(`Missing \`alt\` on myImage from: ${src}`);
     }

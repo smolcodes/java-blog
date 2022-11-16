@@ -27,7 +27,7 @@ Note: I am using the free version of these sites
 
 ## Chess.com
 
-{% Image "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/phpermyNE.png", "a chess game on the chess.com website" %}
+{% myImage "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/phpermyNE.png", "a chess game on the chess.com website" %}
 
 ### play
 *rapid rating: 1142*
@@ -53,7 +53,7 @@ The design of the site is consistent although I think very cluttered. I lament t
 
 ## Chesstempo
 
-{% Image "https://c1b.chesstempo.com/images/blog/opening-training.vers1.webp", "a chess puzzle on the Lichess website" %}
+{% myImage "https://c1b.chesstempo.com/images/blog/opening-training.vers1.webp", "a chess puzzle on the Lichess website" %}
 
 ### play
 
@@ -74,7 +74,7 @@ It is overwhelming but the puzzles themselves are ok. I prefer Chesstempo on mob
 
 ## Lichess
 
-{% Image "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7c0e7469-3cbf-4a5d-b57e-774e9fa0179d_1882x988.png", "a chess puzzle on the lichess website" %}
+{% myImage "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7c0e7469-3cbf-4a5d-b57e-774e9fa0179d_1882x988.png", "a chess puzzle on the lichess website" %}
 
 ### play
 *Rapid rating: 1421 (provisional)*
@@ -98,7 +98,7 @@ Although the front page is cluttered, it is less stressful than chess.com. I lik
 
 ## Kasparov Chess
 
-{% Image "https://www.thechessdrum.net/newsbriefs/2021/NB_photos/KasparovChessHome.png", "homepage for kasparov chess" %}
+{% myImage "https://www.thechessdrum.net/newsbriefs/2021/NB_photos/KasparovChessHome.png", "homepage for kasparov chess" %}
 
 ### play
 
