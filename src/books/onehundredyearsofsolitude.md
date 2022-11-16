@@ -16,7 +16,7 @@ I wish I read this book when I was younger so I could be captivated by the magic
 
 The book started off very lighthearted and fun. Jose Arcadio Buendia waisted a ton of money on silly items so he could turn objects into gold. He believed one day all houses would be made of ice. He also waisted a sizable amount of money to touch the ice. He had so much hope and was very eager to accomplish impossible goals. But as the story progresssed, came closer to the present day (that the author was alive-1960s I think) it became more depressing. These people were incapable of escaping their misery. Certain characters were aware but were unable to stop the family from repeating their mistakes. The Buendias were (I think) also a microcosm for Macondo as Macondo (I think) continued to make the same mistakes. It too couldn't prevent its end.
 
-{% Image "https://www.pkf-imagecollection.org/images/12993_h2048w2048gt.5.jpg", "etching of a train" %}
+{% myImage "https://www.pkf-imagecollection.org/images/12993_h2048w2048gt.5.jpg", "etching of a train" %}
 
 This book has so much going on. It has so many layers. I think it'd be a really good book club book. I'd like to know other people's opinion about family cycles. Do you think we aren't able to avoid the mistakes of our family? Can this be extended to countries? To history in general? Is this book actually optimistic but my tunnel vision is making me unable to see the light? I don't know.
 
