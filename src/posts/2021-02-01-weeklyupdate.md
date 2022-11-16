@@ -29,6 +29,6 @@ I don't know if positive is the right word. It's more like a "despite everything
 
 I've also never bothered to look at the [lyrics](https://www.woodyguthrie.org/Lyrics/This_Land.htm) to this song. I didn't know [Woody Guthrie](https://www.mentalfloss.com/article/641666/amazon-most-loved-section?utm_content=infinitescroll1) was a socialist.
 
-{% Image "https://media.npr.org/assets/img/2012/02/22/1103px-Woody_Guthrie_wide-6695e7e2a52a1dd80fcafa03b4dcb78a2e96ce06-s800-c85.jpg", "woody gunthrie" %}
+{% myImage "https://media.npr.org/assets/img/2012/02/22/1103px-Woody_Guthrie_wide-6695e7e2a52a1dd80fcafa03b4dcb78a2e96ce06-s800-c85.jpg", "woody gunthrie" %}
 
 Guthrie most likely took **a lot of inspiration** from [other songs](https://www.youtube.com/watch?v=ntwGXKlwKIw). And the lack of "controversial" versus was probably intentional so he could make profit  
