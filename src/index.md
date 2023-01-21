@@ -44,6 +44,11 @@ You're viewing my digital [garden/sandbox](https://maggieappleton.com/garden-his
 
 ________________
 
+   <h2 class="text-4xl my-5 text-yellow-500 font-serif">All Tags</h2>
+     <p class="text-sm my-2">
+    {% for tag in collections.tagList %}{% set tagUrl %}/tag/{{ tag | slug }}/{% endset %} <a class="inline-block m-1 rounded-2xl bg-purple-600 font-bold text-sm text-yellow-100 p-2 hover:bg-yellow-100 hover:text-slate-600 hover:border-yellow-400 hover:shadow-lg hover:shadow-orange-400/50 hover:border-2" href="{{ tagUrl | url }}">{{ tag }}</a>{% endfor %}
+    </p>
+    
 ## Please Validate Me
 
 Listen friend, you've made it this far in the page and I am so proud of you. I spent a heckn' lot of time filling this page up with words so thank you for reading them. And if you want to read more words written by me (because this little page just doesn't have enough content), why not follow me elsewhere?
