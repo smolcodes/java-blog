@@ -4,7 +4,7 @@
  {% set pageHeaderSummary = content %}
  {% set postListItems = pagination.items %}
  {% if tag %}
-  {% set postListItems = collections.links[tag] | reverse %}
+  {% set postListItems = collections[tag] | reverse %}
   {% set pageHeaderTitle = 'Links filed under "' + tag +'"' %}
 {% endif %}
 {% block content %}
