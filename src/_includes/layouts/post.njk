@@ -10,12 +10,12 @@
   {% if tags %}
     <span class="sr-only" id="tags-desc">Tags for this post</span>
       {% for tag in tags %}
-          <a class="rounded-xl inline-block m-1 bg-purple-700 font-bold text-sm text-yellow-200 p-2 hover:bg-blue-700 hover:text-gray-50" href="/tag/{{ tag | slug }}/">#{{ tag | replace(' ', ' ') | capitalize }}</a>
+          <a class="rounded-xl inline-block m-1 bg-teal-200 font-bold text-sm text-orange-400 p-2 hover:bg-blue-700 hover:text-gray-50" href="/blog/tag/{{ tag | slug }}/">#{{ tag | replace(' ', ' ') | capitalize }}</a>
       {% endfor %}
   {% endif %}
 {% endset %}
 {% block content %}
-<article>
+<article class="post-content">
     {% if toc == "true" %}
       {% include "partials/toc.njk" %}
       {% endif %}

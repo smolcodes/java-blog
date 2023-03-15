@@ -9,9 +9,11 @@ body, html {
 body {
     counter-reset: footnotes;
     background-attachment: fixed;
+    background-repeat: no-repeat;
       background-color: #f1f5f9;
-      background-repeat: repeat;
-      background-image: url("/images/bg/circuit-board.svg");
+      background-image: url("/images/bg/blue.avif");
+      background-size: cover;
+      background-position: 0% 15%;
   }
   [role="doc-noteref"]::after {
     counter-increment: footnotes;
@@ -29,7 +31,7 @@ body {
   }
 header {
     width: 100%;
-    background-image: url("/images/bg/design-tools.jpg");
+    background-image: url("/images/bg/whales.avif");
     margin-bottom:4%;
     background-repeat: repeat;
     min-height: 25%;

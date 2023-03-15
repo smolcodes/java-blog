@@ -131,6 +131,8 @@ Image
 * [Computers](http://thepatternlibrary.com/#design-tools) by [Miguel Angel Avila](https://dribbble.com/miketopus)
 * [Javascript code](https://unsplash.com/@flowforfrank)
 * [Capybara](https://unsplash.com/photos/yelJAbAPLy8)
+* [Blue Sky Image Background](https://unsplash.com/photos/DbwYNr8RPbg)
+* [Whale](https://unsplash.com/photos/un38FMPknV0)
 * All other images on this site was created by me
 
 Resources

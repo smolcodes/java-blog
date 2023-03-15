@@ -1,5 +1,5 @@
 ---
 title: Christoph Labacher
 link : https://christophlabacher.com/
-genre: "personal site"
+tags: "personal site"
 ---

@@ -9,9 +9,6 @@ permalink: '/javanotes/{% if pagination.pageNumber > 0 %}/page/{{ pagination.pag
 paginationPrevText: 'Newer posts'
 paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
-eleventyNavigation:
-  key: javanotes
-  title: 📝Java Notes
 ---
   <div class="mt-8 bg-purple-700 p-4 inline-block rounded-3xl">
 Notes on Codegym and Other Courses

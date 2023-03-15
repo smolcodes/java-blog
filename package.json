@@ -1,7 +1,7 @@
 {
   "name": "smolcodes",
   "version": "2.0.0",
-  "description": "personal sight of rachel b web designer",
+  "description": "personal sight of rachel web designer",
   "main": ".eleventy.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production npm-run-all -p build:*",

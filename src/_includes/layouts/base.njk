@@ -75,15 +75,36 @@
             <main>
               {% include "partials/navigation.njk" %}
                 {% include "partials/page-header.njk" %} 
-        <section id="main" class="xl:w-6/12 lg:w-8/12 md:w-10/12 sm:w-full m-auto overflow-hidden mt-2/12 p-5 md:pl-10">
+        <section id="main" class="z-10 relative xl:w-6/12 lg:w-8/12 md:w-10/12 sm:11/12 m-auto overflow-hidden my-20">
         {% block content %}
         {{ content | safe }}
         {% endblock %}
       </section
 </main>
-<div class="gradient"></div>
+<div class="gradient z-0 relative"></div>
 <!--FitVid-->
 <script src="/assets/main.bundle.js" defer></script>
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, txtValue, article, section, a, i, h2;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  section = document.getElementById("postlist");
+  article = section.getElementsByTagName('article');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < article.length; i++) {
+    p = article[i].getElementsByTagName ('p')[0];
+    txtValue = p.textContent || p.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      article[i].style.display = "";
+    } else {
+      article[i].style.display = "none";
+    }
+  }
+}
+</script>
 <!--Laxy Load-->
  <script type="module">
       import Lazyload from "https://cdn.skypack.dev/vanilla-lazyload";

@@ -1,5 +1,5 @@
 ---
 title: Ryan Cao
 link : https://ryanccn.dev/
-genre: "personal site"
+tags: "personal site"
 ---

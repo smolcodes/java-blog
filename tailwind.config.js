@@ -97,5 +97,5 @@ module.exports = {
     extend: {},
   },
   plugins: [require("daisyui"), require("@tailwindcss/typography"),],
-  purge: ["./src/**/*.js", "./src/**/*.njk", "./src/**/*.svg", "./src/**/*.md"],
+  content: ["./src/**/*.js", "./src/**/*.njk", "./src/**/*.svg", "./src/**/*.md"],
 };

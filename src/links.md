@@ -1,5 +1,5 @@
 ---
-title: 'Blog Roll and Links'
+title: 'Bookmark'
 metaDesc: 'links to stuff'
 layout: 'layouts/linkfeed.njk'
 pagination: 
@@ -11,5 +11,5 @@ paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
 eleventyNavigation:
   key: links
-  title: 🔗 Links
+  title: 🔗 Bookmarks
 ---
