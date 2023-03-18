@@ -7,8 +7,8 @@ eleventyNavigation:
   title: 🐀 Home
   order: 0
 ---
-  <section class="indexgrid grid grid-cols-6 gap-10">
- 			<div class="md:col-span-2 col-span-6 p-4 font-serif">
+  <section class="indexgrid grid grid-cols-6 sm:gap-10">
+ 			<div class="md:col-span-2 col-span-6 p-4 font-serif bg-teal-50 sm:rounded-2xl">
 
 <h2 class="font-sans">Good Day!</h2>
 
@@ -18,7 +18,7 @@ Welcome to my digital [garden](https://maggieappleton.com/garden-history). Bewar
       <div class="md:col-span-4 col-span-6">
  {% myImage "dist/images/assets/profile.webp", "self portrait with bulbsaur" %}      
  </div> 
-  <div class="md:col-span-3 col-span-6 rounded-2xl bg-purple-200 bg-opacity-40 backdrop-blur-lg  rounded-3xl rounded-t rounded-b overflow-hidden p-4" style="background-image: url(/images/bg/trees.avif);">
+  <div class="md:col-span-3 col-span-6 bg-purple-200 bg-opacity-40 backdrop-blur-lg sm:rounded-3xl overflow-hidden p-4" style="background-image: url(/images/bg/trees.avif);">
   
   <h2 class="text-4xl my-5 text-yellow-500 font-serif">All Tags</h2>
      <p class="text-sm my-2">
@@ -26,7 +26,7 @@ Welcome to my digital [garden](https://maggieappleton.com/garden-history). Bewar
     </p>         
       </div>
 
-<div class="md:col-span-3 col-span-6 rounded-3xl bg-yellow-100 rounded-t rounded-b overflow-hidden p-4">
+<div class="md:col-span-3 col-span-6 sm:rounded-3xl bg-yellow-100 overflow-hidden p-4">
   
 
 ## Please Validate Me

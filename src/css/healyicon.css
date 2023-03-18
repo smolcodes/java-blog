@@ -32,7 +32,6 @@ body {
 header {
     width: 100%;
     background-image: url("/images/bg/whales.avif");
-    margin-bottom:4%;
     background-repeat: repeat;
     min-height: 25%;
     white-space: normal;
