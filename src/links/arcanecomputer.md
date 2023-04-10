@@ -1,5 +1,5 @@
 ---
 title: Arcane Computer
 link : https://www.arcana.computer/
-tags: "personal site"
+tags: ["personal site", "blog"]
 ---

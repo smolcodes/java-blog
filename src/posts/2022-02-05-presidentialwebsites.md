@@ -4,7 +4,7 @@ description: "A look at Presidential Websites through the Ages"
 date: 2023-02-05
 toc: "true"
 tags:
-  ['presidents']
+  ['presidents', 'tools', 'note apps']
 ---
 I discovered [the most interesting](https://www.archives.gov/presidential-libraries/archived-websites) website a few weeks ago! An archive of Presidential websites. Here's some thoughts on each President's site:
 
@@ -56,7 +56,23 @@ Look at this:
 ```
 This code is very readible. It uses appropriate tags and alt properly!
 
-You might say I'm not holding other Presidents to the same standards (and you'd be right) but navigatng the Trump website with just a keyboard and Narrator was difficult. The images are nice for the eyes but are annoying when actually trying to get around the site. The popup menu is difficult to open and close. Some links were handled very well and some...pretty terribly tbh. The main problem with Trump's site is there are simply too many links
+You might say I'm not holding other Presidents to the same standards (and you'd be right) but navigatng the Trump website with just a keyboard and Narrator was difficult. The images are nice for the eyes but are annoying when actually trying to get around the site. The popup menu is difficult to open and close. Some links were handled very well and some...pretty terribly tbh. The main problem with Trump's site is there are simply too many links. His web team chose appearance over functionality
+
+## Joe Biden
+
+His website looks so similar to Trump's. At first I thought this was a weird coincedence but then learned they both use [Wordpress](https://wptavern.com/biden-white-house-sticks-with-wordpress-for-website-relaunch).
+
+Here's a run down of both their lighthouse score
+
+| Category | Trump       |  Biden |
+|------------|-----------|--------|
+| Performance | 99 | 98 |
+| Accessibility | 98 | 100 |
+| Best Practices | 100 | 100 |
+| SEO | 83 |100 |
+| PWA | NA | NA |
+| Performance | 99 | 98 |
+
 
 
 [The Unnoticed Presidential Transition: Whither Whitehouse.gov?](https://firstmonday.org/ojs/index.php/fm/article/download/829/738?inline=1)
@@ -71,4 +87,15 @@ You might say I'm not holding other Presidents to the same standards (and you'd 
 * [Jim Raptis](https://www.jimraptis.com/)
 * [Daniel Wirtz](https://danielwirtz.com/)
 * [Laura Beatrice](https://laurabeatris.com/)
+
+### Note taking Tools
+
+* [Supernotes](https://supernotes.app/)
+* [MemeAI](https://get.mem.ai/)
+* [LogSeq](https://logseq.com/)
+* [Noteplan](https://noteplan.co/)
+* [Upnote](https://getupnote.com/)
+* [Capacities](https://capacities.io/)
+* [Postulate](https://postulate.us/)
+* [Data Science Notebooks](https://datasciencenotebook.org/)
 :::
