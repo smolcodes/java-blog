@@ -25,7 +25,8 @@
    </div>
       <section id="postlist" class="w-11/12 m-auto md:m-0 sm:w-auto grid gap-4 grid-cols-1 md:grid-cols-2 mt-10">
          {% for item in postListItems %}
-		<article class="w-full md:w-auto bg-teal-50 rounded-2xl p-2 md:p-8 overflow-hidden">
+           {% set currentPost = post.data.post %}
+		<article class="w-full md:w-auto bg-teal-50 p-2 md:p-8 overflow-hidden">
            <h3 class="m-0 p-0 text-2xl md:text-4xl"><a class="w-full text-red-400 font-bold font-sans hover:text-yellow-500" href="{{ item.data.link }}">{{ item.data.title }} &#8599;</a></h3>  
       {% for tag in item.data.tags %}
           <a class="inline-block mt-6 rounded-xl px-4 py-2 bg-teal-200 font-bold text-slate-600 text-center text-sm hover:bg-yellow-100 hover:text-slate-600 hover:border-yellow-400 hover:shadow-lg hover:shadow-orange-400/50 hover:border-2" href="/links/tag/{{ tag | slug }}/">{{ tag | replace(' ', ' ') | capitalize }}</a>

@@ -4,7 +4,7 @@
     </h2>
     {% endif %}
      <section>
-      <div class="post-content">
+      <div class="post-content sm:rounded-2xl">
         {% for item in postListItems %}
         {% set currentPost = post.data.post %}
 					<article class="m-auto mb-10 overflow-hidden">
@@ -18,7 +18,7 @@
             <time class="serif text-sm text-white pl-2 pr-2 pt-1 pb-1 rounded-2xl bg-purple-500" datetime="{{ item.data.date }}"> 🕒 {{ item.data.date | dateFilter }}</time>
             <h2 class="mt-4"><a class="border-none text-lg md:text-3xl" href="{{ item.url }}">{{ item.data.title }}</a></h2>
               <p  class="text-gray-800 font-sans text-base mb-5">{{ item.data.description }}</p>
-            <a class="inline-block border-none no-underline rounded-md bg-gradient-to-r from-blue-400 to-teal-400 hover:bg-gradient-to-r hover:from-yellow-400 hover:to-orange-600 text-white p-2 hover:bg-yellow-400"href="{{ item.url }}">Read 👉</a>
+            <a class="inline-block border-none no-underline rounded-lg bg-gradient-to-r from-blue-400 to-teal-400 hover:bg-gradient-to-r hover:from-yellow-400 hover:to-orange-600 text-white px-4 py-2 hover:bg-yellow-400"href="{{ item.url }}">Read 👉</a>
            </div>
          </div>
       </article>

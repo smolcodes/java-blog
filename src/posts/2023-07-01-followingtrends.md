@@ -27,4 +27,8 @@ I was trying to order my bookmarks and about page contents based on markdown pag
  "date":"Created"
 }
 ```
-I couldn't understand why my files were organized offline but looked different online. 
+I couldn't understand why my files were organized offline but looked different online. Turns out it's because json doesn't parse numbers like this. This set of instructions is actually supposed to be for front matter. But hey why not try it offline?
+
+I've read the [11ty](https://www.11ty.dev/docs/dates/) article and [Raymond Camden's post](https://www.raymondcamden.com/2020/02/06/adding-a-last-edited-field-to-eleventy) and I'm still confused.
+
+Maybe I will fix this later...probably not.

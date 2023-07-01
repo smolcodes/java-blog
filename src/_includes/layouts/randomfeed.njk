@@ -6,6 +6,7 @@
 {% block content %}
       <section class="columns-2 gap-6 space-y-6">
          {% for item in postListItems %}
+           {% set currentPost = post.data.post %}
  			<article class="w-full overflow-hidden">
 		{{item.data.content | safe }}
       </article>
