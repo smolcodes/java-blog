@@ -40,6 +40,8 @@ module.exports = function (eleventyConfig) {
   //Embed Media
   eleventyConfig.addPlugin(embeds)
   eleventyConfig.addPlugin(footnotes)
+
+
   
   //html minifier
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
@@ -146,11 +148,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(rssPlugin);
   eleventyConfig.addPlugin(pluginNavigation);
 
-    // Returns books items, sorted by display order
-    eleventyConfig.addCollection('books', collection => {
-      return sortByDisplayOrder(
-        collection.getFilteredByGlob('./src/books/*.md'));
-    });
+    // Returns random items, sorted by display order
+    eleventyConfig.addCollection('random', collection => {
+    return [...collection.getFilteredByGlob('./src/misc/*.md')].reverse();
+  });
+
+      // Returns books items, sorted by display order
+      eleventyConfig.addCollection('books', collection => {
+        return sortByDisplayOrder(
+          collection.getFilteredByGlob('./src/books/*.md'));
+      });
 
     // Returns links items, sorted by display order
     eleventyConfig.addCollection('links', collection => {

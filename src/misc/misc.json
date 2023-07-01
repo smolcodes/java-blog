@@ -1,0 +1,5 @@
+{
+    "layout" : "layouts/page.njk",
+    "permalink": "random/{{ page.fileSlug }}/",
+    "type": "media-content"
+}
