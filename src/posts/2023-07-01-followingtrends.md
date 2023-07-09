@@ -32,3 +32,20 @@ I couldn't understand why my files were organized offline but looked different o
 I've read the [11ty](https://www.11ty.dev/docs/dates/) article and [Raymond Camden's post](https://www.raymondcamden.com/2020/02/06/adding-a-last-edited-field-to-eleventy) and I'm still confused.
 
 Maybe I will fix this later...probably not.
+
+::: callout-blue
+### Around the Web
+
+1. Sites
+* [Heat Map](https://heatmap.news/)
+* [New Left Review](https://newleftreview.org/)
+
+2. Articles
+* [Who Goes Nazi](https://harpers.org/archive/1941/08/who-goes-nazi/)
+
+3. Personal Site
+* [Marissa Kawehi](https://sites.google.com/view/lovingmath/home)
+* [Brian Ruiz](https://www.b-r.io/)
+* [Jarek Ceborski](https://www.jarekceborski.com/)
+* [Sankalp Sinha](https://sankalpsinha.com/)
+:::

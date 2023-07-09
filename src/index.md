@@ -1,5 +1,5 @@
 ---
-title: 'Hello There 👋'
+title: 
 imageURL: 
 layout: 'layouts/home.njk'
 eleventyNavigation:
