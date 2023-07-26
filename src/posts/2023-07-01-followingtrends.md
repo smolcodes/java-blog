@@ -1,11 +1,13 @@
 ---
 title: "Terminally Online Trends Follower Makes an About Page"
 description: "Personal Websites are just Tumblr 2.0. Anyway ramblings about following trends with this blog"
-date: 2023-02-05
+date: 2023-07-01
 toc: "true"
 tags:
   ['life']
 ---
+
+## Creating an About page
 
 [Chester](https://chester.how/) has a very nifty hobbies page. [Everyone](https://www.raymondcamden.com/now/) and their [mom](https://maggieappleton.com/now) has a [Now](https://nownownow.com/about) page. Some people have a [gears](https://paulstamatiou.com/stuff-i-use/). And I think, *I should definitely make a billion more pages!*. 
 
@@ -33,8 +35,26 @@ I've read the [11ty](https://www.11ty.dev/docs/dates/) article and [Raymond Camd
 
 Maybe I will fix this later...probably not.
 
+## The Enschittafication of All Social Media
+
+My site is increasingly turning into an internet of sorts. My bookmarks page is bascically a collection of fun sites that are worth visiting. And with each passing month, I keep trying to make my personal site *better* at distracting me from the shitty internet. 
+
+I quit using Facebook years ago when my close friends stopped showing up on my feed and everyone seemed to have a soapbox to stand on. Recently I tried to get back on Instagram (it is slightly better than FB) but I think I will abandon this too. 
+
+Twitter was great for so long. Maybe this is a sign of being a product of my time but I met interesting people. It helped me overcome my anxiety of going to conferences. It was a place where a complete newb to web design could talk to an expert. It was filled with good comedians. My close friends IRL and from other parts of the internet were there.
+
+Now it's a place pedalling fascism. To the best of my knowledge, I don't *thinnk* I follow fascists yet I'm served their tweets. 
+
+The refresh is wonky and I think all my friends have left or will leave.
+
+Some to Threads.
+
+Threads, the brainchild of Mark Zuckerberg, is a crap take on Twitter. There's no ordered posts and the Zuck gets to decide what you see. It also tracks your data like crazy (but that doesn't really bother people). The only positive is they seem to be antifascist (in this day and age, it is apparently, a noble and brave stance).
+
+The last good decent social media places are Tumblr, Reddit and Discord. They too will die soon, it's just a matter of time. And when they do, I'm not sure what I'll do. I mean I know I'll continue on. But, I don't know what new platforms are springing up (what are the youngins up to?) and I'm not sure I want to put in the effort to try them (when even the new will die). Will my friendship with everyone I met online through Tumblr and Twitter die? 
+
 ::: callout-blue
-### Around the Web
+## Around the Web
 
 1. Sites
 * [Heat Map](https://heatmap.news/)
