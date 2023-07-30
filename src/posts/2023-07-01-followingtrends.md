@@ -1,5 +1,5 @@
 ---
-title: "Terminally Online Trends Follower Makes an About Page"
+title: "Terminally Online Trends Follower Heavily Edits Home Page"
 description: "Personal Websites are just Tumblr 2.0. Anyway ramblings about following trends with this blog"
 date: 2023-07-01
 toc: "true"
@@ -15,7 +15,7 @@ The thought of having so many pages convinced me to create the dreaded hamburger
 
 Truly, I am a changed person.
 
-Anyway I don't actually know what to put in an about page. So instead I've created one page that mashes a lot of trends together. This is just how the cookie crumbles.
+Anyway I drastically changed the index page to include a ton of trends I've been admiring in an attempt to be *personal*. It's got a currently reading, coffee, now etc etc.
 
 In this pursuit. I poured over docs trying to understand this error
 

@@ -3,8 +3,17 @@
 {% set pageHeaderImage = imageURL %}
 {# Render post date and any tags that this post has been filed under #}
 {% set pageHeaderSummary = summary %}
+ {% set postListItems = pagination.items %}
 {% block content %}
-    <article>
+  <section class="m-4 md:m-0 sm:columns-2 sm:gap-10">
       {{ content | safe }}
+        </section>
+    <section class="m-4 md:m-0 sm:columns-2 sm:gap-10">
+         {% for item in postListItems %}
+           {% set currentPost = post.data.post %}
+ 			<article class="break-inside-avoid-column">
+		{{item.data.content | safe }}
       </article>
+        {% endfor %}
+        </section>
 {% endblock %}

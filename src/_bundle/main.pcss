@@ -14,7 +14,7 @@ mark {
   @apply bg-teal-100 bg-opacity-30 backdrop-blur-lg rounded-2xl;
 }
 .post-content .overlay,.grid .overlay {
-    @apply bg-gray-500 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40;
+    @apply bg-gradient-to-br from-cyan-500/70 to-purple-600/70  bg-clip-padding backdrop-filter backdrop-blur-sm;
 }
 .prose blockquote {
       @apply border-l-4 border-purple-400 px-8 py-4 mb-4 sm:rounded-2xl bg-yellow-100 shadow-xl;
@@ -35,8 +35,8 @@ details p {
 article {
   @apply sm:rounded-2xl prose sm:prose-base md:prose-lg lg:prose-xl max-w-none font-sans text-gray-800 md:m-0 m-auto;
 }
-#header h1 {
-  @apply xl:w-9/12;
+ h1 {
+  @apply tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-orange-100 to-rose-300 drop-shadow-xl;
 }
 pre[class*="language-" ], code[class*="language-"] {
   @apply whitespace-normal overflow-x-auto break-words;
@@ -62,26 +62,26 @@ section h2 a:nth-child(2n+3) {
 }
 .prose a {@apply inline-block;}
  .callout {
-    @apply border-4 border-gray-500 px-8 py-4 mb-4 sm:rounded-2xl bg-gray-200 shadow-xl;
+    @apply border-2 border-gray-500 px-8 py-4 mb-4 rounded sm:rounded-xl bg-gray-200 shadow-xl;
   }
   .callout-yellow {
-    @apply border-4 border-yellow-500 px-8 py-4 mb-4 sm:rounded-2xl bg-yellow-100 shadow-xl;
+    @apply border-2 border-yellow-500 px-8 py-4 mb-4 rounded sm:rounded-xl bg-yellow-100 shadow-xl;
   }
   .callout-blue {
-    @apply border-4 border-blue-500 px-8 py-4 mb-4 sm:rounded-2xl bg-blue-100 shadow-xl;
+    @apply border-2 border-blue-500 px-8 py-4 mb-4 rounded sm:rounded-xl bg-blue-100 shadow-xl;
   }
   .callout-pink {
-    @apply border-4 border-pink-400 px-8 py-4 mb-4 sm:rounded-2xl bg-pink-100 shadow-xl;
+    @apply border-2 border-pink-400 px-8 py-4 mb-4 rounded sm:rounded-xl bg-pink-100 shadow-xl;
   }
    .callout-purple {
-    @apply border-4 border-purple-300 px-8 py-4 mb-4 sm:rounded-2xl bg-purple-100 shadow-xl;
+    @apply border-2 border-purple-300 px-8 py-4 mb-4 rounded sm:rounded-xl bg-purple-100 shadow-xl;
   }
   .callout-green {
-    @apply border-4 border-green-300 px-8 py-4 mb-4 sm:rounded-2xl bg-green-50 shadow-xl;
+    @apply border-2 border-green-300 px-8 py-4 mb-4 rounded sm:rounded-xl bg-green-50 shadow-xl;
   }
  .callout-gray {
-    @apply border-4 border-gray-500 px-8 py-4 mb-4 sm:rounded-2xl bg-gray-900 shadow-xl;
+    @apply border-2 border-gray-500 px-8 py-4 mb-4 rounded sm:rounded-xl bg-gray-900 shadow-xl;
   }
   .warning {
-    @apply border-4 border-red-500 px-8 py-4 mb-4 sm:rounded-2xl bg-red-100 text-red-500 shadow-xl;
+    @apply border-2 border-red-500 px-8 py-4 mb-4 rounded sm:rounded-xl bg-red-100 text-red-500 shadow-xl;
   }
