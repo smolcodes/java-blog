@@ -3,7 +3,7 @@
  {% set pageHeaderImage = imageURL %}
 {% set pageHeaderSummary %}
   <div class="mt-8 bg-purple-700 p-4 inline-block rounded-3xl">
-  <b>Author</b> {{ author }} <b>Date</b> <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time> <b>Rating</b> {{ rating }}<b>Recommend</b> {{ recommend }}
+  <b>Author</b> {{ author }} <b>Date</b> <time datetime="{{ date | w3DateFilter }}">{{ date | asPostDate }}</time> <b>Rating</b> {{ rating }}<b>Recommend</b> {{ recommend }}
     {% if genres %}
       {% for genre in genres %}
           <a class="inline-block font-bold text-lg text-yellow-700 p-1 hover:bg-blue-700 hover:text-gray-50" href="/genre/{{ genre | slug }}/">#{{ genre | replace(' ', '') | capitalize }}</a>

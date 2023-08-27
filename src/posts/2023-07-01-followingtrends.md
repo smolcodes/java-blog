@@ -35,6 +35,10 @@ I've read the [11ty](https://www.11ty.dev/docs/dates/) article and [Raymond Camd
 
 Maybe I will fix this later...probably not.
 
+::: callout-yellow
+Solved! I followed this [excellent tutorial](https://www.alpower.com/tutorials/formatting-dates-in-eleventy/) by [Al Power](https://www.alpower.com/). The solution was to switch from MomementJS to Luxon.
+:::
+
 ## The Enschittafication of All Social Media
 
 My site is increasingly turning into an internet of sorts. My bookmarks page is bascically a collection of fun sites that are worth visiting. And with each passing month, I keep trying to make my personal site *better* at distracting me from the shitty internet. 

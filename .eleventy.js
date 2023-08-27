@@ -7,6 +7,7 @@ const Image = require("@11ty/eleventy-img");
 const sharp = require("sharp");
 const pluginTOC = require('eleventy-plugin-toc')
 const markdownItAnchor = require('markdown-it-anchor')
+const { DateTime } = require("luxon");
 
 const mdOptions = {
   html: true,
@@ -40,8 +41,11 @@ module.exports = function (eleventyConfig) {
   //Embed Media
   eleventyConfig.addPlugin(embeds)
   eleventyConfig.addPlugin(footnotes)
-
-
+  eleventyConfig.addFilter("asPostDate", (dateObj) => {
+     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+  
+      // other config likely here
+    });
   
   //html minifier
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {

@@ -2,7 +2,7 @@
 title: A Frog in the Fall
 author: Linnea Sterte
 imageURL: https://cdn.thestorygraph.com/8coj54nl8ewa84131a3fp9ybvsm2
-date: 2022-09-25
+date: 2022-09-01
 genre: books 📚
 rating: 😃
 recommend: ✔️

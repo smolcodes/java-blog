@@ -6,7 +6,7 @@
 {% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
 {# Render post date and any tags that this post has been filed under #}
 {% set pageHeaderSummary %}
-     <time class="rounded-xl inline-block m-1 bg-blue-50 font-bold text-sm text-blue-800 p-2" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
+     <time class="rounded-xl inline-block m-1 bg-blue-50 font-bold text-sm text-blue-800 p-2" datetime="{{ date | w3DateFilter }}">{{ date | asPostDate }}</time>
   {% if tags %}
     <span class="sr-only" id="tags-desc">Tags for this post</span>
       {% for tag in tags %}
