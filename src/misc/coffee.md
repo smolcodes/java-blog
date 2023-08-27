@@ -1,3 +1,3 @@
 ::: callout-green
-☕ ShopRite's store brand *fancy* coffee is surprisingly very good for how afforable it is
+☕ My new job sits between 3 coffee shops. Which is great but I need to get back into making coffee at home. I miss it.
 :::
