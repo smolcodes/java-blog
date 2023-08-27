@@ -1,6 +1,6 @@
 {# Only renders this section if there are links to render #}
 {% if pagination.href.next or pagination.href.previous %}
-      <nav class="mt-20 flex justify-between text-gray-600" aria-label="Pagination links">
+      <nav class="mt-20 w-full flex justify-between text-gray-600" aria-label="Pagination links">
                     {% if pagination.href.previous %}
           <a class="rounded-2xl bg-teal-500 font-bold text-base text-yellow-100 p-4  hover:bg-yellow-100 hover:text-purple-600" href="{{ pagination.href.previous }}{{ paginationAnchor }}" data-direction="backwards">
            ← {{ paginationPrevText if paginationPrevText else 'Previous' }} 

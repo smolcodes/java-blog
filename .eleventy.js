@@ -23,7 +23,6 @@ const mdAnchorOpts = {
 }
 
 // Filters
-const dateFilter = require('./src/filters/date-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 
 // Create a helpful production flag
@@ -43,8 +42,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(footnotes)
   eleventyConfig.addFilter("asPostDate", (dateObj) => {
      return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
-  
-      // other config likely here
     });
   
   //html minifier
@@ -144,8 +141,6 @@ module.exports = function (eleventyConfig) {
     excerpt_separator: "<!-- excerpt -->",
   });
   // Add filters
-
-  eleventyConfig.addFilter('dateFilter', dateFilter);
   eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
 
   // Plugins
