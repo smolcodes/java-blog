@@ -4,23 +4,19 @@
 #home header {
   @apply hidden;
 }
-.gradient {
-  @apply bg-gradient-to-t from-purple-300 h-96 -mt-72 w-full;
-}
+p {@apply text-slate-500 font-sans text-xl;}
+img {@apply rounded sm:rounded-xl shadow-md sm:shadow-xl;}
 mark {
   @apply bg-yellow-100;
 }
 .blocks {
-  @apply bg-teal-100 bg-opacity-30 backdrop-blur-lg rounded-2xl;
+  @apply bg-slate-100 rounded-2xl;
 }
 .post-content .overlay,.grid .overlay {
     @apply bg-gradient-to-br from-cyan-500/70 to-purple-600/70  bg-clip-padding backdrop-filter backdrop-blur-sm;
 }
 .prose blockquote {
       @apply border-l-4 border-purple-400 px-8 py-4 mb-4 sm:rounded-2xl bg-yellow-100 shadow-xl;
-}
-section .post-content {
-  @apply bg-teal-50 md:p-20 sm:p-10 p-5 mb-10;
 }
 .post-toc {
   @apply  bg-slate-100 border-2 border-slate-500 rounded-md mb-10 shadow-xl;
@@ -33,26 +29,13 @@ details p {
   @apply py-2 px-5;
 }
 article {
-  @apply sm:rounded-2xl prose sm:prose-base md:prose-lg lg:prose-xl max-w-none font-sans text-gray-800 md:m-0 m-auto;
+  @apply prose sm:prose-base md:prose-lg lg:prose-xl max-w-none font-sans text-gray-800 md:m-0 m-auto;
 }
  h1 {
-  @apply tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-orange-100 to-rose-300 drop-shadow-xl;
+  @apply text-teal-400 font-serif drop-shadow-lg;
 }
 pre[class*="language-" ], code[class*="language-"] {
   @apply whitespace-normal overflow-x-auto break-words;
-}
-section h2 a:nth-child(2n+1) {
-  @apply text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 drop-shadow-sm;
-}
-section h2, section h3, section h4 {
-  @apply text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600 drop-shadow-sm;
-
-}
-section h2 a:nth-child(2n+2) {
-  @apply text-transparent bg-clip-text bg-gradient-to-r from-purple-200 to-blue-600;
-}
-section h2 a:nth-child(2n+3) {
-  @apply text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-green-600;
 }
 .prose ul {
   @apply list-disc list-inside marker:text-purple-500;

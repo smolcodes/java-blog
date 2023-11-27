@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         sans: ['Palanquin', 'sans-serif'],
         serif: ['Georgia', 'serif'],
+        title: ['Alfa Slab One', 'serif'],
     },
     typography: {
       DEFAULT: {
@@ -80,7 +81,6 @@ module.exports = {
           height: 'auto',
       },
         img: {
-            borderRadius: '5px',
             display: 'block',
             width: '100%',
             maxWidth: '100%',

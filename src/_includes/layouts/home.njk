@@ -5,13 +5,13 @@
 {% set pageHeaderSummary = summary %}
  {% set postListItems = pagination.items %}
 {% block content %}
-  <section class="m-4 md:m-0 sm:columns-2 sm:gap-10">
+  <section class="m-4 md:m-0">
       {{ content | safe }}
         </section>
-    <section class="m-4 md:m-0 sm:columns-2 sm:gap-10">
+    <section class="m-4 md:m-0">
          {% for item in postListItems %}
            {% set currentPost = post.data.post %}
- 			<article class="break-inside-avoid-column">
+ 			<article class="mb-10">
 		{{item.data.content | safe }}
       </article>
         {% endfor %}

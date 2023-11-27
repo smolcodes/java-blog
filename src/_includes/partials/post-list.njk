@@ -4,19 +4,17 @@
     </h2>
     {% endif %}
      <section>
-      <div class="post-content sm:rounded-2xl">
+      <div class="post-content">
         {% for item in postListItems %}
         {% set currentPost = post.data.post %}
 					<article class="m-auto">
-						<div class="flex flex-wrap">
-              {% if item.data.imageURL %}
-              <div class="mx-auto overflow-hidden md:flex-1 md:pr-4 pt-8 sm:w-full md:w-6/12">
-              <img class="lazy m-0 w-full max-w-full h-auto rounded-md" src="{{ item.data.imageURL}}" alt="{{ item.data.imageAlt }}">
+						<div class="w-full sm:flex flex-row flex-wrap">  
+              <div class="w-full sm:w-3/12 mx-auto overflow-hidden md:flex-1 md:pr-4 pt-8 sm:w-full">
+              <time class="mr-4 block-inline serif h-8 text-lg text-slate-400 font-bold pl-2 pr-2 pt-1 pb-1" datetime="{{ item.data.date }}"> 🕒 {{ item.data.date | asPostDate }}</time>
               </div>
-            {% endif %}
-            <div class="flex-1 py-8">
-            <time class="serif text-sm text-white pl-2 pr-2 pt-1 pb-1 rounded-2xl bg-purple-500" datetime="{{ item.data.date }}"> 🕒 {{ item.data.date | asPostDate }}</time>
-            <h2 class="mt-4"><a class="border-none text-xl md:text-3xl" href="{{ item.url }}">{{ item.data.title }}</a></h2>
+            <div class="w-full sm:w-9/12 py-8">
+            <h2 class="-mt-1">
+<a class="no-underline border-none text-xl md:text-3xl text-teal-500 hover:text-yellow-400" href="{{ item.url }}">{{ item.data.title }}</a></h2>
               <p  class="text-gray-800 font-sans sm:text-xl md:text-2xl mb-5">{{ item.data.description }}</p>
             <a class="inline-block rounded-xl px-4 py-2 bg-teal-200 font-bold text-slate-600 text-center text-sm hover:bg-yellow-100 hover:text-slate-600 hover:border-yellow-400 hover:shadow-lg hover:shadow-orange-400/50 hover:border-2" href="{{ item.url }}">Read 👉</a>
            </div>

@@ -70,18 +70,17 @@
 
  <link rel="stylesheet" type="text/css" href="/css/healyicon.css">
   </head>
-  <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-serif text-gray-800 leading-normal tracking-normal bg-slate-100 overflow-x-hidden text-base">
+  <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-serif text-gray-800 leading-normal tracking-normal bg-slate-50 overflow-x-hidden text-base">
   <a class="sr-only focus:not-sr-only" href="#main"> Skip to main</a>
-            <main>
+            <main class="mx-auto xl:w-5/12 lg:w-5/12 md:w-10/12 sm:w-full px-5 pt-8 pb-20">
               {% include "partials/navigation.njk" %}
                 {% include "partials/page-header.njk" %} 
-        <section id="main" class="z-10 relative xl:w-6/12 lg:w-8/12 md:w-10/12 sm:11/12 m-auto overflow-hidden sm:my-10">
+        <section id="main">
         {% block content %}
         {{ content | safe }}
         {% endblock %}
       </section
 </main>
-<div class="gradient z-0 relative"></div>
 <!--FitVid-->
 <script src="/assets/main.bundle.js" defer></script>
 <script>

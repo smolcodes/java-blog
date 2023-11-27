@@ -8,12 +8,6 @@ body, html {
 }
 body {
     counter-reset: footnotes;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-      background-color: #f1f5f9;
-      background-image: url("/images/bg/blue.avif");
-      background-size: cover;
-      background-position: 0% 15%;
   }
   [role="doc-noteref"]::after {
     counter-increment: footnotes;
@@ -29,30 +23,10 @@ body {
     white-space: -o-pre-wrap;
     word-wrap: break-word;
   }
-header {
-    width: 100%;
-    background-image: url("/images/bg/whales.avif");
-    background-repeat: repeat;
-    min-height: 25%;
-    white-space: normal;
-}
-header .headerimage  {
-    background-size: cover;
-    background-position: center;
-    position:relative;
-    clear: both;
-    width: 100%;
-}
-#home header .headerimage , #blog header .headerimage ,#media header .headerimage , .media-content header .headerimage  {
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 40%;
-    width: 100%;
-}
 header h1 {
     max-width: 60%;
 }
-header h1, nav div h1 {
+ h1, nav div h1 {
     font-family: 'Alfa Slab One', cursive;
     font-weight: bold;
 }
