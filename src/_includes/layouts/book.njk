@@ -2,7 +2,7 @@
  {% set pageHeaderTitle = title %}
  {% set pageHeaderImage = imageURL %}
 {% set pageHeaderSummary %}
-  <div class="mt-8 bg-purple-700 p-4 inline-block rounded-3xl">
+  <div class="mt-8 bg-purple-700 text-white p-4 inline-block rounded-3xl">
   <b>Author</b> {{ author }} <b>Date</b> <time datetime="{{ date | w3DateFilter }}">{{ date | asPostDate }}</time> <b>Rating</b> {{ rating }}<b>Recommend</b> {{ recommend }}
     {% if genres %}
       {% for genre in genres %}

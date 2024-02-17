@@ -10,12 +10,12 @@
 					<article class="m-auto">
 						<div class="w-full sm:flex flex-row flex-wrap">  
               <div class="w-full sm:w-3/12 mx-auto overflow-hidden md:flex-1 md:pr-4 pt-8 sm:w-full">
-              <time class="mr-4 block-inline serif h-8 text-lg text-slate-400 font-bold pl-2 pr-2 pt-1 pb-1" datetime="{{ item.data.date }}"> 🕒 {{ item.data.date | asPostDate }}</time>
+              <time class="mr-4 block-inline serif h-8 text-md text-slate-400 font-bold pl-2 pr-2 pt-1 pb-1" datetime="{{ item.data.date }}"> 🕒 {{ item.data.date | asPostDate }}</time>
               </div>
             <div class="w-full sm:w-9/12 py-8">
             <h2 class="-mt-1">
 <a class="no-underline border-none text-xl md:text-3xl text-teal-500 hover:text-yellow-400" href="{{ item.url }}">{{ item.data.title }}</a></h2>
-              <p  class="text-gray-800 font-sans sm:text-xl md:text-2xl mb-5">{{ item.data.description }}</p>
+              <p  class="text-gray-800 font-sans sm:text-md md:text-lg lg:text-2xl mb-5">{{ item.data.description }}</p>
             <a class="inline-block rounded-xl px-4 py-2 bg-teal-200 font-bold text-slate-600 text-center text-sm hover:bg-yellow-100 hover:text-slate-600 hover:border-yellow-400 hover:shadow-lg hover:shadow-orange-400/50 hover:border-2" href="{{ item.url }}">Read 👉</a>
            </div>
          </div>
