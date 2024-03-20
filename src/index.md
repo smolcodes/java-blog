@@ -5,10 +5,6 @@ layout: 'layouts/home.njk'
 pagination: 
   data: collections.random
   size: 12
-eleventyNavigation:
-  key: home
-  title: 🐀 Home
-  order: 0
 ---
 
 <article>

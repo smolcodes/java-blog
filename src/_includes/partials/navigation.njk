@@ -1,11 +1,11 @@
 
 	   {% set navPages = collections.all | eleventyNavigation %}
-<nav class="z-20 p-2 mb-10 m-auto sm:rounded-3xl">
-  <a href="/" class="mt-10 inline-flex items-center mb-10 py-2 text-slate-800 hover:bg-yellow-100  hover:shadow-orange-400/50 hover:shadow-lg border-2  border-slate-200 hover:border-yellow-300 rounded-3xl">
+<nav class="z-20 p-2 mb-10 inline-flex items-center m-auto sm:rounded-3xl">
+  <a href="/" class="inline-flex items-center text-slate-800 hover:bg-yellow-100  hover:shadow-orange-400/50 hover:shadow-lg border-2  border-slate-200 hover:border-yellow-300 rounded-3xl">
             <span class="healy healy-smol healy-fauxthot h-6 mr-3 sm:h-9"></span> 
-      <span class="self-center font-sans text-xl mr-4 font-bold whitespace-nowrap">SmolCodes</span>
+      <span class="self-center font-sans text-lg mr-4 font-bold whitespace-nowrap">SmolCodes</span>
   </a>
-    <ul class="list-none flex flex-row md:mt-0 md:text-sm md:font-medium md:border-0" aria-lablledby="dropdownDefaultButton">
+    <ul class="list-none flex flex-row md:text-sm md:font-medium md:border-0" aria-lablledby="dropdownDefaultButton">
        {%- for entry in navPages %}
           <li>
           <a class="justify-self-end font-sans p-2 text-slate-600 hover:rounded-lg block hover:bg-yellow-100 hover:text-slate-600 hover:border-yellow-400 hover:shadow-lg hover:shadow-orange-400/50 hover:border-2 {% if entry.url == page.url %}rounded-lg bg-teal-100 {% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>

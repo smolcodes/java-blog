@@ -1,4 +1,5 @@
 {
     "layout": "layouts/page.njk",
+    "permalink": "{{ page.filePathStem }}/index.html",
     "type": "post-content"
 }
