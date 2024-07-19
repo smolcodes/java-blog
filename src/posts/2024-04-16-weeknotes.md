@@ -38,13 +38,13 @@ I want to create a coffee section for this blog. Over the past two years, I've g
 
 ## A response to [Zinzy's Imposter Syndrome](https://www.zinzy.website/2024/04/06/introducing-this-i-do-know/) Post
 
-(In an effort to be more ~~vulnerable). I was in special ed from 2nd grade to 6th grade. In high school I took {% footnoteref "ap","Advanced Placement, people at every level like to feel like someone is beneath them." %}AP{% endfootnoteref %} classes. I listened to my classmates and teachers talk about how we AP students were better than regular students. If we didn't get certain concepts, then we were as slow as special ed kids. I had this immense fear I'd be found out. People would stop thinking I'm smart. Once they did find out I was a special ed kid, I had to admit to myself I'm not smart. I thought all the A's I recieved were pitty grades. I didn't earn them. But of course, the Cs and Ds were validating how worthless I was and I absolutely earned *those* grades.
+(In an effort to be more ~~vulnerable). I was in special ed from 2nd grade to 6th grade. In high school I took {% footnoteref "ap","Advanced Placement, people at every level like to feel like someone is beneath them." %}AP{% endfootnoteref %} classes. I listened to my classmates and teachers talk about how we AP students were better than regular students. If we didn't get certain concepts, then we were as slow as special ed kids. I had this immense fear I'd be found out (isn't that messed up? To turn a child into an ableist? Against themselves?). People would stop thinking I'm smart. Once they did find out I was a special ed kid, I had to admit to myself I'm not smart. I thought all the A's I recieved were pitty grades. I didn't earn them. But of course, the Cs and Ds were validating how worthless I was and I absolutely earned *those* grades.
 
 High school has a unique way of getting you to despise yourself.
 
-I know now how harmful that line of thinking is. Everyone goes at their own speed and besides that, academics shouldn't define anyone's self worth. However, I'll admit, I've internalized this way of thinking so much that I don't know if I'll ever be able to truly move past it.
+In my work life, I don't accept compliments well because just like in high school, I think I don't truly deserve them-and I do the same thing with hobbies. Negative criticisms though? Absolutely. You think I suck at something? Everything? I agree!
 
-In my work life, I don't accept compliments well because just like in high school, I think I don't truly deserve them. Negative criticisms though? Absolutely. You think I suck at my job? I agree!
+I know how harmful that line of thinking is. Everyone goes at their own speed and besides that, academics shouldn't define anyone's self worth. However, I'll admit, I've internalized this way of thinking so much that I don't know if I'll ever be able to truly move past it.
 
 ## Nice KeyBoard is nice
 
