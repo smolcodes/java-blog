@@ -3,7 +3,7 @@ title: "2021 Year Retrospective"
 description: "A great year for learning"
 date: 2022-01-06 
 tags:
-  ['life']
+  ['life', 'year in review']
 ---
 
 I accomplished almost [none of my goals](year-recap/) this year. I studied zero French (was simply not interested) but instead [spanish](/tag/languages/). I still don't run. I wonder if I lost some muscles and I looked at discrete math a little bit but not enough to be meaningful. I did however add a comment section to this blog.

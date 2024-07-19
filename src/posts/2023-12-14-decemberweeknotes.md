@@ -4,7 +4,7 @@ description: "what did i do this year?"
 date: 2024-01-08
 toc: "true"
 tags:
-  ['life']
+  ['life','year in review']
 ---
 ## A General Overview
 
