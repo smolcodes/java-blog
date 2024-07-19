@@ -1,3 +1,3 @@
 ::: callout-green
-☕ My new job sits between 3 coffee shops. Which is great but I need to get back into making coffee at home. I miss it.
+☕ I no longer work near three coffee shops. It's jus Panera. Although the coffee isn't fantastic, the convience is worth the $15 a month. I have a comfortable place to wait for my coworkers.
 :::
