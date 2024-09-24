@@ -18,7 +18,7 @@ content:
         type: string
       - name: tags
         label: Tags
-        type: rich-text
+        type: string
   - name: site
     label: Site settings
     path: src/_data/site.json
