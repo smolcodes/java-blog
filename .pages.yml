@@ -2,7 +2,7 @@ content:
   - name: links
     label: Links
     type: collection
-    path: 'src/posts'
+    path: 'src/links'
     view:
       fields: [ title, published, date ]
     fields:
