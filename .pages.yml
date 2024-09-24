@@ -16,9 +16,12 @@ content:
       - name: title
         label: Title
         type: string
-      - name: body
-        label: Body
-        type: rich-text
+      - name: link
+        label: Link
+        type: string
+      - name: tags
+        label: Tags
+        type: string
   - name: site
     label: Site settings
     path: src/_data/site.json
