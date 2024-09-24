@@ -1,9 +1,6 @@
-media:
-  input: src/images
-  output: /images
 content:
-  - name: posts
-    label: Posts
+  - name: links
+    label: Links
     type: collection
     path: 'src/posts'
     view:
