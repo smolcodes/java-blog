@@ -33,6 +33,10 @@ header h1 {
 article h1 a, article h2 a{
     font-family: 'Alfa Slab One', cursive;
 }
+h1 {
+    text-shadow: -1px -1px #164e63,
+                4px 4px #164e63;
+}
 .prose ul, .prose ul li {list-style-type: none;}
 table {
     border-collapse: collapse;
