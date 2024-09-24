@@ -16,8 +16,8 @@ content:
       - name: title
         label: Title
         type: string
-      - name: body
-        label: Body
+      - name: tags
+        label: Tags
         type: rich-text
   - name: site
     label: Site settings
