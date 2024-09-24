@@ -11,7 +11,7 @@ paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
 eleventyNavigation:
   key: blog
-  title: 📓 blog
+  title: blog
   order: 1
 ---
 A Notebooks of Sorts.

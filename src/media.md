@@ -12,6 +12,6 @@ paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
 eleventyNavigation:
   key: media
-  title: 📚 Media
+  title: Media
 ---
 Superfluous oppinions on media
