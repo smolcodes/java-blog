@@ -1,7 +1,7 @@
 content:
   - name: links
     label: Links
-    type: collection.link
+    type: collection
     path: 'src/posts'
     view:
       fields: [ title, published, date ]
