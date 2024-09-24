@@ -162,7 +162,11 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addCollection('links', collection => {
       return [...collection.getFilteredByGlob('./src/links/*.md')].reverse();
     });
-
+    // Stream
+    eleventyConfig.addCollection('stream', collection => {
+      return [...collection.getFilteredByGlob('./src/stream/*.md')].reverse();
+    });
+  
     // Returns javanotes items, sorted by display order
     eleventyConfig.addCollection('javanotes', collection => {
         return [...collection.getFilteredByGlob('./src/javanotes/*.md')].reverse();

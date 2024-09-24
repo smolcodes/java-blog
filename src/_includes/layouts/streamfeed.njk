@@ -1,0 +1,31 @@
+{% extends "layouts/base.njk" %}
+ {% set pageHeaderTitle = title %}
+ {% set pageHeaderImage = imageURL %}
+ {% set pageHeaderSummary = content %}
+ {% set postListItems = pagination.items %}
+ {% if tag %}
+  {% set postListItems = collections[tag] | reverse %}
+  {% set pageHeaderTitle = 'Streams filed under "' + tag +'"' %}
+{% endif %}
+{% block content %}
+   <section>
+      <div class="post-content">
+        {% for item in postListItems %}
+        {% set currentPost = post.data.post %}
+					<article class="m-auto">
+						<div class="w-full sm:flex flex-row flex-wrap">  
+              <div class="w-full sm:w-4/12 mx-auto overflow-hidden md:flex-1 md:pr-4 pt-8 w-full">
+              <time class="mr-4 block-inline serif h-8 text-base text-slate-400 font-bold pl-2 pr-2 pt-1 pb-1" datetime="{{ item.data.date }}">{{ item.data.date | asPostDate }}</time>
+              </div>
+            <div class="w-full sm:w-8/12 mt-2">
+              <p class="text-gray-800 font-sans sm:text-md md:text-lg lg:text-2xl mb-5">{{ item.content | safe }}</p>
+           </div>
+         </div>
+      </article>
+        {% endfor %}
+        </div>
+     </section>
+         {% if not tag %}
+     {% include "partials/pagination.njk" %}
+      {% endif %}
+{% endblock %}
