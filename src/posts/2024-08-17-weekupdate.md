@@ -17,6 +17,7 @@ I've been meaning to find a faster way to share links and jot down my thoughts i
 * [Robert Talbert Math Teaching Blog](https://rtalbert.org)
 * [Francis Su Real Analysis Lecture](https://math.hmc.edu/su/real-analysis-youtube/)
 * [Mir Sazzat Hossain](https://www.mirsazzathossain.me) Personal blog wi(th math and computer science
+* [Vjy](https://vjy.me/story)
 * [Explorr](https://explorr.app) interesting gamified math app
 * [Dense Discovery](https://www.densediscovery.com) Really good newsletter
 * [Python Programming And Numerical Methods: A Guide For Engineers And Scientists¶](https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html)
