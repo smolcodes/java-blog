@@ -14,9 +14,10 @@ I'm introducing a bit of an online CMS into my life. I've been enjoying [Zinzy's
 * [Brian Sholis](https://www.luismendo.com) Consultant and writer
 * [Robert Talbert Math Teaching Blog](https://rtalbert.org)
 * [Francis Su Real Analysis Lecture](https://math.hmc.edu/su/real-analysis-youtube/)
-* [Mir Sazzat Hossain](https://www.mirsazzathossain.me) Personal blog wi(th math and computer science
+* [Mir Sazzat Hossain](https://www.mirsazzathossain.me) Personal blog with math and computer science
 * [Vjy](https://vjy.me/story)
 * [Explorr](https://explorr.app) interesting gamified math app
 * [Dense Discovery](https://www.densediscovery.com) Really good newsletter
 * [Python Programming And Numerical Methods: A Guide For Engineers And Scientists¶](https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html)
+* [Minutes to Midnight](https://minutestomidnight.co.uk)
 :::
