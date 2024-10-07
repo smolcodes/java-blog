@@ -22,6 +22,23 @@ content:
       - name: tags
         label: Tags
         type: string
+  - name: stream
+    label: Stream
+    type: collection
+    path: 'src/stream'
+    view:
+      fields: [ title, published, date ]
+    fields:
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+      - name: date
+        label: Date
+        type: date
+      - name: body
+        label: Body
+        type: rich-text
   - name: site
     label: Site settings
     path: src/_data/site.json
