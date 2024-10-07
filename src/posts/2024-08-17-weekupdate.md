@@ -6,7 +6,7 @@ tags:
   ['pandemic journal', 'reading']
 ---
 
-I'm introducing a bit of an online CMS into my life. I've been enjoying [Zinzy's notes](https://www.zinzy.website/notes/) and [Barry's](https://barryfrost.com/notes) as well. I've been meaning to find a faster way to share links and jot down my thoughts like them. In that spirit, I'm using [PagesCMS](https://pagescms.org) to mobily add streams of thoughts. You can read them [here](/stream). 
+I'm introducing a bit of an online CMS into my life. I've been enjoying [Zinzy's notes](https://www.zinzy.website/notes/) and [Barry's](https://barryfrost.com/notes) as well. I've been meaning to find a faster way to share links and jot down my thoughts like them. In that spirit, I'm using [PagesCMS](https://pagescms.org) to mobily add streams of thoughts. This is becoming more difficult then I'd expect. You can read them [here](/stream). 
 
 ::: callout-blue
 * [Kernel](https://www.kernelmag.io) Magazine about tech, art, literature
