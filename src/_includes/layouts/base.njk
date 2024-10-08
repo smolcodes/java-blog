@@ -72,15 +72,16 @@
   </head>
   <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-serif text-gray-800 leading-normal tracking-normal bg-slate-50 overflow-x-hidden text-base">
   <a class="sr-only focus:not-sr-only" href="#main"> Skip to main</a>
-            <main class="mx-auto lg:w-6/12 md:w-10/12 sm:w-9/12 w-full px-5 pt-8 pb-20">
-              {% include "partials/navigation.njk" %}
-                {% include "partials/page-header.njk" %} 
-        <section id="main">
+ <main class="mx-auto lg:w-6/12 md:w-10/12 sm:w-9/12 w-full px-5 pt-8 pb-20">
+         {% include "partials/navigation.njk" %}
+        {% include "partials/page-header.njk" %} 
         {% block content %}
         {{ content | safe }}
         {% endblock %}
-      </section
-</main>
+ </main>
+<footer class="bg-teal-300">
+ {% include "partials/footer.njk" %} 
+</footer>
 <!--FitVid-->
 <script src="/assets/main.bundle.js" defer></script>
 <script>

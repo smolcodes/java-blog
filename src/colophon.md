@@ -6,6 +6,47 @@ permalink: '/colophon/index.html'
 
 I'd like to thank [Andy Bell](https://hankchizljaw.com/) for his incredible [11ty course](https://piccalil.li/course/learn-eleventy-from-scratch/). Without it, this site wouldn't exist as it currently does.
 
+## Plugins
+
+* [Footnotes](https://github.com/KittyGiraudel/eleventy-plugin-footnotes)
+* [Embed Everything](https://gfscott.com/embed-everything/)
+* [https://github.com/markdown-it/markdown-it](https://github.com/markdown-it/markdown-it)
+
+## Style
+
+* [TailwindCSS](https://tailwindcss.com)
+* [Flowbite](https://flowbite.com)
+
+## Bundler
+
+* [WebPack](https://webpack.js.org)
+
+## For testing
+
+* Google Developer Web Tools
+* [Responsively](https://responsively.app/) for testing the responsivenes of a site. I also use an Ipad, ThinkPad and a Google Pixel
+* [Wave](https://wave.webaim.org/) for accessibility. 
+* I try to make sure the site looks and works decently accross Chrome, Firefox, Edge and Safari.
+
+## Content Management and Developing
+
+* [PagesCMS](https://pagescms.org): I use this for adding links and quick thoughts
+* [VSCode](https://code.visualstudio.com): VSCode is where I right my blog posts and edit the majority of my site. 
+
+## Tools
+
+* OS: Windows 11
+* Laptop: ThinkPad 
+
+This site is hosted on [Github](https://github.com) and deployed with [Netlify](https://www.netlify.com).
+
+## Fonts
+
+* [Bitter](https://fonts.google.com/specimen/Bitter)
+* [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+* [Mogra](https://fonts.google.com/specimen/Mogra)
+* [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)
+
 ## Reccommend
 
 Here are the blogs and sites I like to read.
@@ -111,14 +152,6 @@ Here are the blogs and sites I like to read.
 * [Matt Plays Chess](https://mattplayschess.com/)
 :::
 
-
-Fonts
-
-* [Bitter](https://fonts.google.com/specimen/Bitter)
-* [Open Sans](https://fonts.google.com/specimen/Open+Sans)
-* [Mogra](https://fonts.google.com/specimen/Mogra)
-* [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono)
-
 Image
 
 * [Header](https://www.joshwcomeau.com/gradient-generator/)
@@ -147,20 +180,6 @@ Resources
 * [CSS Grid Guide](https://learncssgrid.com/)
 * [Emojipedia](https://emojipedia.org/)
 * [CSS Trick's How to Skip Area](https://css-tricks.com/how-to-create-a-skip-to-content-link/)
-
-For testing
-
-* Google Developer Web Tools
-* [Responsively](https://responsively.app/) for testing the responsivenes of a site. I also use an Ipad, ThinkPad and a Google Pixel
-* [Wave](https://wave.webaim.org/) for accessibility. 
-* I try to make sure the site looks and works decently accross Chrome, Firefox, Edge and Safari.
-
-Tools
-
-* OS: Windows 10
-* Laptop: ThinkPad Yoga 14
-
-This site is hosted on Github and deployed with Netlify.
 ____________
 Update 11/20/2021
  [Background Image](https://unsplash.com/photos/RbbdzZBKRDY) by Nitish Meena
