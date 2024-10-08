@@ -12,4 +12,5 @@ paginationAnchor: '#post-list'
 eleventyNavigation:
   key: stream
   title: Stream
+  order: 4
 ---

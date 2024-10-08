@@ -12,4 +12,5 @@ paginationAnchor: '#post-list'
 eleventyNavigation:
   key: links
   title: Bookmarks
+  order: 2
 ---

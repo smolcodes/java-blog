@@ -13,5 +13,6 @@ paginationAnchor: '#post-list'
 eleventyNavigation:
   key: media
   title: Media
+  order: 1
 ---
 Superfluous oppinions on media

@@ -12,6 +12,6 @@ paginationAnchor: '#post-list'
 eleventyNavigation:
   key: blog
   title: blog
-  order: 1
+  order: 0
 ---
 A Notebooks of Sorts.
