@@ -27,7 +27,7 @@ content:
     type: collection
     path: 'src/stream'
     view:
-      fields: [ title, published, date ]
+      fields: [ published, date ]
     fields:
       - name: published
         label: Published
