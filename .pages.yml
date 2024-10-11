@@ -26,12 +26,10 @@ content:
     label: Stream
     type: collection
     path: 'src/stream'
+    filename: fields.body
     view:
       fields: [ title, published, date ]
     fields:
-      - name: title
-        label: Title
-        type: string
       - name: published
         label: Published
         type: boolean
