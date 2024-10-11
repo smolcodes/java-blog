@@ -47,15 +47,6 @@ module.exports = {
             borderWidth: '1px',
             padding:'3px 6px',
           },
-          blockquote: {
-            borderLeftColor: '#F59E0B',
-            borderLeftWidth: '4px',
-            padding: '10px',
-            color: '#4B5563',
-            backgroundColor: '#FFFBEB',
-            borderRadius: '10px',
-            boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
-           },
            code: {
              backgroundColor: '#E5E7EB',
              borderRadius: '5px',

@@ -15,14 +15,17 @@ mark {
 .post-content .overlay,.grid .overlay {
     @apply bg-gradient-to-br from-cyan-500/70 to-purple-600/70  bg-clip-padding backdrop-filter backdrop-blur-sm;
 }
+blockquote, blockquote p {
+  @apply font-serif;
+}
 .prose blockquote {
-      @apply border-l-4 border-purple-400 px-8 py-4 mb-4 sm:rounded-2xl bg-yellow-100 shadow-xl;
+      @apply border-l-4 border-teal-400 font-serif px-8 ;
 }
 .post-toc {
   @apply  bg-slate-100 border-2 border-slate-500 rounded-md shadow-xl;
 }
 details {
-  @apply rounded-md;
+  @apply rounded-md border-2 border-purple-200 rounded-md mb-5;
 }
 details summary {
   @apply font-bold italic bg-purple-200 p-5;

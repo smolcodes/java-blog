@@ -16,12 +16,12 @@ I didn't like *Born to Run* at first. Springsteen's voice sounded like an old ma
 
 The album is so down to earth and yet fantastic. We follow a man's ups and downs-he's hopeful and then the final down is he dies but nobody cares. There's saxaphones and violins (which is not a combo I would have thought of but just shows you have inexperienced I am with music). There's interludes of piano. The songs are a nice amalgamtion of different genres. And the lyrics are equally as impressive as the sound. Read this:
 
-::: callout-blue
-The street's alive as secret debts are paid
-Contacts made, they flash unseen
-Kids flash guitars just like switchblades
-Hustling for the record machine
-:::
+
+> The street's alive as secret debts are paid
+> Contacts made, they flash unseen
+> Kids flash guitars just like switchblades
+> Hustling for the record machine
+
 
 Springsteen has this incredible ability to transition from singing to almost talking (kind of like Leonard Cohen). At times it borderline feels like poetry reciting. 
 
