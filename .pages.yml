@@ -26,7 +26,7 @@ content:
     label: Stream
     type: collection
     path: 'src/stream'
-    filename: fields.body
+    filename: 
     view:
       fields: [ title, published, date ]
     fields:
