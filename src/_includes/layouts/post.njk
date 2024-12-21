@@ -10,7 +10,7 @@
   {% if tags %}
     <span class="sr-only" id="tags-desc">Tags for this post</span>
       {% for tag in tags %}
-          <a class="border-solid border-2 border-slate-500  hover:bg-yellow-100 hover:text-slate-600 hover:border-yellow-400 hover:shadow-lg hover:shadow-orange-400/50 hover:border-2 rounded-xl inline-block m-1 bg-teal-200 font-bold text-sm text-orange-400 p-2 hover:text-gray-50" href="/blog/tag/{{ tag | slug }}/">#{{ tag | replace(' ', ' ') | capitalize }}</a>
+          <a class="border-solid border-2 border-indigo-500  hover:bg-yellow-100 hover:text-slate-600 hover:border-yellow-400 hover:shadow-lg hover:shadow-orange-400/50 hover:border-2 rounded-xl inline-block m-1 bg-indigo-100 font-bold text-sm text-indigo-500 p-2 hover:text-gray-50" href="/blog/tag/{{ tag | slug }}/">#{{ tag | replace(' ', ' ') | capitalize }}</a>
       {% endfor %}
   {% endif %}
 {% endset %}

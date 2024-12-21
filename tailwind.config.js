@@ -45,7 +45,7 @@ module.exports = {
             borderColor: '#2A4365',
             borderRadius: '5px',
             borderWidth: '1px',
-            padding:'3px 6px',
+            padding:'2px 1px',
           },
            code: {
              backgroundColor: '#E5E7EB',

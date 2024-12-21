@@ -1,15 +1,15 @@
 
 	   {% set navPages = collections.all | eleventyNavigation %}
 <nav class="z-20 mb-10 m-auto">
-  <a href="/" class="inline-flex items-center text-slate-800 hover:bg-yellow-100  hover:shadow-orange-400/50 hover:shadow-lg border-2  border-slate-200 hover:border-yellow-300 rounded-3xl">
-            <span class="healy healy-smol healy-fauxthot h-6 mr-3 sm:h-9"></span> 
-      <span class="self-center font-sans text-lg mr-4 font-bold whitespace-nowrap">SmolCodes</span>
+  <a href="/" class="inline-flex items-center text-indigo-700 ">
+            <span class="healy healy-smol healy-fauxthot mr-3 h-9"></span> 
+      <span class="hover:bg-yellow-100  hover:shadow-orange-400/50 hover:shadow-lg border-2  border-indigo-700 hover:border-yellow-300 rounded-3xl self-center font-sans text-lg mr-4 font-bold whitespace-nowrap py-1 px-3">SmolCodes</span>
   </a>
     <ul class="mt-10 list-none flex flex-row md:text-sm md:font-medium md:border-0" aria-lablledby="dropdownDefaultButton">
        {%- for entry in navPages %}
           <li>
-          <a class="justify-self-end font-sans p-2 text-slate-600 hover:rounded-lg block hover:bg-yellow-100 hover:text-slate-600 hover:border-yellow-400 hover:shadow-lg hover:shadow-orange-400/50 hover:border-2 {% if entry.url == page.url %}rounded-lg bg-teal-100 {% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
+          <a class="justify-self-end font-sans p-2 text-indigo-700 bg-indigo-50/30 md-blur rounded-lg block hover:bg-yellow-100 hover:border-yellow-400 hover:shadow-lg hover:shadow-orange-400/50 hover:border-2 {% if entry.url == page.url %}rounded-lg bg-indigo-200 {% endif %} mr-2" href="{{ entry.url | url }}">{{ entry.title }}</a>
            </li>
                 {%- endfor %}
     </ul>
-</nav>
+</nav> 

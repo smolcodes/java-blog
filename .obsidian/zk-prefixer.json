@@ -1,0 +1,5 @@
+{
+  "folder": "src/posts",
+  "template": "src/_includes/layouts/posts.template",
+  "format": "YYYY-MM-DD"
+}

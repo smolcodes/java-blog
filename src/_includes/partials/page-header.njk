@@ -1,12 +1,12 @@
     <header id="header">
-    <div class="mt-10 pb-8">
+    <div class="mt-14">
     <h1 class="leading-loose font-title text-4xl md:text-5xl">
       <span class="py-2 inline-block my-2">{{ pageHeaderTitle }}</span>
     </h1> 
     {% if pageHeaderSummary %}
-       <p class="leading-loose my-2 md:my-10">
+       <div class="leading-loose my-2">
          {{ pageHeaderSummary | safe }}
-      </p>
+      </div>
     {% endif %}
 </div>
 </header>

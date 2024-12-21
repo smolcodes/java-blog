@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "b6cb94b4e8bc9aba",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac3a864cca5b17d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c2381131a68fcee7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/posts/2024-10-15-obsidianandsql.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-10-15-obsidianandsql"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e25684d899ed55f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf74121663b35eac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68b75f9a1dff573e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f9afa1e79810b84b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4ea8f9fea3a320ed",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "1330904af9ebd7ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "de18b7c4429d0d2d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14ebe13673ca5ea8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "src/posts/2024-10-15-obsidianandsql.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2024-10-15-obsidianandsql"
+            }
+          },
+          {
+            "id": "6f29fa2a8a0e65f8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/posts/2024-10-15-obsidianandsql.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2024-10-15-obsidianandsql"
+            }
+          },
+          {
+            "id": "07c0547d6f0d0514",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ef9a5d631767d001",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "src/posts/2024-10-15-obsidianandsql.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2024-10-15-obsidianandsql"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false,
+      "zk-prefixer:Create new unique note": false
+    }
+  },
+  "active": "c2381131a68fcee7",
+  "lastOpenFiles": [
+    "dist/images/bg/background1.jpg",
+    "src/images/bg/background1.jpg",
+    "dist/css/healyicon.css",
+    "dist/images/bg/fish.jpg",
+    "src/images/bg/fish.jpg",
+    "dist/images/decorative-christmas-spirit-flat-lay-background.jpg",
+    "src/images/decorative-christmas-spirit-flat-lay-background.jpg",
+    "src/images/decorative-christmas-spirit-flat-lay-background.jpg.crdownload",
+    "dist/posts/obsidianandsql/index.html",
+    "dist/posts/obsidianandsql",
+    "dist/images/assets/de-groof-falling.jpg",
+    "dist/posts/anexperiment/index.html",
+    "dist/posts/anexperiment",
+    "src/posts/Untitled.md",
+    "src/posts/2024-10-15-obsidianandsql.md",
+    "dist/links/tag/obsidian/index.html",
+    "dist/blog/tag/pagecms/index.html",
+    "dist/blog/tag/pagecms",
+    "dist/links/tag/pagecms/index.html",
+    "src/_includes/layouts/posts.template.md",
+    "src/posts/Obsidian and PageCMS.md",
+    "src/posts/Untitled 3.md",
+    "src/posts/Untitled 2.md",
+    "src/posts/Untitled 1.md",
+    "src/posts/2020-05-15-Where.md",
+    "2024-10-14.md",
+    "src/posts/2020-04-30-Reading.md",
+    "Untitled.md"
+  ]
+}
