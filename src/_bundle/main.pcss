@@ -4,7 +4,7 @@
 #home header {
   @apply hidden;
 }
-p {@apply text-slate-800 font-sans text-base sm:text-lg md:text-xl;}
+p, li {@apply font-medium text-slate-800 font-serif text-base sm:text-lg md:text-xl;}
 img {@apply rounded sm:rounded-xl shadow-md sm:shadow-xl;}
 mark {
   @apply bg-yellow-100;
@@ -28,13 +28,16 @@ details p {
   @apply py-2 px-5;
 }
 article {
-  @apply prose prose-sm sm:prose-base max-w-none font-sans text-gray-800 md:m-0 m-auto;
+  @apply prose prose-sm sm:prose-base max-w-none font-serif text-gray-800 md:m-0 m-auto;
 }
  h1 {
   @apply text-indigo-400 font-sans;
 }
 pre[class*="language-" ], code[class*="language-"] {
   @apply whitespace-normal overflow-x-auto break-words;
+}
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  @apply font-serif font-extrabold text-orange-600;
 }
 .prose ul {
   @apply list-disc list-inside marker:text-purple-500;

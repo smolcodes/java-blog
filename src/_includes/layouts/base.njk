@@ -74,13 +74,13 @@
   <a class="sr-only focus:not-sr-only" href="#main"> Skip to main</a>
 <div class="headerimage">
 <div class="bg-opacity-80 md:bg-opacity-30 bg-indigo-50">
- <div class="p-5 mx-auto lg:w-5/12 md:w-10/12 sm:w-9/12 w-full pt-20 mb-10">
+ <div class="p-5 mx-auto lg:w-6/12 md:w-10/12 sm:w-9/12 w-full pt-20 mb-10">
      {% include "partials/navigation.njk" %}
      {% include "partials/page-header.njk" %} 
  </div>
 </div>
 </div>
- <main class="p-5 bg-indigo-50 mx-auto lg:w-5/12 md:w-10/12 sm:w-9/12 w-full mb-20">
+ <main class="rounded-md p-5 sm:10 md:p-20 bg-red-50 mx-auto lg:w-6/12 md:w-10/12 sm:w-9/12 w-full mb-20">
         {% block content %}
         {{ content | safe }}
         {% endblock %}
@@ -90,28 +90,6 @@
 </footer>
 <!--FitVid-->
 <script src="/assets/main.bundle.js" defer></script>
-<script>
-function myFunction() {
-  // Declare variables
-  var input, filter, txtValue, article, section, a, i, h2;
-  input = document.getElementById('myInput');
-  filter = input.value.toUpperCase();
-  section = document.getElementById("postlist");
-  article = section.getElementsByTagName('article');
-
-  // Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < article.length; i++) {
-    p = article[i].getElementsByTagName ('p')[0];
-    txtValue = p.textContent || p.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-       {
-      article[i].style.display = "";
-    } else {
-      article[i].style.display = "none";
-    }
-  }
-}
-</script>
 <!--Laxy Load-->
  <script type="module">
       import Lazyload from "https://cdn.skypack.dev/vanilla-lazyload";

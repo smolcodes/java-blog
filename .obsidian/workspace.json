@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ac3a864cca5b17d5",
+        "id": "8610247169d01490",
         "type": "tabs",
         "children": [
           {
-            "id": "c2381131a68fcee7",
+            "id": "df4161f0ba25a997",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/posts/2024-10-15-obsidianandsql.md",
+                "file": "src/posts/2025-01-18-YearInReview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-10-15-obsidianandsql"
+              "title": "2025-01-18-YearInReview"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1330904af9ebd7ef",
@@ -165,36 +164,39 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "c2381131a68fcee7",
+  "active": "df4161f0ba25a997",
   "lastOpenFiles": [
+    "dist/posts/YearInReview/index.html",
+    "dist/posts/YearInReview",
+    "dist/posts/2025-01-18-YearInReview/index.html",
+    "dist/posts/2025-01-18-YearInReview",
+    "src/posts/2025-01-18.md",
+    "dist/posts/2025-01-18/index.html",
+    "dist/posts/2025-01-18",
+    "src/posts/2025-01-18-YearInReview.md",
     "dist/images/assets/orcas.png",
-    "dist/images/bg/blue.avif",
     "dist/images/assets/blog2.png",
+    "dist/images/assets/stockfish1.png",
+    "dist/images/assets/de-groof-falling.jpg",
+    "src/posts/2023-12-14-decemberweeknotes.md",
+    "src/posts/2023-019-10-weeknotes.md",
+    "src/posts/2024-10-15-obsidianandsql.md",
+    "src/posts/Untitled.md",
+    "dist/posts/2025-01-20-YearInReview/index.html",
+    "dist/posts/2025-01-20-YearInReview",
+    "dist/posts/2024 Recap/index.html",
+    "dist/posts/2024 Recap",
+    "dist/posts/Untitled 1/index.html",
+    "dist/images/bg/blue.avif",
     "dist/images/bg/breakfast.png",
     "dist/images/bg/background1.jpg",
-    "dist/images/assets/de-groof-falling.jpg",
     "dist/images/bg/anchors-away.svg",
-    "dist/images/assets/stockfish1.png",
-    "dist/css/healyicon.css",
     "dist/images/assets/profile.webp",
     "dist/images/decorative-christmas-spirit-flat-lay-background.jpg",
-    "src/images/bg/background1.jpg",
-    "src/images/decorative-christmas-spirit-flat-lay-background.jpg.crdownload",
-    "dist/posts/obsidianandsql/index.html",
-    "dist/posts/obsidianandsql",
-    "dist/posts/anexperiment/index.html",
-    "dist/posts/anexperiment",
-    "src/posts/Untitled.md",
-    "src/posts/2024-10-15-obsidianandsql.md",
-    "dist/links/tag/obsidian/index.html",
-    "dist/blog/tag/pagecms/index.html",
-    "dist/blog/tag/pagecms",
-    "dist/links/tag/pagecms/index.html",
     "src/_includes/layouts/posts.template.md",
     "src/posts/Obsidian and PageCMS.md",
     "src/posts/Untitled 3.md",
     "src/posts/Untitled 2.md",
-    "src/posts/Untitled 1.md",
     "src/posts/2020-05-15-Where.md",
     "2024-10-14.md",
     "src/posts/2020-04-30-Reading.md",
