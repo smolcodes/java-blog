@@ -16,3 +16,5 @@ to be free of?
 The living? The miraculous  
 task of it?  
 Love is for the ones who love the work.
+
+ --Joseph Fasano
