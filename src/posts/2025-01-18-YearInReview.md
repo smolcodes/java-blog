@@ -13,4 +13,7 @@ This loss in memory juxtaposes with where I am in life. By all accounts, I am fa
 In looking at my [previous posts](/blog/tag/year-in-review/), the solution may be to fill my life with more diversity and challenges-this seems to be the only remarkable difference between 2021 and this year. This is not really true. By 2021 I had only gotten Covid twice. 
 
 * [ LA Is Burning, Countries Are at War, and I Am So Damn Grateful for My Shower” by Rose Lennard](https://www.rattle.com/la-is-burning-countries-are-at-war-and-i-am-so-damn-grateful-for-my-shower-by-rose-lennard/)
-* 
+* [Physics Feminist](https://physicistfeminist.wordpress.com/)
+* [Johny Rogers](https://www.johnnyrodgers.is/)
+* [Making Software](https://www.makingsoftware.com/)
+* [BioGraphic](https://www.biographic.com/)

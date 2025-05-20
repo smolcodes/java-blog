@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Palanquin', 'sans-serif'],
-        serif: ['EB Garamond', 'serif'],
+        serif: ['Merriweather', 'serif'],
         title: ['Alfa Slab One', 'serif'],
     },
     typography: {
