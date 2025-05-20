@@ -42,7 +42,7 @@ content:
         type: date
       - name: body
         label: Body
-        type: rich-text
+        type: markdown
   - name: site
     label: Site settings
     path: src/_data/site.json
