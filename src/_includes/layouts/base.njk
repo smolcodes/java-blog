@@ -71,7 +71,7 @@
  <link rel="stylesheet" type="text/css" href="/css/healyicon.css">
   </head>
   <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-serif text-gray-800 leading-normal tracking-normal overflow-x-hidden text-base">
-  <div class="fixed inset-0 -z-10 h-full w-full bg-orange-50 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
+  <div class="fixed inset-0 -z-10 h-full w-full bg-orange-50 bg-[radial-gradient(#d8dbe3_1px,transparent_1px)] [background-size:16px_16px]"></div>
   <a class="sr-only focus:not-sr-only" href="#main"> Skip to main</a>
 <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
    <span class="sr-only">Open sidebar</span>
@@ -88,15 +88,15 @@
         <div class="headerimage">
      {% include "partials/page-header.njk" %} 
 </div>
-     <section class="w-full sm:w-10/12">
+     <section class="w-full my-10 sm:w-10/12">
         {% block content %}
         {{ content | safe }}
         {% endblock %}
       </section>
- </main>
-<footer>
+ <footer class="w-full sm:w-10/12">
  {% include "partials/footer.njk" %} 
 </footer>
+ </main>
 <!--FitVid-->
 <script src="/assets/main.bundle.js" defer></script>
 <!--Laxy Load-->
