@@ -1,3 +1,6 @@
-::: callout-green
-☕ The update is the Panera near me now serves bad coffee, so, I'm resigned to making myself my own cup of Joe in the morning. Such is life.
-:::
+---
+genre: "coffee"
+---
+☕ I don't drink caffinated coffee anymore. The decaf life is strange. But still, I love it (caffinated coffee, that is). 
+
+<img class="shadow-none" src="/images/bg/coffee.png">

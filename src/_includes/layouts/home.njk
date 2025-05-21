@@ -8,12 +8,13 @@
   <section class="prose">
       {{ content | safe }}
         </section>
-    <section class="prose">
+      <section class="misc md:grid md:grid-cols-2 grid-rows-3 gap-6">
          {% for item in postListItems %}
-           {% set currentPost = post.data.post %}
- 			<article>
-		{{item.data.content | safe }}
+ 			<article class="blocks mb-5 md:mb-0 border-2 first:border-2 first:bg-purple-200 first:border-purple-600 border-slate-400 hover:border-2 hover:bg-yellow-50 rounded-t rounded-b overflow-hidden first:shadow-md first:shadow-2xl first:shadow-purple-500/50 hover:shadow-md hover:shadow-xl hover:border-yellow-500 p-4">
+            <span class="serif text-sm text-indigo-700 p-2 inline-block rounded-2xl bg-indigo-200" datetime="{{ item.data.date }}"><b>Genre</b> {{ item.data.genre }}</span>
+              <h2><a class="no-underline border-none text-xl md:text-3xl text-indigo-400" href="{{ item.url }}">{{ item.data.title }}</a></h2>
+              <p  class="text-gray-800 font-sans text-base">{{ item.content | safe }}</p>
       </article>
         {% endfor %}
-        </section>
+     </section>
 {% endblock %}
