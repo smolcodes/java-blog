@@ -2,12 +2,12 @@
 {% if pagination.href.next or pagination.href.previous %}
       <nav class="mt-20 w-full flex justify-between text-gray-600" aria-label="Pagination links">
                     {% if pagination.href.previous %}
-          <a class="rounded-2xl bg-teal-200 border-solid border-2 border-slate-500 font-bold text-base text-slate-500 p-4  hover:bg-yellow-100 hover:text-purple-600" href="{{ pagination.href.previous }}{{ paginationAnchor }}" data-direction="backwards">
+          <a class="hover:bg-yellow-100 hover:text-slate-400 hover:border-yellow-400 hover:shadow-lg hover:shadow-orange-400/50 hover:border-2 rounded-xl inline-block text-xl text-indigo-600 ring-1 ring-indigo-600 px-2 hover:text-gray-50" href="{{ pagination.href.previous }}{{ paginationAnchor }}" data-direction="backwards">
            ← {{ paginationPrevText if paginationPrevText else 'Previous' }} 
           </a>
         {% endif %}
                {% if pagination.href.next %}
-          <a class="rounded-2xl bg-teal-200 font-bold border-solid border-2 border-slate-500  text-sm text-slate-500 p-4  hover:bg-yellow-100 hover:text-purple-600" href="{{ pagination.href.next }}{{ paginationAnchor }}" data-direction="forwards">
+          <a class="hover:bg-yellow-100 hover:text-slate-400 hover:border-yellow-400 hover:shadow-lg hover:shadow-orange-400/50 hover:border-2 rounded-xl inline-block text-xl text-indigo-600 ring-1 ring-indigo-600 px-2 hover:text-gray-50" href="{{ pagination.href.next }}{{ paginationAnchor }}" data-direction="forwards">
          {{ paginationNextText if paginationNextText else 'Next' }} →
           </a>
         {% endif %}

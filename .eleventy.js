@@ -5,8 +5,8 @@ const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const slugify = require("slugify");
 const Image = require("@11ty/eleventy-img");
 const sharp = require("sharp");
-const pluginTOC = require('eleventy-plugin-toc')
-const markdownItAnchor = require('markdown-it-anchor')
+const pluginTOC = require('eleventy-plugin-toc');
+const markdownItAnchor = require('markdown-it-anchor');
 const { DateTime } = require("luxon");
 
 const mdOptions = {
@@ -89,12 +89,12 @@ module.exports = function (eleventyConfig) {
 
     let stats = await Image(src, {
       widths: [25, 320, 640, 960, 1200, 1800, 2400],
-      formats: ["jpeg", "webp"],
+      formats: ["jpeg", "png", "jpg", "webp"],
       urlPath: "/images/",
       outputDir: "./dist/images/",
     });
 
-    let lowestSrc = stats["jpeg"][0];
+    let lowestSrc = stats.jpeg[0];
 
     const placeholder = await sharp(lowestSrc.outputPath)
       .resize({ fit: sharp.fit.inside })

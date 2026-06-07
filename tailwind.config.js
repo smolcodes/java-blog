@@ -6,9 +6,9 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ['Palanquin', 'sans-serif'],
-        serif: ['Merriweather', 'serif'],
-        title: ['Alfa Slab One', 'serif'],
+        sans: ['CMU Sans', 'sans-serif'],
+        serif: ['Lora', 'serif'],
+        title: ['Bitter', 'serif'],
     },
     typography: {
       DEFAULT: {
@@ -24,14 +24,14 @@ module.exports = {
             fontFamily: 'Palanquin',
           },
           i: {
-              fontWeight: '400',
+              fontWeight: '500',
               color: '#EF4444',
-              fontFamily: 'Georgia',
+              fontFamily: 'CMU Serif',
               fontStyle: 'italic',
           },
         em: {
-            fontWeight: '400',
-            fontFamily: 'Georgia',
+            fontWeight: '500',
+            fontFamily: 'CMU Serif',
             fontStyle: 'italic',
         },
           hr: {
@@ -40,7 +40,7 @@ module.exports = {
             borderWidth: '2px',
           },
           kbd: {
-            backgroundColor: '#8fccf7',
+            backgroundColor: '#ffedd4',
             fontWeight: '700',
             borderColor: '#2A4365',
             borderRadius: '5px',

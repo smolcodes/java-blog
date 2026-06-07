@@ -1,16 +1,17 @@
 {% extends "layouts/base.njk" %}
 {% set pageHeaderTitle = title %}
 {% set pageHeaderImage = imageURL %}
+{% set hasImage = imageURL | length > 0 %}
 
 {# Grab other posts that aren't this one for the 'more from the blog' feed #}
 {% set recommendedPosts = helpers.getSiblingContent(collections.blog, page) %}
 {# Render post date and any tags that this post has been filed under #}
 {% set pageHeaderSummary %}
-     <time class="text-base text-indigo-600 p-2" datetime="{{ date | w3DateFilter }}"><b class="font-bold font-sans text-indigo-800">Date:</b> {{ date | asPostDate }}</time>
+     <time class="text-base text-indigo-600" datetime="{{ date | w3DateFilter }}"><b class="font-bold font-sans text-indigo-800">Date:</b> {{ date | asPostDate }}</time>
   {% if tags %}
-  <b class="font-bold font-sans text-base text-indigo-800">Tags:</b>
+  <b class="font-bold font-sans text-sm text-indigo-600">Tags:</b>
       {% for tag in tags %}
-          <a class="hover:bg-yellow-100 hover:text-slate-600 hover:border-yellow-400 hover:shadow-lg hover:shadow-orange-400/50 hover:border-2 rounded-xl inline-block text-base text-indigo-600 p-2 hover:text-gray-50" href="/blog/tag/{{ tag | slug }}/">#{{ tag | replace(' ', ' ') | capitalize }}</a>
+          <a class="hover:bg-yellow-100 hover:text-slate-600 hover:border-yellow-400 hover:shadow-lg hover:shadow-orange-400/50 hover:border-2 rounded-xl inline-block text-sm text-indigo-600 hover:text-gray-50" href="/blog/tag/{{ tag | slug }}/">#{{ tag | replace(' ', ' ') | capitalize }}</a>
       {% endfor %}
   {% endif %}
 {% endset %}
@@ -21,7 +22,7 @@
       {% endif %}
       {{ content | safe }}
 <div id="hyvor-talk-view"></div>
-</article>"
+</article>
 <script type="text/javascript">
     var HYVOR_TALK_WEBSITE = 1660; // DO NOT CHANGE THIS
     var HYVOR_TALK_CONFIG = {

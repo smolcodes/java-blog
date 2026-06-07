@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cmu-serif');
+
 /**General CSS**/
 body, html {
     margin: 0px;
@@ -8,6 +9,7 @@ body, html {
 }
 body {
     counter-reset: footnotes;
+    
 }
   [role="doc-noteref"]::after {
     counter-increment: footnotes;
@@ -23,38 +25,19 @@ body {
     white-space: -o-pre-wrap;
     word-wrap: break-word;
   }
- h1, nav div h1 {
-    font-family: 'Alfa Slab One', cursive;
-    font-weight: bold;
-}
-article h1 a, article h2 a{
-    font-family: 'Alfa Slab One', cursive;
-}
-h1, .prose h1, .prose h2, .prose h3, .prose h4 {
-    text-shadow: -1px -1px #164e63,
-                3px 3px #164e63;
+.bitter {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
 }
 .prose ul, .prose ul li {list-style-type: none;}
-table {
-    border-collapse: collapse;
-    width: 100%;
-    font-family: 'Palanquin', 'sans-serif';
+.gradient {
+      background-color: #fdf2f8;
+      background-image: radial-gradient(at 18% 20%, #a5f3fc 0px, transparent 55%), radial-gradient(at 82% 25%, #fbcfe8 0px, transparent 55%), radial-gradient(at 50% 85%, #c7d2fe 0px, transparent 55%);
 }
-table, th, td {
-    border: 1px solid#B45309;
-  }
-th {
-    background: #A78BFA;
-    font-weight: bold;
-}
-th, td {
-    padding: .5rem;
-}
-tr:nth-child(even){background-color: #FDE68A;}
-
 /**Healy Icons**/
 .healy {
-  border-radius: 50%;
   display: inline-block;
   margin-left: 5px; 
   margin-right: 10px;

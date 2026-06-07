@@ -10,6 +10,5 @@ paginationPrevText: 'Newer posts'
 paginationNextText: 'Older posts'
 paginationAnchor: '#post-list'
 ---
-  <div class="mt-8 bg-purple-700 p-4 inline-block rounded-3xl">
+
 Notes on Codegym and Other Courses
- </div>

@@ -98,7 +98,7 @@ Although the front page is cluttered, it is less stressful than chess.com. I lik
 
 ## Kasparov Chess
 
-{% myImage "https://www.thechessdrum.net/newsbriefs/2021/NB_photos/KasparovChessHome.png", "homepage for kasparov chess" %}
+
 
 ### play
 

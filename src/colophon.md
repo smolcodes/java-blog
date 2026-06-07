@@ -51,7 +51,7 @@ This site is hosted on [Github](https://github.com) and deployed with [Netlify](
 
 Here are the blogs and sites I like to read.
 
-::: callout-blue
+::: callout-blue Links
 ### Misc
 * [Vicky Boykis](http://blog.vickiboykis.com/). She recommends good books.
 * [Paul Graham](http://paulgraham.com/cred.html) I like the way he writes
@@ -166,6 +166,7 @@ Image
 * [Capybara](https://unsplash.com/photos/yelJAbAPLy8)
 * [Blue Sky Image Background](https://unsplash.com/photos/DbwYNr8RPbg)
 * [Whale](https://unsplash.com/photos/un38FMPknV0)
+* [Background Snippet by Ibelick](https://bg.ibelick.com/)
 * All other images on this site was created by me
 
 Resources

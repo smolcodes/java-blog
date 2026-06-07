@@ -80,6 +80,7 @@ This is the result
 > This is a general quote
 
 ::: callout-yellow
+[!Info]
 This is a yellow call out. I think I should use this to point out something important
 :::
 
@@ -87,7 +88,7 @@ This is a yellow call out. I think I should use this to point out something impo
 This is a blue call out. I use this as a warning for books but that's not really great. I need to figure this one out
 :::
 
-::: callout-pink
+::: callout-pink 
 This one is pink and it is the only obvious one, it is an important warning.
 :::
 

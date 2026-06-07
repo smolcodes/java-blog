@@ -2,6 +2,8 @@
 {% set pageHeaderTitle = title %}
 {% set pageHeaderSummary = content %}
 {% set pageHeaderImage = imageURL %}
+{% set hasImage = imageURL | length > 0 %}
+{% set haspostImage = item.data.imageURL | length > 0 %}
 {% set postListItems = pagination.items %}
 {# If this is a tag, grab those items instead as one large collection #}
 {% if tag %}

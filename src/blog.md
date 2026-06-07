@@ -1,7 +1,7 @@
 ---
 title: 'Blog'
 layout: 'layouts/feed.njk'
-imageURL: /images/bg/coffee.png
+imageURL: 
 pagination: 
   data: collections.blog
   size: 6
@@ -12,6 +12,6 @@ paginationAnchor: '#post-list'
 eleventyNavigation:
   key: blog
   title: blog
-  order: 0
+  order: 1
 ---
 A Notebooks of Sorts.

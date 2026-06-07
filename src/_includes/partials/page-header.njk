@@ -1,12 +1,17 @@
-    <header id="header">
-    <div class="mt-4">
-    <h1 class="leading-loose font-title text-4xl md:text-5xl">
+    <header id="header" class="w-full m-0 bg-cover" {% if hasImage %} style="background-image:url('{{ pageHeaderImage }}');"{% endif %}>
+    <div {% if hasImage %} class="py-10 bg-opacity-90 bg-gradient-to-r from-slate-600 to-transparent" {% endif %}>
+    <div class="py-10 w-11/12 sm:w-9/12 md:w-7/12 lg:w-6/12 mx-auto">
+    <h1 class="leading-loose text-3xl {% if hasImage %} text-slate-50 {% endif %} bitter md:text-5xl mb-4">
       <span class="py-2 inline-block my-2">{{ pageHeaderTitle }}</span>
     </h1> 
     {% if pageHeaderSummary %}
-     <div class="bg-orange-100 text-indigo-500 font-sans px-4 py-2 inline-block rounded-3xl">
+     <div class="bg-orange-100 font-sans text-sm px-4 py-2 inline-block rounded-2xl">
        <p class="text-indigo-500 font-sans"> {{ pageHeaderSummary | safe }}</p>
       </div>
     {% endif %}
+    </div>
 </div>
 </header>
+
+
+
