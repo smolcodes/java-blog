@@ -76,8 +76,8 @@
 } );
 	</script>
 </head>
-  <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-serif text-gray-800 leading-normal tracking-normal overflow-x-hidden text-base">
-  <div class="fixed inset-0 -z-10 h-full w-full bg-orange-50 bg-[radial-gradient(#d8dbe3_1px,transparent_1px)] [background-size:16px_16px]"></div>
+  <body id="{% if eleventyNavigation.key %}{{ eleventyNavigation.key }}{% endif %}" class="{{ type }} font-serif text-gray-800 leading-normal tracking-normal overflow-x-hidden text-base m-0 p-0 t-0">
+    <div class="fixed inset-0 -z-10 h-full w-full bg-orange-50 bg-[radial-gradient(#d8dbe3_1px,transparent_1px)] [background-size:16px_16px]"></div>
  <div class="gradient">
  <div class="bg-gradient-to-t from-orange-50 to-transparent">
   {% include "partials/navigation.njk" %}
@@ -85,12 +85,12 @@
 </div>
  <main>
      {% include "partials/page-header.njk" %} 
-     <section id="content" class=" border-t border-orange-200 w-11/12 sm:w-9/12 md:w-7/12 lg:w-6/12 mx-auto py-10 mb-10">
+     <section id="content" class=" border-t border-orange-200 w-11/12 sm:w-10/12 md:w-9/12 lg:w-6/12 mx-auto py-10 mb-10">
         {% block content %}
         {{ content | safe }}
         {% endblock %}
       </section>
-        <footer id="foot" class="py-10 w-11/12 sm:w-9/12 md:w-7/12 lg:w-6/12 mx-auto pb-4">
+        <footer id="foot" class="py-10 w-11/12 sm:w-10/12 md:w-9/12 lg:w-6/12 mx-auto pb-4">
  {% include "partials/footer.njk" %} 
 </footer>
  </main>

@@ -7,6 +7,8 @@ tags:
   ['pandemic journal', 'reading']
 ---
 
+A better person (not I!) would create posts which aren't about not posting. The last few posts have been about the lack of posting. How unoriginal and incredibly boring. 
+
 * [Pixels and Their Neighbors](https://simpeg.xyz/tle-finitevolume/)
 * [Python Numerical Methods](https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html)
 * [Fundementals of Numerical Computation](https://fncbook.com/)
@@ -15,3 +17,4 @@ tags:
 * [http://www.maplesoft.com/downloads/?d=23F48B02A573263BEB23837F5479496B&pr=Maple2025](https://mark-wang.com/blog/2022/latex/)
 * [Richard Rutter](https://clagnut.com/)
 * [Visual GUI](https://visualgui.com/)
+
